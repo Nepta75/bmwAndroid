@@ -1,10 +1,11 @@
 package com.example.bmwparis;
 
 public class CurrentUser {
+    private Boolean connected = false;
     private int id_user;
     private String nom, prenom, mail, adresse, tel, mdp;
 
-    public CurrentUser(int id_user, String nom, String prenom, String mail, String adresse, String tel, String mdp) {
+    public CurrentUser(int id_user, String nom, String prenom, String mail, String adresse, String tel, String mdp, Boolean connected) {
         this.id_user = id_user;
         this.nom = nom;
         this.prenom = prenom;
@@ -12,6 +13,7 @@ public class CurrentUser {
         this.adresse = adresse;
         this.tel = tel;
         this.mdp = mdp;
+        this.connected = connected;
     }
 
     public CurrentUser() {
@@ -71,5 +73,13 @@ public class CurrentUser {
 
     public void setMdp(String mdp) {
         this.mdp = mdp;
+    }
+
+    public Boolean getConnected() {
+        return connected;
+    }
+
+    public void setConnected(Boolean connected) {
+        this.connected = connected;
     }
 }
