@@ -83,14 +83,14 @@ public class MainActivity extends AppCompatActivity {
                             currentUser.setConnected(true);
                             checkAdmin(id);
                         } catch (JSONException e) {
-                            Toast.makeText(getApplicationContext(), "Adresse mail et/ou mdp incorrecte !", Toast.LENGTH_LONG).show();
+                            Toast.makeText(getApplicationContext(), "Adresse mail et/ou mdp incorrect(s) !", Toast.LENGTH_LONG).show();
                         }
                     }
                 },
                 new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
-                        Toast.makeText(getApplicationContext(), "Erreur lors de la connection à la base de données", Toast.LENGTH_LONG).show();
+                        Toast.makeText(getApplicationContext(), "Erreur lors de la connexion à la base de données", Toast.LENGTH_LONG).show();
                     }
                 }
         );
@@ -109,10 +109,10 @@ public class MainActivity extends AppCompatActivity {
                         currentUser.setAdmin_lvl(data.getInt("admin_lvl"));
                         Intent adminMenu = new Intent(getApplicationContext(), AdminMenu.class);
                         startActivity(adminMenu);
-                        finish();
+//                        finish();
                     } catch (JSONException e) {
                         e.printStackTrace();
-                        resultTextView.setText("Utilisateur non admin !!");
+                        resultTextView.setText("Utilisateur non admin !");
                     }
                 }
             },
