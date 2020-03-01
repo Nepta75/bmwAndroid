@@ -11,6 +11,7 @@ import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
+import com.android.volley.toolbox.JsonArrayRequest;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
@@ -42,19 +43,46 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void jsonParse() {
-        String url = "http://51.91.97.54:3000/api/bmw/views/client";
-        StringRequest stringRequest = new StringRequest(Request.Method.GET, url, new Response.Listener<String>() {
-            @Override
-            public void onResponse(String response) {
-                resultTextView.setText("Succes : " + response);
-            }
-        }, new Response.ErrorListener() {
-            @Override
-            public void onErrorResponse(VolleyError error) {
-                resultTextView.setText("Erreur : " + error);
-            }
-        });
-        mQueue.add(stringRequest);
+        String url = "http://51.91.97.54:3000/api/bmw/connect";
+        JSONArray arrayParams = new JSONArray();
+        JSONObject objectParams = new JSONObject();
+        try {
+            objectParams.put("mail", "lokman-hekim@hotmail.fr");
+            objectParams.put("mdp", "123");
+            arrayParams.put(objectParams);
+        } catch (JSONException e) {
+
+        }
+        JsonArrayRequest jsonArrayRequest  = new JsonArrayRequest(Request.Method.POST, url, arrayParams,
+                new Response.Listener<JSONArray>() {
+                    @Override
+                    public void onResponse(JSONArray response) {
+                        int id;
+                        String login, mdp, nom, prenom, adresse, tel;
+                        resultTextView.setText("data :" + response);
+                        try {
+                            id = response.getJSONObject(0).getInt("id_user");
+                            login = response.getJSONObject(0).getString("mail");
+                            mdp = response.getJSONObject(0).getString("mdp");
+                            nom = response.getJSONObject(0).getString("nom");
+                            prenom = response.getJSONObject(0).getString("prenom");
+                            adresse = response.getJSONObject(0).getString("adresse");
+                            tel = response.getJSONObject(0).getString("tel");
+                            CurrentUser currentUser = new CurrentUser(id, nom, prenom, login, adresse, tel, mdp);
+                            resultTextView.setText("login :" + currentUser.getMail() + ", mdp : " + currentUser.getMdp());
+                        } catch (JSONException e) {
+
+                        }
+                    }
+                },
+                new Response.ErrorListener() {
+                    @Override
+                    public void onErrorResponse(VolleyError error) {
+
+                    }
+                }
+        );
+        mQueue.add(jsonArrayRequest);
     }
 
 }
