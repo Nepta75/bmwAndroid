@@ -15,7 +15,6 @@ import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonArrayRequest;
-import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 
@@ -46,18 +45,11 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 checkUser(edit_login.getText().toString(), edit_password.getText().toString());
-                Boolean connected = currentUser.getConnected();
-                if(connected) {
-                    Toast.makeText(getApplicationContext(), "zbeub zbeub", Toast.LENGTH_SHORT).show();
-                    Intent adminMenu = new Intent(getApplicationContext(), AdminMenu.class);
-                    startActivity(adminMenu);
-                    finish();
-                }
             }
         });
     }
 
-    private Boolean checkUser(String login, String password) {
+    private void checkUser(String login, String password) {
         String url = "http://51.91.97.54:3000/api/bmw/connect";
         JSONArray arrayParams = new JSONArray();
         JSONObject objectParams = new JSONObject();
@@ -66,7 +58,6 @@ public class MainActivity extends AppCompatActivity {
             objectParams.put("mdp", password);
             arrayParams.put(objectParams);
         } catch (JSONException e) {
-
         }
         JsonArrayRequest jsonArrayRequest  = new JsonArrayRequest(Request.Method.POST, url, arrayParams,
                 new Response.Listener<JSONArray>() {
@@ -74,7 +65,6 @@ public class MainActivity extends AppCompatActivity {
                     public void onResponse(JSONArray response) {
                         int id;
                         String login, mdp, nom, prenom, adresse, tel;
-//                        resultTextView.setText("data :" + response);
                         try {
                             id = response.getJSONObject(0).getInt("id_user");
                             login = response.getJSONObject(0).getString("mail");
@@ -91,23 +81,48 @@ public class MainActivity extends AppCompatActivity {
                             currentUser.setAdresse(adresse);
                             currentUser.setTel(tel);
                             currentUser.setConnected(true);
-//                            resultTextView.setText("login :" + currentUser.getMail() + ", mdp : " + currentUser.getMdp());
+                            checkAdmin(id);
                         } catch (JSONException e) {
-
+                            Toast.makeText(getApplicationContext(), "Adresse mail et/ou mdp incorrecte !", Toast.LENGTH_LONG).show();
                         }
                     }
                 },
                 new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
-
+                        Toast.makeText(getApplicationContext(), "Erreur lors de la connection à la base de données", Toast.LENGTH_LONG).show();
                     }
                 }
         );
         mQueue.add(jsonArrayRequest);
-        if(currentUser.getConnected()) {
-            return true;
-        }
-        return false;
+    }
+
+
+    public void checkAdmin(int id) {
+        String url = "http:/51.91.97.54:3000/api/bmw/view/admin/id_user/" +id;
+        StringRequest verifAdminRequest = new StringRequest(Request.Method.GET, url,
+            new Response.Listener<String>() {
+                @Override
+                public void onResponse(String response) {
+                    try {
+                        JSONObject data = new JSONArray(response).getJSONObject(0);
+                        currentUser.setAdmin_lvl(data.getInt("admin_lvl"));
+                        Intent adminMenu = new Intent(getApplicationContext(), AdminMenu.class);
+                        startActivity(adminMenu);
+                        finish();
+                    } catch (JSONException e) {
+                        e.printStackTrace();
+                        resultTextView.setText("Utilisateur non admin !!");
+                    }
+                }
+            },
+            new Response.ErrorListener() {
+                @Override
+                public void onErrorResponse(VolleyError error) {
+
+                }
+            }
+        );
+        mQueue.add(verifAdminRequest);
     }
 }
