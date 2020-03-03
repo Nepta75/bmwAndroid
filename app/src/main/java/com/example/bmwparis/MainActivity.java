@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void checkUser(String login, String password) {
-        String url = "http://51.68.143.7:3000/api/bmw/connect";
+        String url = "http://51.38.34.13:3000/api/bmw/connect";
         JSONArray arrayParams = new JSONArray();
         JSONObject objectParams = new JSONObject();
         try {
@@ -99,7 +99,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void checkAdmin(int id) {
-        String url = "http://51.68.143.7:3000/api/bmw/view/admin/id_user/" +id;
+        String url = "http://51.38.34.13:3000/api/bmw/view/admin/id_user/" +id;
         StringRequest verifAdminRequest = new StringRequest(Request.Method.GET, url,
             new Response.Listener<String>() {
                 @Override

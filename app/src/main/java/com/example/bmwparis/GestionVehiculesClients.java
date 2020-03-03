@@ -2,9 +2,11 @@ package com.example.bmwparis;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -15,6 +17,7 @@ import com.android.volley.toolbox.Volley;
 
 import org.json.JSONArray;
 import org.json.JSONException;
+import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -26,53 +29,36 @@ public class GestionVehiculesClients extends AppCompatActivity {
     private RequestQueue mQueue;
     private String url;
     private List<VehiculeClient> vehiculesClients;
-    private ListView list_vehicules_clients;
+    private ListView listview_vehicule;
+    private TextView teste;
+    private JSONArray data;
 
     public GestionVehiculesClients() {
-        this.url = "http://51.68.143.7:3000/api/bmw/viewvehicules/client";
+        this.url = "http://51.38.34.13:3000/api/bmw/viewvehicules/client";
     }
 
+    @SuppressLint("SetTextI18n")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_gestion_vehicules_clients);
         vehiculesClients = new ArrayList<>();
         mQueue = Volley.newRequestQueue(this);
-        list_vehicules_clients = (ListView) findViewById(R.id.listview_vehicule);
-
+        listview_vehicule = (ListView) findViewById(R.id.listview_vehicule);
+        teste = (TextView) findViewById(R.id.teste);
         StringRequest vehiculesRequest = new StringRequest(Request.Method.GET, this.url,
                 new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {
                         try {
-                            JSONArray data = new JSONArray(response);
-                            for(int i = 0; i < data.length(); i++) {
+                            data = new JSONArray(response);
+                            for(int i=0; i < data.length(); i++){
                                 int id_vehicule = data.getJSONObject(i).getInt("id_vehicule");
-                                int cylindree = data.getJSONObject(i).getInt("cylindree");
-                                String marque = data.getJSONObject(i).getString("marque");
-                                String modele = data.getJSONObject(i).getString("modele");
-                                String immatriculation = data.getJSONObject(i).getString("immatriculation");
-                                String type_vehicule = data.getJSONObject(i).getString("type_vehicule");
-                                String energie = data.getJSONObject(i).getString("energie");
-                                String type_boite = data.getJSONObject(i).getString("type_boite");
-                                Float prix = (float) data.getJSONObject(i).getDouble("prix");
-                                String img_1 = data.getJSONObject(i).getString("img_1");
-                                String img_2 = data.getJSONObject(i).getString("img_2");
-                                String date_immat = data.getJSONObject(i).getString("date_immat");
-                                int id_user = data.getJSONObject(i).getInt("id_user");
-                                String etat = data.getJSONObject(i).getString("etat");
-                                String information = data.getJSONObject(i).getString("information");
-                                Float km = (float) data.getJSONObject(i).getDouble("km");
-                                vehiculesClients.add(new VehiculeClient(
-                                        id_vehicule, cylindree, marque, modele, immatriculation, type_vehicule,
-                                        energie, type_boite, img_1, img_2, prix,  id_user, date_immat, etat, information, km
-                                ));
+                                teste.setText("data : " + data.getJSONObject(i).getString("immatriculation").toString());
                             }
-                            ListVehiculesAdapter adapter = new ListVehiculesAdapter(getApplicationContext(), R.layout.list_vehicules, vehiculesClients);
-                            list_vehicules_clients.setAdapter(adapter);
-
                         } catch (JSONException e) {
                             e.printStackTrace();
+                            teste.setText("errrrrreuuuuuur");
                         }
                     }
                 }, new Response.ErrorListener() {
@@ -81,5 +67,6 @@ public class GestionVehiculesClients extends AppCompatActivity {
 
             }
         });
+        mQueue.add(vehiculesRequest);
     }
 }
