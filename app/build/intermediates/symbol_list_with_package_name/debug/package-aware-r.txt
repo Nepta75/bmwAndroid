@@ -684,6 +684,8 @@ id bottom
 id buttonPanel
 id button_login
 id button_vehicules
+id button_vehicules_ajouter
+id button_vehicules_clients
 id button_vehicules_neufs
 id button_vehicules_occasions
 id center
@@ -733,10 +735,13 @@ id line3
 id linearLayout
 id listMode
 id list_item
+id list_vehicules_img
+id list_vehicules_modele
+id list_vehicules_prix
+id listview_vehicule
 id menu_devis
 id menu_essais
 id menu_users
-id menu_vehicules_clients
 id message
 id middle
 id multiply
@@ -797,6 +802,8 @@ id textSpacerNoTitle
 id textView
 id textView2
 id textView3
+id textView5
+id textView6
 id time
 id title
 id titleDividerNoCustom
@@ -844,7 +851,12 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_admin_menu
 layout activity_gestion_vehicules
+layout activity_gestion_vehicules_ajouter
+layout activity_gestion_vehicules_clients
+layout activity_gestion_vehicules_neufs
+layout activity_gestion_vehicules_occasions
 layout activity_main
+layout list_vehicules
 layout notification_action
 layout notification_action_tombstone
 layout notification_template_custom_big

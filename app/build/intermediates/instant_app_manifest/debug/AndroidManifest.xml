@@ -24,6 +24,16 @@
         android:testOnly="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
+        <activity android:name="com.example.bmwparis.GestionVehiculesAjouter" />
+        <activity
+            android:name="com.example.bmwparis.GestionVehiculesClients"
+            android:parentActivityName="com.example.bmwparis.GestionVehicules" />
+        <activity
+            android:name="com.example.bmwparis.GestionVehiculesOccasions"
+            android:parentActivityName="com.example.bmwparis.GestionVehicules" />
+        <activity
+            android:name="com.example.bmwparis.GestionVehiculesNeufs"
+            android:parentActivityName="com.example.bmwparis.GestionVehicules" />
         <activity
             android:name="com.example.bmwparis.GestionVehicules"
             android:parentActivityName="com.example.bmwparis.AdminMenu" />

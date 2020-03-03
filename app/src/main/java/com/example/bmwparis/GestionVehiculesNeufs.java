@@ -25,7 +25,7 @@ public class GestionVehiculesNeufs extends AppCompatActivity {
     private String url;
 
     public GestionVehiculesNeufs() {
-        this.url = "http://51.91.97.54:3000/api/bmw/viewvehicules/neuf";
+        this.url = "http://51.68.143.7:3000/api/bmw/viewvehicules/neuf";
     }
 
     @Override

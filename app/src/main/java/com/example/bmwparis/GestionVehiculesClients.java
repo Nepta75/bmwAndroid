@@ -25,21 +25,20 @@ public class GestionVehiculesClients extends AppCompatActivity {
 
     private RequestQueue mQueue;
     private String url;
-    private ArrayList vehiculesClients;
+    private List<VehiculeClient> vehiculesClients;
     private ListView list_vehicules_clients;
 
     public GestionVehiculesClients() {
-        this.url = "http://51.91.97.54:3000/api/bmw/viewvehicules/client";
-        this.vehiculesClients = new ArrayList<VehiculeClient>();
-        this.list_vehicules_clients = (ListView) findViewById(R.id.list_vehicules_clients);
+        this.url = "http://51.68.143.7:3000/api/bmw/viewvehicules/client";
     }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_gestion_vehicules_clients);
-
+        vehiculesClients = new ArrayList<>();
         mQueue = Volley.newRequestQueue(this);
+        list_vehicules_clients = (ListView) findViewById(R.id.listview_vehicule);
 
         StringRequest vehiculesRequest = new StringRequest(Request.Method.GET, this.url,
                 new Response.Listener<String>() {
@@ -64,11 +63,13 @@ public class GestionVehiculesClients extends AppCompatActivity {
                                 String etat = data.getJSONObject(i).getString("etat");
                                 String information = data.getJSONObject(i).getString("information");
                                 Float km = (float) data.getJSONObject(i).getDouble("km");
-                                VehiculeClient vehiculeClient = new VehiculeClient(id_vehicule, cylindree, marque, modele, immatriculation, type_vehicule, energie, type_boite, img_1, img_2, prix,  id_user, date_immat, etat, information, km);
-                                vehiculesClients.add(vehiculeClient);
+                                vehiculesClients.add(new VehiculeClient(
+                                        id_vehicule, cylindree, marque, modele, immatriculation, type_vehicule,
+                                        energie, type_boite, img_1, img_2, prix,  id_user, date_immat, etat, information, km
+                                ));
                             }
-                            ArrayAdapter arrayAdapter = new ArrayAdapter(this, android.R.layout.,vehiculesClients);
-                            list_vehicules_clients.setAdapter(arrayAdapter);
+                            ListVehiculesAdapter adapter = new ListVehiculesAdapter(getApplicationContext(), R.layout.list_vehicules, vehiculesClients);
+                            list_vehicules_clients.setAdapter(adapter);
 
                         } catch (JSONException e) {
                             e.printStackTrace();
