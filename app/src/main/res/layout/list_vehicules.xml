@@ -34,4 +34,15 @@
         app:layout_constraintStart_toEndOf="@+id/list_vehicules_img"
         app:layout_constraintTop_toBottomOf="@+id/list_vehicules_modele" />
 
+    <TextView
+        android:id="@+id/list_vehicules_km"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="28dp"
+        android:layout_weight="1"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/list_vehicules_img"
+        app:layout_constraintTop_toBottomOf="@+id/list_vehicules_prix" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

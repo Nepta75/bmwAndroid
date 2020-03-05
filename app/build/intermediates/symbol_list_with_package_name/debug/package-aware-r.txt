@@ -646,6 +646,8 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable x5_1
+drawable x6_1
 id ALT
 id CTRL
 id FUNCTION
@@ -736,6 +738,7 @@ id linearLayout
 id listMode
 id list_item
 id list_vehicules_img
+id list_vehicules_km
 id list_vehicules_modele
 id list_vehicules_prix
 id listview_vehicule
@@ -795,7 +798,6 @@ id tabMode
 id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
-id teste
 id text
 id text2
 id textSpacerNoButtons
