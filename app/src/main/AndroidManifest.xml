@@ -13,21 +13,21 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".GestionVehiculesAjouter"></activity>
+        <activity android:name=".activity.gestionVehicules.GestionVehiculesAjouter"></activity>
         <activity
-            android:name=".GestionVehiculesClients"
-            android:parentActivityName=".GestionVehicules" />
+            android:name=".activity.gestionVehicules.GestionVehiculesClients"
+            android:parentActivityName=".activity.gestionVehicules.GestionVehicules" />
         <activity
-            android:name=".GestionVehiculesOccasions"
-            android:parentActivityName=".GestionVehicules" />
+            android:name=".activity.gestionVehicules.GestionVehiculesOccasions"
+            android:parentActivityName=".activity.gestionVehicules.GestionVehicules" />
         <activity
-            android:name=".GestionVehiculesNeufs"
-            android:parentActivityName=".GestionVehicules" />
+            android:name=".activity.gestionVehicules.GestionVehiculesNeufs"
+            android:parentActivityName=".activity.gestionVehicules.GestionVehicules" />
         <activity
-            android:name=".GestionVehicules"
-            android:parentActivityName=".AdminMenu" />
-        <activity android:name=".AdminMenu" />
-        <activity android:name=".MainActivity">
+            android:name=".activity.gestionVehicules.GestionVehicules"
+            android:parentActivityName=".activity.AdminMenu" />
+        <activity android:name=".activity.AdminMenu" />
+        <activity android:name=".activity.connexion.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

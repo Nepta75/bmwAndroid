@@ -1,4 +1,4 @@
-package com.example.bmwparis;
+package com.example.bmwparis.vehicules;
 
 public class VehiculeNeuf extends Vehicule {
 

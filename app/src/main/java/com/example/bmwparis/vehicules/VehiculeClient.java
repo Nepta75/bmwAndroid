@@ -1,6 +1,4 @@
-package com.example.bmwparis;
-
-import java.util.Date;
+package com.example.bmwparis.vehicules;
 
 public class VehiculeClient extends Vehicule {
 

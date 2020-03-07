@@ -9,32 +9,30 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.bmwparis.R;
-import com.example.bmwparis.VehiculeClient;
-
-import org.w3c.dom.Text;
+import com.example.bmwparis.vehicules.VehiculeNeuf;
 
 import java.util.List;
 
-public class VehiculesItemsAdapter extends BaseAdapter {
+public class VehiculesNeufItemsAdapter extends BaseAdapter {
 
     private Context context;
-    private List<VehiculeClient> vehiculesClientList;
+    private List<VehiculeNeuf> vehiculesNeufList;
     private LayoutInflater inflater;
 
-    public VehiculesItemsAdapter (Context context, List<VehiculeClient> vehiculesClientList) {
+    public VehiculesNeufItemsAdapter(Context context, List<VehiculeNeuf> vehiculesNeufList) {
         this.context = context;
-        this.vehiculesClientList = vehiculesClientList;
+        this.vehiculesNeufList = vehiculesNeufList;
         this.inflater = LayoutInflater.from(context);
     }
 
     @Override
     public int getCount() {
-        return vehiculesClientList.size();
+        return vehiculesNeufList.size();
     }
 
     @Override
-    public VehiculeClient getItem(int position) {
-        return vehiculesClientList.get(position);
+    public VehiculeNeuf getItem(int position) {
+        return vehiculesNeufList.get(position);
     }
 
     @Override
@@ -45,10 +43,10 @@ public class VehiculesItemsAdapter extends BaseAdapter {
     @Override
     public View getView(int position, View view, ViewGroup parent) {
         view = inflater.inflate(R.layout.list_vehicules, null);
-        VehiculeClient currentItem = getItem(position);
+        VehiculeNeuf currentItem = getItem(position);
         String modele = currentItem.getModele();
         Float prix = currentItem.getPrix();
-        float km = currentItem.getKm();
+        float km = 0;
         String img = currentItem.getImg_1();
 
         ImageView imgView = view.findViewById(R.id.list_vehicules_img);

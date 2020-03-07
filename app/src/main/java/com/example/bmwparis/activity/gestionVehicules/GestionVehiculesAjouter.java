@@ -1,8 +1,10 @@
-package com.example.bmwparis;
+package com.example.bmwparis.activity.gestionVehicules;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.bmwparis.R;
 
 public class GestionVehiculesAjouter extends AppCompatActivity {
 

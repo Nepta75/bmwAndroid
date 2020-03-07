@@ -1,10 +1,9 @@
-package com.example.bmwparis;
+package com.example.bmwparis.activity.gestionVehicules;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
-import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -15,7 +14,9 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
-import com.example.bmwparis.adapters.VehiculesItemsAdapter;
+import com.example.bmwparis.R;
+import com.example.bmwparis.adapters.VehiculesClientItemsAdapter;
+import com.example.bmwparis.vehicules.VehiculeClient;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -40,7 +41,7 @@ public class GestionVehiculesClients extends AppCompatActivity {
         this.url = "http://51.38.34.13:3000/api/bmw/viewvehicules/client";
         vehiculesClients = new ArrayList<>();
         mQueue = Volley.newRequestQueue(this);
-        listview_vehicule = (ListView) findViewById(R.id.listview_vehicule);
+        listview_vehicule = (ListView) findViewById(R.id.listview_vehicule_client);
         StringRequest vehiculesRequest = new StringRequest(Request.Method.GET, this.url,
                 new Response.Listener<String>() {
                     @Override
@@ -67,7 +68,7 @@ public class GestionVehiculesClients extends AppCompatActivity {
                                 vehiculesClients.add(new VehiculeClient(id_vehicule, cylindree, marque, modele, immatriculation, type_vehicule, energie, type_boite
                                 , img_1, img_2, prix, id_user, date_immat, etat, information, km));
                             }
-                            listview_vehicule.setAdapter(new VehiculesItemsAdapter(getApplicationContext(), vehiculesClients));
+                            listview_vehicule.setAdapter(new VehiculesClientItemsAdapter(getApplicationContext(), vehiculesClients));
                         } catch (JSONException e) {
                             e.printStackTrace();
                             Toast.makeText(getApplicationContext(), "Erreur lors de la récupération de données !", Toast.LENGTH_LONG).show();

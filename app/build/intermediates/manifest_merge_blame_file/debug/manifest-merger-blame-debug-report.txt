@@ -37,39 +37,39 @@
 24-->C:\Users\Lokman\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:14:9-40
 25        android:usesCleartextTraffic="true" >
 25-->C:\Users\Lokman\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:15:9-44
-26        <activity android:name="com.example.bmwparis.GestionVehiculesAjouter" />
-26-->C:\Users\Lokman\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:16:9-70
-26-->C:\Users\Lokman\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:16:19-58
+26        <activity android:name="com.example.bmwparis.activity.gestionVehicules.GestionVehiculesAjouter" />
+26-->C:\Users\Lokman\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:16:9-96
+26-->C:\Users\Lokman\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:16:19-84
 27        <activity
-27-->C:\Users\Lokman\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:17:9-19:62
-28            android:name="com.example.bmwparis.GestionVehiculesClients"
-28-->C:\Users\Lokman\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:18:13-52
-29            android:parentActivityName="com.example.bmwparis.GestionVehicules" />
-29-->C:\Users\Lokman\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:19:13-59
+27-->C:\Users\Lokman\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:17:9-19:88
+28            android:name="com.example.bmwparis.activity.gestionVehicules.GestionVehiculesClients"
+28-->C:\Users\Lokman\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:18:13-78
+29            android:parentActivityName="com.example.bmwparis.activity.gestionVehicules.GestionVehicules" />
+29-->C:\Users\Lokman\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:19:13-85
 30        <activity
-30-->C:\Users\Lokman\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:20:9-22:62
-31            android:name="com.example.bmwparis.GestionVehiculesOccasions"
-31-->C:\Users\Lokman\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:21:13-54
-32            android:parentActivityName="com.example.bmwparis.GestionVehicules" />
-32-->C:\Users\Lokman\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:22:13-59
+30-->C:\Users\Lokman\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:20:9-22:88
+31            android:name="com.example.bmwparis.activity.gestionVehicules.GestionVehiculesOccasions"
+31-->C:\Users\Lokman\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:21:13-80
+32            android:parentActivityName="com.example.bmwparis.activity.gestionVehicules.GestionVehicules" />
+32-->C:\Users\Lokman\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:22:13-85
 33        <activity
-33-->C:\Users\Lokman\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:23:9-25:62
-34            android:name="com.example.bmwparis.GestionVehiculesNeufs"
-34-->C:\Users\Lokman\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:24:13-50
-35            android:parentActivityName="com.example.bmwparis.GestionVehicules" />
-35-->C:\Users\Lokman\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:25:13-59
+33-->C:\Users\Lokman\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:23:9-25:88
+34            android:name="com.example.bmwparis.activity.gestionVehicules.GestionVehiculesNeufs"
+34-->C:\Users\Lokman\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:24:13-76
+35            android:parentActivityName="com.example.bmwparis.activity.gestionVehicules.GestionVehicules" />
+35-->C:\Users\Lokman\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:25:13-85
 36        <activity
-36-->C:\Users\Lokman\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:26:9-28:55
-37            android:name="com.example.bmwparis.GestionVehicules"
-37-->C:\Users\Lokman\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:27:13-45
-38            android:parentActivityName="com.example.bmwparis.AdminMenu" />
-38-->C:\Users\Lokman\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:28:13-52
-39        <activity android:name="com.example.bmwparis.AdminMenu" />
-39-->C:\Users\Lokman\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:29:9-47
-39-->C:\Users\Lokman\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:29:19-44
-40        <activity android:name="com.example.bmwparis.MainActivity" >
+36-->C:\Users\Lokman\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:26:9-28:64
+37            android:name="com.example.bmwparis.activity.gestionVehicules.GestionVehicules"
+37-->C:\Users\Lokman\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:27:13-71
+38            android:parentActivityName="com.example.bmwparis.activity.AdminMenu" />
+38-->C:\Users\Lokman\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:28:13-61
+39        <activity android:name="com.example.bmwparis.activity.AdminMenu" />
+39-->C:\Users\Lokman\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:29:9-56
+39-->C:\Users\Lokman\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:29:19-53
+40        <activity android:name="com.example.bmwparis.activity.connexion.MainActivity" >
 40-->C:\Users\Lokman\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:30:9-36:20
-40-->C:\Users\Lokman\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:30:19-47
+40-->C:\Users\Lokman\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:30:19-66
 41            <intent-filter>
 41-->C:\Users\Lokman\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:31:13-35:29
 42                <action android:name="android.intent.action.MAIN" />

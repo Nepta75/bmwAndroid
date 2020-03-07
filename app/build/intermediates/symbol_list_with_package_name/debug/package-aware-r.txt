@@ -741,7 +741,9 @@ id list_vehicules_img
 id list_vehicules_km
 id list_vehicules_modele
 id list_vehicules_prix
-id listview_vehicule
+id listview_vehicule_client
+id listview_vehicule_neuf
+id listview_vehicule_occasion
 id menu_devis
 id menu_essais
 id menu_users
@@ -805,8 +807,6 @@ id textSpacerNoTitle
 id textView
 id textView2
 id textView3
-id textView5
-id textView6
 id time
 id title
 id titleDividerNoCustom

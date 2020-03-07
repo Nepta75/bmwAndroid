@@ -1,4 +1,4 @@
-package com.example.bmwparis;
+package com.example.bmwparis.activity.connexion;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -17,6 +17,8 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonArrayRequest;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
+import com.example.bmwparis.R;
+import com.example.bmwparis.activity.AdminMenu;
 
 import org.json.JSONArray;
 import org.json.JSONException;

@@ -1,4 +1,4 @@
-package com.example.bmwparis;
+package com.example.bmwparis.activity.connexion;
 
 public class CurrentUser {
     private Boolean connected = false;

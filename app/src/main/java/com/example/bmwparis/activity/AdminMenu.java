@@ -1,4 +1,4 @@
-package com.example.bmwparis;
+package com.example.bmwparis.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,6 +6,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import com.example.bmwparis.R;
+import com.example.bmwparis.activity.gestionVehicules.GestionVehicules;
 
 public class AdminMenu extends AppCompatActivity {
 
