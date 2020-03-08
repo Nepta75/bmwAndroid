@@ -1,4 +1,4 @@
-package com.example.bmwparis;
+package com.example.bmwparis.users;
 
 public class User {
 
