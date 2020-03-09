@@ -13,7 +13,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".activity.gestionUsers.GestionUsersAjouter"></activity>
+        <activity android:name=".activity.gestionVehicules.ajoutVehicules.AddVehiculeClient"></activity>
+        <activity android:name=".activity.gestionVehicules.ajoutVehicules.AddVehiculeOccas" />
+        <activity android:name=".activity.gestionVehicules.ajoutVehicules.AddVehiculeNeuf" />
+        <activity android:name=".activity.gestionUsers.GestionUsersAjouter" />
         <activity android:name=".activity.gestionUsers.GestionUsersAdmins" />
         <activity android:name=".activity.gestionUsers.GestionUsersClients" />
         <activity android:name=".activity.gestionUsers.GestionUsers" />

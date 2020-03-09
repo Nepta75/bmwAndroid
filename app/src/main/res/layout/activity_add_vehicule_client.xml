@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.gestionVehicules.ajoutVehicules.AddVehiculeClient">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:padding="5dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.25">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Marque :"
+                android:textColor="@color/colorBlack"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/edit_marque_client"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Modele :"
+                android:textColor="@color/colorBlack"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/edit_modele_client"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Immatriculation :"
+                android:textColor="@color/colorBlack"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/edit_immatriculation_client"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Type vehicule :"
+                android:textColor="@color/colorBlack"
+                android:textSize="20dp" />
+
+            <RadioGroup
+                android:id="@+id/rgroup_typeVeh_client"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <RadioButton
+                    android:id="@+id/radio_veh_client_deuxRoues"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="setTypeVeh"
+                    android:text="2 roues" />
+
+                <RadioButton
+                    android:id="@+id/radio_veh_client_quatreRoues"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="setTypeVeh"
+                    android:text="4 roues" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cylindree :"
+                android:textColor="@color/colorBlack"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/edit_cylindree_client"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Energie :"
+                android:textColor="@color/colorBlack"
+                android:textSize="20dp" />
+
+            <RadioGroup
+                android:id="@+id/rgroup_energie_client"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <RadioButton
+                    android:id="@+id/radio_veh_client_essence"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="setEnergie"
+                    android:text="Essence" />
+
+                <RadioButton
+                    android:id="@+id/radio_veh_client_diesel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="setEnergie"
+                    android:text="Diesel" />
+
+                <RadioButton
+                    android:id="@+id/radio_veh_client_electrique"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="setEnergie"
+                    android:text="Electrique" />
+
+                <RadioButton
+                    android:id="@+id/radio_veh_client_hybride"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="setEnergie"
+                    android:text="Hybride" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Type boite :"
+                android:textColor="@color/colorBlack"
+                android:textSize="20dp" />
+
+            <RadioGroup
+                android:id="@+id/rgroup_typeBoite_client"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <RadioButton
+                    android:id="@+id/radio_veh_client_manuelle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="setTypeBoite"
+                    android:text="Manuelle" />
+
+                <RadioButton
+                    android:id="@+id/radio_veh_client_automatique"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="setTypeBoite"
+                    android:text="Automatique" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Prix :"
+                android:textColor="@color/colorBlack"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/edit_prix_client"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Img 1 :"
+                android:textColor="@color/colorBlack"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/edit_img1_client"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Img 2 :"
+                android:textColor="@color/colorBlack"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/edit_img2_client"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/addVehiculeClient"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="20dp"
+                android:background="@color/colorPrimary"
+                android:padding="10dp"
+                android:onClick="addVehiculeClient"
+                android:text="Ajouter"
+                android:textColor="@color/colorWhite" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
