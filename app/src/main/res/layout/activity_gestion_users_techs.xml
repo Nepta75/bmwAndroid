@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity.gestionUsers.GestionUsersClients">
+    tools:context=".activity.gestionUsers.GestionUsersTechs">
 
     <ListView
-        android:id="@+id/listview_user_client"
+        android:id="@+id/listview_user_tech"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 

@@ -7,33 +7,34 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.bmwparis.R;
-import com.example.bmwparis.users.UserAdmin;
-import com.example.bmwparis.vehicules.VehiculeClient;
+import com.example.bmwparis.users.User;
+import com.example.bmwparis.users.UserTech;
 
 import java.util.List;
 
-public class UsersAdminItemsAdapter extends BaseAdapter {
+public class UsersTechItemsAdapter extends BaseAdapter {
 
     private Context context;
-    private List<UserAdmin> userAdminList;
+    private List<UserTech> userTechList;
     private LayoutInflater inflater;
 
-    public UsersAdminItemsAdapter(Context context, List<UserAdmin> userAdminList) {
+    public UsersTechItemsAdapter(Context context, List<UserTech> userTechList) {
         this.context = context;
-        this.userAdminList = userAdminList;
+        this.userTechList = userTechList;
         this.inflater = LayoutInflater.from(context);
     }
 
     @Override
     public int getCount() {
-        return userAdminList.size();
+        return userTechList.size();
     }
 
     @Override
-    public UserAdmin getItem(int position) {
-        return userAdminList.get(position);
+    public Object getItem(int position) {
+        return userTechList.get(position);
     }
 
     @Override
@@ -44,7 +45,7 @@ public class UsersAdminItemsAdapter extends BaseAdapter {
     @Override
     public View getView(int position, View view, ViewGroup parent) {
         view = inflater.inflate(R.layout.list_users, null);
-        UserAdmin currentItem = getItem(position);
+        UserTech currentItem = (UserTech) getItem(position);
         String nom = currentItem.getNom();
         String prenom = currentItem.getPrenom();
         String mail = currentItem.getMail();

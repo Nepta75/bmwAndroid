@@ -24,6 +24,7 @@
         android:testOnly="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
+<<<<<<< HEAD
         <activity
             android:name="com.example.bmwparis.activity.gestionVehicules.ajoutVehicules.AddVehiculeClient"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
@@ -48,6 +49,14 @@
         <activity
             android:name="com.example.bmwparis.activity.gestionVehicules.GestionVehiculesAjouter"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
+=======
+        <activity android:name="com.example.bmwparis.activity.gestionUsers.GestionUsersTechs" />
+        <activity android:name="com.example.bmwparis.activity.gestionUsers.GestionUsersAjouter" />
+        <activity android:name="com.example.bmwparis.activity.gestionUsers.GestionUsersAdmins" />
+        <activity android:name="com.example.bmwparis.activity.gestionUsers.GestionUsersClients" />
+        <activity android:name="com.example.bmwparis.activity.gestionUsers.GestionUsers" />
+        <activity android:name="com.example.bmwparis.activity.gestionVehicules.GestionVehiculesAjouter" />
+>>>>>>> origin/master
         <activity
             android:name="com.example.bmwparis.activity.gestionVehicules.GestionVehiculesClients"
             android:parentActivityName="com.example.bmwparis.activity.gestionVehicules.GestionVehicules"

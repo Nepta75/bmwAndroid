@@ -9,31 +9,29 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.bmwparis.R;
-import com.example.bmwparis.users.UserAdmin;
-import com.example.bmwparis.vehicules.VehiculeClient;
+import com.example.bmwparis.users.User;
 
 import java.util.List;
 
-public class UsersAdminItemsAdapter extends BaseAdapter {
-
+public class UsersClientItemsAdapter extends BaseAdapter {
     private Context context;
-    private List<UserAdmin> userAdminList;
+    private List<User> userList;
     private LayoutInflater inflater;
 
-    public UsersAdminItemsAdapter(Context context, List<UserAdmin> userAdminList) {
+    public UsersClientItemsAdapter(Context context, List<User> userList) {
         this.context = context;
-        this.userAdminList = userAdminList;
+        this.userList = userList;
         this.inflater = LayoutInflater.from(context);
     }
 
     @Override
     public int getCount() {
-        return userAdminList.size();
+        return userList.size();
     }
 
     @Override
-    public UserAdmin getItem(int position) {
-        return userAdminList.get(position);
+    public User getItem(int position) {
+        return userList.get(position);
     }
 
     @Override
@@ -44,7 +42,7 @@ public class UsersAdminItemsAdapter extends BaseAdapter {
     @Override
     public View getView(int position, View view, ViewGroup parent) {
         view = inflater.inflate(R.layout.list_users, null);
-        UserAdmin currentItem = getItem(position);
+        User currentItem = getItem(position);
         String nom = currentItem.getNom();
         String prenom = currentItem.getPrenom();
         String mail = currentItem.getMail();
