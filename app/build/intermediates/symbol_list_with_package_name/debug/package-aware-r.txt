@@ -630,6 +630,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable avatar
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable notification_action_background
@@ -690,6 +691,7 @@ id button_users
 id button_users_admins
 id button_users_ajouter
 id button_users_clients
+id button_users_tech
 id button_vehicules
 id button_vehicules_ajouter
 id button_vehicules_clients
@@ -752,6 +754,8 @@ id list_vehicules_km
 id list_vehicules_modele
 id list_vehicules_prix
 id listview_user_admin
+id listview_user_client
+id listview_user_tech
 id listview_vehicule_client
 id listview_vehicule_neuf
 id listview_vehicule_occasion
@@ -866,6 +870,7 @@ layout activity_gestion_users
 layout activity_gestion_users_admins
 layout activity_gestion_users_ajouter
 layout activity_gestion_users_clients
+layout activity_gestion_users_techs
 layout activity_gestion_vehicules
 layout activity_gestion_vehicules_ajouter
 layout activity_gestion_vehicules_clients

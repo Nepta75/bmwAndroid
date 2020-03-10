@@ -24,6 +24,7 @@
         android:testOnly="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
+        <activity android:name="com.example.bmwparis.activity.gestionUsers.GestionUsersTechs" />
         <activity android:name="com.example.bmwparis.activity.gestionUsers.GestionUsersAjouter" />
         <activity android:name="com.example.bmwparis.activity.gestionUsers.GestionUsersAdmins" />
         <activity android:name="com.example.bmwparis.activity.gestionUsers.GestionUsersClients" />
