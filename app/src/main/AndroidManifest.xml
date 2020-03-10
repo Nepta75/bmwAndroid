@@ -13,25 +13,17 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-<<<<<<< HEAD
         <activity
             android:name=".activity.gestionVehicules.ajoutVehicules.AddVehiculeClient"
             android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
         <activity android:name=".activity.gestionVehicules.ajoutVehicules.AddVehiculeOccas" android:theme="@style/Theme.AppCompat.NoActionBar"/>
         <activity android:name=".activity.gestionVehicules.ajoutVehicules.AddVehiculeNeuf" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".activity.gestionUsers.GestionUsersTechs"></activity>
         <activity android:name=".activity.gestionUsers.GestionUsersAjouter" android:theme="@style/Theme.AppCompat.NoActionBar"/>
         <activity android:name=".activity.gestionUsers.GestionUsersAdmins" android:theme="@style/Theme.AppCompat.NoActionBar"/>
         <activity android:name=".activity.gestionUsers.GestionUsersClients" android:theme="@style/Theme.AppCompat.NoActionBar"/>
         <activity android:name=".activity.gestionUsers.GestionUsers" android:theme="@style/Theme.AppCompat.NoActionBar"/>
         <activity android:name=".activity.gestionVehicules.GestionVehiculesAjouter" android:theme="@style/Theme.AppCompat.NoActionBar"/>
-=======
-        <activity android:name=".activity.gestionUsers.GestionUsersTechs"></activity>
-        <activity android:name=".activity.gestionUsers.GestionUsersAjouter" />
-        <activity android:name=".activity.gestionUsers.GestionUsersAdmins" />
-        <activity android:name=".activity.gestionUsers.GestionUsersClients" />
-        <activity android:name=".activity.gestionUsers.GestionUsers" />
-        <activity android:name=".activity.gestionVehicules.GestionVehiculesAjouter" />
->>>>>>> origin/master
         <activity
             android:name=".activity.gestionVehicules.GestionVehiculesClients"
             android:theme="@style/Theme.AppCompat.NoActionBar"

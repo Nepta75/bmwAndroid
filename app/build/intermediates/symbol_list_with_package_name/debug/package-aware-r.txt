@@ -692,13 +692,10 @@ id button_users
 id button_users_admins
 id button_users_ajouter
 id button_users_clients
-<<<<<<< HEAD
+id button_users_tech
 id button_veh_client_ajouter
 id button_veh_neuf_ajouter
 id button_veh_occas_ajouter
-=======
-id button_users_tech
->>>>>>> origin/master
 id button_vehicules
 id button_vehicules_ajouter
 id button_vehicules_clients

@@ -53,8 +53,8 @@ public class VehiculesClientItemsAdapter extends BaseAdapter {
         TextView modeleView = view.findViewById(R.id.list_vehicules_modele);
         TextView priceView = view.findViewById(R.id.list_vehicules_prix);
         TextView kmView = view.findViewById(R.id.list_vehicules_km);
-
         imgView.setImageResource(context.getResources().getIdentifier(img.substring(0, img.lastIndexOf('.')), "drawable", context.getPackageName()));
+
         modeleView.setText("modele : " + modele);
         priceView.setText("prix : " + prix + " €");
         kmView.setText("km : " + km + " km");
