@@ -1,7 +1,16 @@
+<<<<<<< HEAD
+#Tue Mar 10 14:40:46 CET 2020
+base.0=C\:\\Users\\Miguel\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
+=======
 #Tue Mar 10 03:25:56 CET 2020
 base.0=C\:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
+>>>>>>> origin/master
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
+<<<<<<< HEAD
+base.1=C\:\\Users\\Miguel\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
+=======
 base.1=C\:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
+>>>>>>> origin/master
