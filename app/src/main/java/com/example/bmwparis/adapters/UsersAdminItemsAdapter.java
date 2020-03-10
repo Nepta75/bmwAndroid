@@ -56,6 +56,7 @@ public class UsersAdminItemsAdapter extends BaseAdapter {
         TextView mailView = view.findViewById(R.id.list_users_mail);
         TextView telView = view.findViewById(R.id.list_users_tel);
 
+        imgView.setImageResource(R.drawable.avatar);
         lastnameView.setText("Nom : " + nom);
         nameView.setText("Prénom : " + prenom);
         mailView.setText("Mail : " + mail);
