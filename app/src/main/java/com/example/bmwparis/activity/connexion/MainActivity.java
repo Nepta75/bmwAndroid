@@ -37,7 +37,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        resultTextView = (TextView) findViewById(R.id.debug_tv);
         Button buttonLogin = (Button) findViewById(R.id.button_login);
         mQueue = Volley.newRequestQueue(this);
         this.edit_login = (EditText) findViewById(R.id.edit_login);

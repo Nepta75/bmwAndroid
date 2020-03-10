@@ -22,7 +22,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/AppTheme"
+        android:theme="@style/Theme.AppCompat.NoActionBar"
         android:usesCleartextTraffic="true" >
         <activity android:name="com.example.bmwparis.activity.gestionUsers.GestionUsersAjouter" />
         <activity android:name="com.example.bmwparis.activity.gestionUsers.GestionUsersAdmins" />

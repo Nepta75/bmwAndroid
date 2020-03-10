@@ -373,6 +373,7 @@ color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
 color background_material_light
+color bootstrapBlue
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -630,8 +631,12 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable background
+drawable button_model
+drawable edit_model
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable logo
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -708,7 +713,6 @@ id content
 id contentPanel
 id custom
 id customPanel
-id debug_tv
 id decor_content_parent
 id default_activity_button
 id dimensions
@@ -724,6 +728,7 @@ id fill
 id fill_horizontal
 id fill_vertical
 id forever
+id frameLayout
 id gone
 id group_divider
 id groups
@@ -814,7 +819,6 @@ id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textView
-id textView2
 id textView3
 id time
 id title
@@ -822,6 +826,7 @@ id titleDividerNoCustom
 id title_template
 id top
 id topPanel
+id tv_signin
 id uniform
 id up
 id useLogo
