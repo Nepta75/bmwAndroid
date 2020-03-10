@@ -4,6 +4,93 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity.gestionVehicules.GestionVehiculesAjouter">
+    tools:context=".activity.gestionVehicules.GestionVehicules">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="171dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="172dp"
+        android:text="Paris"
+        android:textColor="@color/colorBlack"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/app_name" />
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="84dp"
+        android:text="@string/app_name"
+        android:textColor="@color/colorBlack"
+        android:textSize="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/button_veh_neuf_ajouter"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="40dp"
+        android:layout_weight="1"
+        android:background="@color/colorAccent"
+        android:text="+ VEHICULE NEUF"
+        android:textColor="@color/colorWhite"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/button_veh_occas_ajouter"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="40dp"
+        android:layout_weight="1"
+        android:background="@color/colorAccent"
+        android:text="+ VEHICULE OCCASION"
+        android:textColor="@color/colorWhite"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_veh_neuf_ajouter" />
+
+    <Button
+        android:id="@+id/button_veh_client_ajouter"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="40dp"
+        android:layout_weight="1"
+        android:background="@color/colorAccent"
+        android:text="+ VEHICULE CLIENT"
+        android:textColor="@color/colorWhite"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_veh_occas_ajouter"
+        app:layout_constraintVertical_bias="0.0" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
