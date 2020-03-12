@@ -25,11 +25,8 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 public class MainActivity extends AppCompatActivity {
-
-    private TextView resultTextView;
     private EditText edit_login, edit_password;
     private RequestQueue mQueue;
-    private String login, password;
     CurrentUser currentUser = new CurrentUser();
 
     @Override
@@ -110,10 +107,9 @@ public class MainActivity extends AppCompatActivity {
                         currentUser.setAdmin_lvl(data.getInt("admin_lvl"));
                         Intent adminMenu = new Intent(getApplicationContext(), AdminMenu.class);
                         startActivity(adminMenu);
-//                        finish();
+                        finish();
                     } catch (JSONException e) {
                         e.printStackTrace();
-                        resultTextView.setText("Utilisateur non admin !");
                     }
                 }
             },

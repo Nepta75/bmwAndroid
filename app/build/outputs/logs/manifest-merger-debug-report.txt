@@ -70,7 +70,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\mi
 	android:label
 		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:10:9-41
 	android:roundIcon
-		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:12:9-54
+		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:12:9-43
 	android:icon
 		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:9:9-43
 	android:allowBackup

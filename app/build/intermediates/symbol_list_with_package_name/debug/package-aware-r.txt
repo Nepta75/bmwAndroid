@@ -343,6 +343,7 @@ attr windowNoTitle
 bool abc_action_bar_embed_tabs
 bool abc_allow_stacked_button_bar
 bool abc_config_actionMenuItemAllCaps
+color ColorGrey
 color abc_background_cache_hint_selector_material_dark
 color abc_background_cache_hint_selector_material_light
 color abc_btn_colored_borderless_text_material
@@ -373,7 +374,6 @@ color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
 color background_material_light
-color bootstrapBlue
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -384,6 +384,7 @@ color button_material_dark
 color button_material_light
 color colorAccent
 color colorBlack
+color colorBlue
 color colorPrimary
 color colorPrimaryDark
 color colorWhite
@@ -637,6 +638,7 @@ drawable background_2
 drawable background_3
 drawable background_app
 drawable button_model
+drawable button_model_disconnect
 drawable edit_model
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -696,6 +698,8 @@ id blocking
 id bottom
 id buttonPanel
 id button_devis
+id button_disconnect
+id button_essais
 id button_login
 id button_users
 id button_users_admins
@@ -723,6 +727,7 @@ id content
 id contentPanel
 id custom
 id customPanel
+id dashboard
 id decor_content_parent
 id default_activity_button
 id dimensions
@@ -765,6 +770,8 @@ id imageView
 id info
 id invisible
 id italic
+id layout_buttons_1
+id layout_buttons_2
 id left
 id line1
 id line3
@@ -787,7 +794,7 @@ id listview_vehicule_client
 id listview_vehicule_neuf
 id listview_vehicule_occasion
 id main_form
-id menu_essais
+id menu_buttons
 id message
 id middle
 id multiply
@@ -856,7 +863,6 @@ id text
 id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
-id textView
 id textView3
 id textview_login
 id textview_password
