@@ -30,7 +30,6 @@ public class GestionVehiculesClients extends AppCompatActivity {
     private String url;
     private List<VehiculeClient> vehiculesClients;
     private ListView listview_vehicule;
-    private TextView teste;
     private JSONArray data;
 
     @SuppressLint("SetTextI18n")

@@ -697,6 +697,16 @@ id beginning
 id blocking
 id bottom
 id buttonPanel
+id button_dashboard_admins
+id button_dashboard_clients
+id button_dashboard_devis
+id button_dashboard_essais
+id button_dashboard_techs
+id button_dashboard_users
+id button_dashboard_vehclients
+id button_dashboard_vehicules
+id button_dashboard_vehneufs
+id button_dashboard_vehoccasions
 id button_devis
 id button_disconnect
 id button_essais

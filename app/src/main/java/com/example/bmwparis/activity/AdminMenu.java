@@ -22,6 +22,8 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
 import java.util.Map;
 
 public class AdminMenu extends AppCompatActivity {
@@ -30,6 +32,8 @@ public class AdminMenu extends AppCompatActivity {
     Button button_dashboard_vehicules, button_dashboard_users, button_dashboard_techs, button_dashboard_admins,
            button_dashboard_clients, button_dashboard_essais, button_dashboard_devis, button_dashboard_vehclients,
            button_dashboard_vehneufs, button_dashboard_vehoccasions;
+    Button dataButton;
+    ArrayList<String> categoriesDashboard;
     private RequestQueue mQueue;
 
     @Override
@@ -56,6 +60,14 @@ public class AdminMenu extends AppCompatActivity {
         this.button_dashboard_vehneufs = (Button) findViewById(R.id.button_dashboard_vehneufs);
         this.button_dashboard_vehoccasions = (Button) findViewById(R.id.button_dashboard_vehoccasions);
 
+        categoriesDashboard = new ArrayList<>();
+        categoriesDashboard.add("vehiculeclients");
+        categoriesDashboard.add("vehiculeoccasions");
+        categoriesDashboard.add("vehiculeneufs");
+
+        for(int i = 0; i < categoriesDashboard.size() - 1; i ++) {
+            getData(categoriesDashboard.get(i));
+        }
 
         button_vehicules.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -84,21 +96,24 @@ public class AdminMenu extends AppCompatActivity {
     }
 
     public void getData(String type) {
-        int dataCount = 0;
         String value = "";
         switch (type) {
-            case "vehiculeclients" : value = "views/vehicule/clients" ; break ;
-            case "vehiculeoccasions" : value = "views/vehicule/occasions" ; break ;
-            case "vehiculeneufs" : value = "views/vehicule/neufs" ; break ;
+            case "vehiculeclients"   : value = "views/vehicule/clients";
+                                       dataButton = button_dashboard_vehclients; break ;
+            case "vehiculeoccasions" : value = "views/vehicule/occasions";
+                                       dataButton = button_dashboard_vehoccasions; break ;
+            case "vehiculeneufs"     : value = "views/vehicule/neufs";
+                                       dataButton = button_dashboard_vehneufs; break ;
         }
         String url = "http://51.38.34.13:3000/api/bmw/" + value;
         StringRequest dashboardRequest = new StringRequest(Request.Method.GET, url, new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
+                int dataCount = 0;
                 try {
-                    JSONArray data_array = new JSONArray(response);
-//                    JSONObject data = new JSONObject(data_array);
-
+                    JSONArray dataArray = new JSONArray(response);
+                    dataCount = dataArray.length();
+                    dataButton.setText(String.valueOf(dataCount));
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -109,6 +124,6 @@ public class AdminMenu extends AppCompatActivity {
 
             }
         });
+        mQueue.add(dashboardRequest);
     }
-
 }
