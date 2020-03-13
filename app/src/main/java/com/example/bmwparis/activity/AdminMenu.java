@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -17,6 +18,7 @@ import com.example.bmwparis.R;
 import com.example.bmwparis.activity.connexion.MainActivity;
 import com.example.bmwparis.activity.gestionUsers.GestionUsers;
 import com.example.bmwparis.activity.gestionVehicules.GestionVehicules;
+import com.example.bmwparis.vehicules.VehiculeClient;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -32,15 +34,12 @@ public class AdminMenu extends AppCompatActivity {
     Button button_dashboard_vehicules, button_dashboard_users, button_dashboard_techs, button_dashboard_admins,
            button_dashboard_clients, button_dashboard_essais, button_dashboard_devis, button_dashboard_vehclients,
            button_dashboard_vehneufs, button_dashboard_vehoccasions;
-    Button dataButton;
-    ArrayList<String> categoriesDashboard;
     private RequestQueue mQueue;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_admin_menu);
-
         mQueue = Volley.newRequestQueue(this);
 
         // BOUTONS MENU
@@ -60,14 +59,34 @@ public class AdminMenu extends AppCompatActivity {
         this.button_dashboard_vehneufs = (Button) findViewById(R.id.button_dashboard_vehneufs);
         this.button_dashboard_vehoccasions = (Button) findViewById(R.id.button_dashboard_vehoccasions);
 
-        categoriesDashboard = new ArrayList<>();
-        categoriesDashboard.add("vehiculeclients");
-        categoriesDashboard.add("vehiculeoccasions");
-        categoriesDashboard.add("vehiculeneufs");
-
-        for(int i = 0; i < categoriesDashboard.size() - 1; i ++) {
-            getData(categoriesDashboard.get(i));
-        }
+        String url = "http://51.38.34.13:3000/api/bmw/getdashboard";
+        StringRequest dashboardRequest = new StringRequest(Request.Method.GET, url, new Response.Listener<String>() {
+            @Override
+            public void onResponse(String response) {
+                try {
+                    JSONArray data = new JSONArray(response);
+                    button_dashboard_vehicules.setText("vehicules " + data.getJSONObject(0).getString("vehicules"));
+                    button_dashboard_users.setText("users " +data.getJSONObject(0).getString("users"));
+                    button_dashboard_techs.setText("tech " +data.getJSONObject(0).getString("technicien"));
+                    button_dashboard_admins.setText("admin " +data.getJSONObject(0).getString("admin"));
+                    button_dashboard_clients.setText("client " +data.getJSONObject(0).getString("client"));
+                    button_dashboard_essais.setText("essai " +data.getJSONObject(0).getString("essai"));
+                    button_dashboard_devis.setText("devis " +data.getJSONObject(0).getString("devis"));
+                    button_dashboard_vehclients.setText("veh client " +data.getJSONObject(0).getString("vehiculeClient"));
+                    button_dashboard_vehneufs.setText("veh neuf " +data.getJSONObject(0).getString("vehiculeNeuf"));
+                    button_dashboard_vehoccasions.setText("veh occas " +data.getJSONObject(0).getString("vehiculeOccasion"));
+                } catch (JSONException e) {
+                    Toast.makeText(getApplicationContext(), e + "", Toast.LENGTH_LONG).show();
+                    e.printStackTrace();
+                }
+            }
+        }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                Toast.makeText(getApplicationContext(), error + "", Toast.LENGTH_LONG).show();
+            }
+        });
+        mQueue.add(dashboardRequest);
 
         button_vehicules.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -93,37 +112,5 @@ public class AdminMenu extends AppCompatActivity {
                 finish();
             }
         });
-    }
-
-    public void getData(String type) {
-        String value = "";
-        switch (type) {
-            case "vehiculeclients"   : value = "views/vehicule/clients";
-                                       dataButton = button_dashboard_vehclients; break ;
-            case "vehiculeoccasions" : value = "views/vehicule/occasions";
-                                       dataButton = button_dashboard_vehoccasions; break ;
-            case "vehiculeneufs"     : value = "views/vehicule/neufs";
-                                       dataButton = button_dashboard_vehneufs; break ;
-        }
-        String url = "http://51.38.34.13:3000/api/bmw/" + value;
-        StringRequest dashboardRequest = new StringRequest(Request.Method.GET, url, new Response.Listener<String>() {
-            @Override
-            public void onResponse(String response) {
-                int dataCount = 0;
-                try {
-                    JSONArray dataArray = new JSONArray(response);
-                    dataCount = dataArray.length();
-                    dataButton.setText(String.valueOf(dataCount));
-                } catch (JSONException e) {
-                    e.printStackTrace();
-                }
-            }
-        }, new Response.ErrorListener() {
-            @Override
-            public void onErrorResponse(VolleyError error) {
-
-            }
-        });
-        mQueue.add(dashboardRequest);
     }
 }
