@@ -25,117 +25,333 @@
             android:layout_gravity="center"
             android:layout_marginBottom="80dp">
 
-            <Button
-                android:id="@+id/button_dashboard_devis"
-                android:layout_height="80dp"
+            <LinearLayout
+                android:gravity="bottom"
+                android:orientation="vertical"
                 android:layout_row="0"
+                android:layout_height="80dp"
                 android:layout_rowWeight="1"
                 android:layout_column="0"
                 android:layout_columnWeight="1"
                 android:layout_margin="5dp"
                 android:background="@drawable/layout_background"
-                android:text="Devis" />
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:textAlignment="center"
+                        android:src="@drawable/devis"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"/>
+                </RelativeLayout>
+                <TextView
+                    android:id="@+id/button_dashboard_devis"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/colorBlack"
+                    android:gravity="center"
+                    android:text="Devis: 10"
+                    android:textStyle="bold" />
+            </LinearLayout>
 
-            <Button
-                android:id="@+id/button_dashboard_vehneufs"
-                android:layout_height="80dp"
+            <LinearLayout
+                android:gravity="bottom"
+                android:orientation="vertical"
                 android:layout_row="0"
+                android:layout_height="80dp"
                 android:layout_rowWeight="1"
                 android:layout_column="1"
                 android:layout_columnWeight="1"
                 android:layout_margin="5dp"
                 android:background="@drawable/layout_background"
-                android:text="Neufs" />
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:textAlignment="center"
+                        android:src="@drawable/vehneuf"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"/>
+                </RelativeLayout>
+                <TextView
+                    android:id="@+id/button_dashboard_vehneufs"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/colorBlack"
+                    android:gravity="center"
+                    android:text="v_neuf: 10"
+                    android:textStyle="bold" />
+            </LinearLayout>
 
-            <Button
-                android:id="@+id/button_dashboard_vehoccasions"
-                android:layout_height="80dp"
+            <LinearLayout
+                android:gravity="bottom"
+                android:orientation="vertical"
                 android:layout_row="0"
+                android:layout_height="80dp"
                 android:layout_rowWeight="1"
                 android:layout_column="2"
                 android:layout_columnWeight="1"
                 android:layout_margin="5dp"
                 android:background="@drawable/layout_background"
-                android:text="Occasions" />
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:textAlignment="center"
+                        android:src="@drawable/vehoccas"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"/>
+                </RelativeLayout>
+                <TextView
+                    android:id="@+id/button_dashboard_vehoccasions"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/colorBlack"
+                    android:gravity="center"
+                    android:text="v_occasion: 10"
+                    android:textStyle="bold" />
+            </LinearLayout>
 
-            <Button
-                android:id="@+id/button_dashboard_vehclients"
-                android:layout_height="80dp"
+
+            <LinearLayout
+                android:gravity="bottom"
+                android:orientation="vertical"
                 android:layout_row="0"
+                android:layout_height="80dp"
                 android:layout_rowWeight="1"
                 android:layout_column="3"
                 android:layout_columnWeight="1"
                 android:layout_margin="5dp"
                 android:background="@drawable/layout_background"
-                android:text="Clients" />
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:textAlignment="center"
+                        android:src="@drawable/vehclient"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"/>
+                </RelativeLayout>
+                <TextView
+                    android:id="@+id/button_dashboard_vehclients"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/colorBlack"
+                    android:gravity="center"
+                    android:text="v_client: 10"
+                    android:textStyle="bold" />
+            </LinearLayout>
 
-            <Button
-                android:id="@+id/button_dashboard_essais"
+            <LinearLayout
+                android:gravity="bottom"
+                android:orientation="vertical"
                 android:layout_height="80dp"
-                android:layout_row="1"
                 android:layout_rowWeight="1"
                 android:layout_column="0"
                 android:layout_columnWeight="1"
                 android:layout_margin="5dp"
                 android:background="@drawable/layout_background"
-                android:text="Essais" />
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:textAlignment="center"
+                        android:src="@drawable/essai"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"/>
+                </RelativeLayout>
+                <TextView
+                    android:id="@+id/button_dashboard_essais"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/colorBlack"
+                    android:gravity="center"
+                    android:text="Essais : 10"
+                    android:textStyle="bold" />
+            </LinearLayout>
 
-            <Button
-                android:id="@+id/button_dashboard_clients"
+            <LinearLayout
+                android:gravity="bottom"
+                android:orientation="vertical"
                 android:layout_height="80dp"
-                android:layout_row="1"
                 android:layout_rowWeight="1"
                 android:layout_column="1"
                 android:layout_columnWeight="1"
                 android:layout_margin="5dp"
                 android:background="@drawable/layout_background"
-                android:text="Clients" />
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:textAlignment="center"
+                        android:src="@drawable/human"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"/>
+                </RelativeLayout>
+                <TextView
+                    android:id="@+id/button_dashboard_clients"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/colorBlack"
+                    android:gravity="center"
+                    android:text="Clients : 10"
+                    android:textStyle="bold" />
+            </LinearLayout>
 
-            <Button
-                android:id="@+id/button_dashboard_techs"
+            <LinearLayout
+                android:gravity="bottom"
+                android:orientation="vertical"
                 android:layout_height="80dp"
-                android:layout_row="1"
                 android:layout_rowWeight="1"
                 android:layout_column="2"
                 android:layout_columnWeight="1"
                 android:layout_margin="5dp"
                 android:background="@drawable/layout_background"
-                android:text="Techs" />
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:textAlignment="center"
+                        android:src="@drawable/technicien"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"/>
+                </RelativeLayout>
+                <TextView
+                    android:id="@+id/button_dashboard_techs"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/colorBlack"
+                    android:gravity="center"
+                    android:text="Techs : 10"
+                    android:textStyle="bold" />
+            </LinearLayout>
 
-            <Button
-                android:id="@+id/button_dashboard_admins"
+            <LinearLayout
+                android:gravity="bottom"
+                android:orientation="vertical"
                 android:layout_height="80dp"
-                android:layout_row="1"
                 android:layout_rowWeight="1"
                 android:layout_column="3"
                 android:layout_columnWeight="1"
                 android:layout_margin="5dp"
                 android:background="@drawable/layout_background"
-                android:text="Admins" />
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:textAlignment="center"
+                        android:src="@drawable/admin"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"/>
+                </RelativeLayout>
+                <TextView
+                    android:id="@+id/button_dashboard_admins"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/colorBlack"
+                    android:gravity="center"
+                    android:text="Admin : 10"
+                    android:textStyle="bold" />
+            </LinearLayout>
 
-            <Button
-                android:id="@+id/button_dashboard_vehicules"
+
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
                 android:layout_height="70dp"
-                android:layout_row="2"
-                android:layout_rowWeight="1"
-                android:layout_column="0"
-                android:layout_columnSpan="2"
                 android:layout_columnWeight="2"
                 android:layout_margin="5dp"
                 android:background="@drawable/layout_background"
-                android:text="Véhicules" />
+                android:layout_columnSpan="2">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:src="@drawable/car"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"/>
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:id="@+id/button_dashboard_vehicules"
+                        android:layout_width="74dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center"
+                        android:background="@color/colorBlack"
+                        android:gravity="center"
+                        android:text="Users"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+            </LinearLayout>
 
-            <Button
-                android:id="@+id/button_dashboard_users"
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
                 android:layout_height="70dp"
-                android:layout_row="2"
-                android:layout_rowWeight="1"
-                android:layout_column="2"
-                android:layout_columnSpan="2"
                 android:layout_columnWeight="2"
                 android:layout_margin="5dp"
                 android:background="@drawable/layout_background"
-                android:text="Users" />
+                android:layout_columnSpan="2">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:src="@drawable/user"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"/>
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:id="@+id/button_dashboard_users"
+                        android:layout_width="74dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center"
+                        android:background="@color/colorBlack"
+                        android:gravity="center"
+                        android:text="Users"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+            </LinearLayout>
 
         </GridLayout>
 

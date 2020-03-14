@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.volley.Request;
@@ -31,7 +32,7 @@ import java.util.Map;
 public class AdminMenu extends AppCompatActivity {
 
     Button button_vehicules, button_users, button_disconnect;
-    Button button_dashboard_vehicules, button_dashboard_users, button_dashboard_techs, button_dashboard_admins,
+    TextView button_dashboard_users, button_dashboard_vehicules, button_dashboard_techs, button_dashboard_admins,
            button_dashboard_clients, button_dashboard_essais, button_dashboard_devis, button_dashboard_vehclients,
            button_dashboard_vehneufs, button_dashboard_vehoccasions;
     private RequestQueue mQueue;
@@ -48,16 +49,16 @@ public class AdminMenu extends AppCompatActivity {
         this.button_disconnect = (Button) findViewById(R.id.button_disconnect);
 
         //BOUTONS DASHBOARD
-        this.button_dashboard_vehicules = (Button) findViewById(R.id.button_dashboard_vehicules);
-        this.button_dashboard_users = (Button) findViewById(R.id.button_dashboard_users);
-        this.button_dashboard_techs = (Button) findViewById(R.id.button_dashboard_techs);
-        this.button_dashboard_admins = (Button) findViewById(R.id.button_dashboard_admins);
-        this.button_dashboard_clients = (Button) findViewById(R.id.button_dashboard_clients);
-        this.button_dashboard_essais = (Button) findViewById(R.id.button_dashboard_essais);
-        this.button_dashboard_devis = (Button) findViewById(R.id.button_dashboard_devis);
-        this.button_dashboard_vehclients = (Button) findViewById(R.id.button_dashboard_vehclients);
-        this.button_dashboard_vehneufs = (Button) findViewById(R.id.button_dashboard_vehneufs);
-        this.button_dashboard_vehoccasions = (Button) findViewById(R.id.button_dashboard_vehoccasions);
+        this.button_dashboard_vehicules = (TextView) findViewById(R.id.button_dashboard_vehicules);
+        this.button_dashboard_users = (TextView) findViewById(R.id.button_dashboard_users);
+        this.button_dashboard_techs = (TextView) findViewById(R.id.button_dashboard_techs);
+        this.button_dashboard_admins = (TextView) findViewById(R.id.button_dashboard_admins);
+        this.button_dashboard_clients = (TextView) findViewById(R.id.button_dashboard_clients);
+        this.button_dashboard_essais = (TextView) findViewById(R.id.button_dashboard_essais);
+        this.button_dashboard_devis = (TextView) findViewById(R.id.button_dashboard_devis);
+        this.button_dashboard_vehclients = (TextView) findViewById(R.id.button_dashboard_vehclients);
+        this.button_dashboard_vehneufs = (TextView) findViewById(R.id.button_dashboard_vehneufs);
+        this.button_dashboard_vehoccasions = (TextView) findViewById(R.id.button_dashboard_vehoccasions);
 
         String url = "http://51.38.34.13:3000/api/bmw/getdashboard";
         StringRequest dashboardRequest = new StringRequest(Request.Method.GET, url, new Response.Listener<String>() {
@@ -65,8 +66,8 @@ public class AdminMenu extends AppCompatActivity {
             public void onResponse(String response) {
                 try {
                     JSONArray data = new JSONArray(response);
-                    button_dashboard_vehicules.setText("vehicules " + data.getJSONObject(0).getString("vehicules"));
-                    button_dashboard_users.setText("users " +data.getJSONObject(0).getString("users"));
+                    button_dashboard_vehicules.setText("vehi : " + data.getJSONObject(0).getString("vehicules"));
+                    button_dashboard_users.setText("Users : " +data.getJSONObject(0).getString("users"));
                     button_dashboard_techs.setText("tech " +data.getJSONObject(0).getString("technicien"));
                     button_dashboard_admins.setText("admin " +data.getJSONObject(0).getString("admin"));
                     button_dashboard_clients.setText("client " +data.getJSONObject(0).getString("client"));

@@ -632,6 +632,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable admin
 drawable avatar
 drawable background_15
 drawable background_2
@@ -639,7 +640,11 @@ drawable background_3
 drawable background_app
 drawable button_model
 drawable button_model_disconnect
+drawable car
+drawable devis
 drawable edit_model
+drawable essai
+drawable human
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable layout_background
@@ -656,8 +661,13 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable technicien
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable user
+drawable vehclient
+drawable vehneuf
+drawable vehoccas
 drawable x5_1
 drawable x6_1
 id ALT
