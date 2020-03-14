@@ -1,218 +1,214 @@
 [
     {
-        "merged": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_3.jpg.flat",
+        "source": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\drawable\\background_3.jpg"
     },
     {
-        "merged": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable_human.png.flat",
-        "source": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\drawable\\human.png"
+        "merged": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_gestion_users_admins.xml.flat",
+        "source": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\layout\\activity_gestion_users_admins.xml"
     },
     {
-        "merged": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable_devis.png.flat",
-        "source": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\drawable\\devis.png"
+        "merged": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable_user.png.flat",
+        "source": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\drawable\\user.png"
     },
     {
-        "merged": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_2.jpg.flat",
-        "source": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\drawable\\background_2.jpg"
+        "merged": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo.png.flat",
+        "source": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\drawable\\logo.png"
     },
     {
-        "merged": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable_vehneuf.png.flat",
-        "source": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\drawable\\vehneuf.png"
+        "merged": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_gestion_users_ajouter.xml.flat",
+        "source": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\layout\\activity_gestion_users_ajouter.xml"
     },
     {
-        "merged": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable_car.png.flat",
-        "source": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\drawable\\car.png"
+        "merged": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_model.xml.flat",
+        "source": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\drawable\\button_model.xml"
     },
     {
-        "merged": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable_edit_model.xml.flat",
-        "source": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\drawable\\edit_model.xml"
+        "merged": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable_vehclient.png.flat",
-        "source": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\drawable\\vehclient.png"
+        "merged": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable_x6_1.jpg.flat",
-        "source": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\drawable\\x6_1.jpg"
+        "merged": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_vehicules.xml.flat",
+        "source": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\layout\\list_vehicules.xml"
     },
     {
-        "merged": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_gestion_vehicules_ajouter.xml.flat",
-        "source": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\layout\\activity_gestion_vehicules_ajouter.xml"
+        "merged": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable_admin.png.flat",
+        "source": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\drawable\\admin.png"
     },
     {
-        "merged": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable_essai.png.flat",
-        "source": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\drawable\\essai.png"
+        "merged": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable_devis.png.flat",
+        "source": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\drawable\\devis.png"
     },
     {
-        "merged": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_gestion_vehicules_clients.xml.flat",
-        "source": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\layout\\activity_gestion_vehicules_clients.xml"
+        "merged": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable_human.png.flat",
+        "source": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\drawable\\human.png"
     },
     {
-        "merged": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_add_vehicule_client.xml.flat",
-        "source": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\layout\\activity_add_vehicule_client.xml"
+        "merged": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable_essai.png.flat",
+        "source": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\drawable\\essai.png"
     },
     {
-        "merged": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable_vehoccas.png.flat",
-        "source": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\drawable\\vehoccas.png"
+        "merged": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_2.jpg.flat",
+        "source": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\drawable\\background_2.jpg"
     },
     {
-        "merged": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable_vehclient.png.flat",
+        "source": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\drawable\\vehclient.png"
     },
     {
-        "merged": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_model_disconnect.xml.flat",
-        "source": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\drawable\\button_model_disconnect.xml"
+        "merged": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_admin_menu.xml.flat",
+        "source": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\layout\\activity_admin_menu.xml"
     },
     {
-        "merged": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_app.jpg.flat",
-        "source": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\drawable\\background_app.jpg"
+        "merged": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable_vehneuf.png.flat",
+        "source": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\drawable\\vehneuf.png"
     },
     {
-        "merged": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_admin_menu.xml.flat",
-        "source": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\layout\\activity_admin_menu.xml"
+        "merged": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_gestion_vehicules_neufs.xml.flat",
+        "source": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\layout\\activity_gestion_vehicules_neufs.xml"
     },
     {
-        "merged": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable_car.png.flat",
+        "source": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\drawable\\car.png"
     },
     {
-        "merged": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_add_vehicule_neuf.xml.flat",
+        "source": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\layout\\activity_add_vehicule_neuf.xml"
     },
     {
-        "merged": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_gestion_users_clients.xml.flat",
-        "source": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\layout\\activity_gestion_users_clients.xml"
+        "merged": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_15.jpg.flat",
-        "source": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\drawable\\background_15.jpg"
+        "merged": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_gestion_vehicules_ajouter.xml.flat",
+        "source": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\layout\\activity_gestion_vehicules_ajouter.xml"
     },
     {
-        "merged": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable_admin.png.flat",
-        "source": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\drawable\\admin.png"
+        "merged": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_app.jpg.flat",
+        "source": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\drawable\\background_app.jpg"
     },
     {
-        "merged": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\xml_network_security_config.xml.flat",
+        "source": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\xml\\network_security_config.xml"
     },
     {
-        "merged": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable_edit_model.xml.flat",
+        "source": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\drawable\\edit_model.xml"
     },
     {
-        "merged": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_3.jpg.flat",
-        "source": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\drawable\\background_3.jpg"
+        "merged": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_gestion_vehicules_occasions.xml.flat",
+        "source": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\layout\\activity_gestion_vehicules_occasions.xml"
     },
     {
-        "merged": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\xml_network_security_config.xml.flat",
-        "source": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\xml\\network_security_config.xml"
+        "merged": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_gestion_users.xml.flat",
-        "source": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\layout\\activity_gestion_users.xml"
+        "merged": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_gestion_vehicules.xml.flat",
-        "source": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\layout\\activity_gestion_vehicules.xml"
+        "merged": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_gestion_users.xml.flat",
+        "source": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\layout\\activity_gestion_users.xml"
     },
     {
-        "merged": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_gestion_vehicules_neufs.xml.flat",
-        "source": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\layout\\activity_gestion_vehicules_neufs.xml"
+        "merged": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_gestion_users_techs.xml.flat",
+        "source": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\layout\\activity_gestion_users_techs.xml"
     },
     {
-        "merged": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo.png.flat",
-        "source": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\drawable\\logo.png"
+        "merged": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_users.xml.flat",
+        "source": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\layout\\list_users.xml"
     },
     {
-        "merged": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable_layout_background.xml.flat",
-        "source": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\drawable\\layout_background.xml"
+        "merged": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable_x6_1.jpg.flat",
+        "source": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\drawable\\x6_1.jpg"
     },
     {
-        "merged": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_users.xml.flat",
-        "source": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\layout\\list_users.xml"
+        "merged": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+        "merged": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable_layout_background.xml.flat",
+        "source": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\drawable\\layout_background.xml"
     },
     {
-        "merged": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_gestion_users_clients.xml.flat",
+        "source": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\layout\\activity_gestion_users_clients.xml"
     },
     {
-        "merged": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable_user.png.flat",
-        "source": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\drawable\\user.png"
+        "merged": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable_vehoccas.png.flat",
+        "source": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\drawable\\vehoccas.png"
     },
     {
-        "merged": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_model_disconnect.xml.flat",
+        "source": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\drawable\\button_model_disconnect.xml"
     },
     {
-        "merged": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable_technicien.png.flat",
-        "source": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\drawable\\technicien.png"
+        "merged": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable_x5_1.jpg.flat",
+        "source": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\drawable\\x5_1.jpg"
     },
     {
-        "merged": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_gestion_users_techs.xml.flat",
-        "source": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\layout\\activity_gestion_users_techs.xml"
+        "merged": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_model.xml.flat",
-        "source": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\drawable\\button_model.xml"
+        "merged": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_add_vehicule_occas.xml.flat",
+        "source": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\layout\\activity_add_vehicule_occas.xml"
     },
     {
-        "merged": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable_x5_1.jpg.flat",
-        "source": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\drawable\\x5_1.jpg"
+        "merged": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_gestion_users_admins.xml.flat",
-        "source": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\layout\\activity_gestion_users_admins.xml"
+        "merged": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_gestion_vehicules.xml.flat",
+        "source": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\layout\\activity_gestion_vehicules.xml"
     },
     {
-        "merged": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable_avatar.jpg.flat",
-        "source": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\drawable\\avatar.jpg"
+        "merged": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_gestion_vehicules_clients.xml.flat",
+        "source": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\layout\\activity_gestion_vehicules_clients.xml"
     },
     {
-        "merged": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_vehicules.xml.flat",
-        "source": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\layout\\list_vehicules.xml"
+        "merged": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable_technicien.png.flat",
+        "source": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\drawable\\technicien.png"
     },
     {
-        "merged": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_add_vehicule_neuf.xml.flat",
-        "source": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\layout\\activity_add_vehicule_neuf.xml"
+        "merged": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_add_vehicule_occas.xml.flat",
-        "source": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\layout\\activity_add_vehicule_occas.xml"
+        "merged": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_15.jpg.flat",
+        "source": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\drawable\\background_15.jpg"
     },
     {
-        "merged": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_gestion_users_ajouter.xml.flat",
-        "source": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\layout\\activity_gestion_users_ajouter.xml"
-    },
-    {
-        "merged": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_gestion_vehicules_occasions.xml.flat",
-        "source": "C:\\Users\\Lokman\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\layout\\activity_gestion_vehicules_occasions.xml"
+        "merged": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_add_vehicule_client.xml.flat",
+        "source": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\layout\\activity_add_vehicule_client.xml"
     }
 ]

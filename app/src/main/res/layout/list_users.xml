@@ -4,15 +4,17 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/transparentDarkGrey">
 
     <ImageView
         android:id="@+id/list_users_img"
         android:layout_width="117dp"
         android:layout_height="112dp"
+        android:padding="5dp"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="-2dp"
-        tools:srcCompat="@drawable/avatar" />
+        tools:srcCompat="@drawable/user" />
 
     <TextView
         android:id="@+id/list_users_lastname"
@@ -22,6 +24,7 @@
         android:layout_marginTop="4dp"
         android:layout_weight="1"
         android:text="TextView"
+        android:textColor="@color/colorWhite"
         app:layout_constraintStart_toEndOf="@+id/list_users_img"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -34,6 +37,7 @@
         android:layout_marginTop="10dp"
         android:layout_weight="1"
         android:text="TextView"
+        android:textColor="@color/colorWhite"
         app:layout_constraintStart_toEndOf="@+id/list_users_img"
         app:layout_constraintTop_toBottomOf="@+id/list_users_lastname" />
 
@@ -45,6 +49,7 @@
         android:layout_marginTop="10dp"
         android:layout_weight="1"
         android:text="TextView"
+        android:textColor="@color/colorWhite"
         app:layout_constraintStart_toEndOf="@+id/list_users_img"
         app:layout_constraintTop_toBottomOf="@+id/list_users_name" />
 
@@ -56,6 +61,7 @@
         android:layout_marginTop="10dp"
         android:layout_weight="1"
         android:text="TextView"
+        android:textColor="@color/colorWhite"
         app:layout_constraintStart_toEndOf="@+id/list_users_img"
         app:layout_constraintTop_toBottomOf="@+id/list_users_mail" />
 

@@ -6,9 +6,53 @@
     android:layout_height="match_parent"
     tools:context=".activity.gestionUsers.GestionUsersAdmins">
 
-    <ListView
-        android:id="@+id/listview_user_admin"
+    <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:background="@drawable/background_3">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/header_adapter_admin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginBottom="1px"
+                android:paddingBottom="15dp"
+                android:background="@color/transparentDarkGrey"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/logo_adapter_admin"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:paddingTop="10dp"
+                    android:src="@drawable/admin"
+                    android:layout_marginBottom="1px"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Clients"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="@color/colorWhite"/>
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/listview_user_admin"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="@color/transparentClearGrey"
+                android:dividerHeight="1dp"
+                android:layout_below="@id/header_adapter_admin"/>
+
+        </RelativeLayout>
+
+    </FrameLayout>
 
 </RelativeLayout>

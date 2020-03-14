@@ -56,11 +56,11 @@ public class UsersAdminItemsAdapter extends BaseAdapter {
         TextView mailView = view.findViewById(R.id.list_users_mail);
         TextView telView = view.findViewById(R.id.list_users_tel);
 
-        imgView.setImageResource(R.drawable.avatar);
-        lastnameView.setText("Nom : " + nom);
-        nameView.setText("Prénom : " + prenom);
-        mailView.setText("Mail : " + mail);
-        telView.setText("Téléphone : " + tel);
+        imgView.setImageResource(R.drawable.user);
+        lastnameView.setText(nom.toUpperCase());
+        nameView.setText(prenom);
+        mailView.setText(mail);
+        telView.setText(tel);
 
         return view;
     }
