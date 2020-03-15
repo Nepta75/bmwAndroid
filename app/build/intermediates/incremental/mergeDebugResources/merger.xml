@@ -179,7 +179,45 @@
         </attr>
     </declare-styleable><style name="Widget.Support.CoordinatorLayout" parent="android:Widget">
         <item name="statusBarBackground">#000000</item>
-    </style></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.constraintlayout:constraintlayout:1.1.3$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\miguo\.gradle\caches\transforms-2\files-2.1\75fe1a0d0ea641341446dfd6b8974e96\constraintlayout-1.1.3\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.constraintlayout:constraintlayout:1.1.3" from-dependency="true" generated-set="androidx.constraintlayout:constraintlayout:1.1.3$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\miguo\.gradle\caches\transforms-2\files-2.1\75fe1a0d0ea641341446dfd6b8974e96\constraintlayout-1.1.3\res"><file path="C:\Users\miguo\.gradle\caches\transforms-2\files-2.1\75fe1a0d0ea641341446dfd6b8974e96\constraintlayout-1.1.3\res\values\values.xml" qualifiers=""><attr format="boolean" name="barrierAllowsGoneWidgets"/><attr format="enum" name="barrierDirection">
+    </style></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="com.synnapps:carouselview:0.1.5$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\miguo\.gradle\caches\transforms-2\files-2.1\7b571d391ff43ad7a799626276869b6a\jetified-carouselview-0.1.5\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="com.synnapps:carouselview:0.1.5" from-dependency="true" generated-set="com.synnapps:carouselview:0.1.5$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\miguo\.gradle\caches\transforms-2\files-2.1\7b571d391ff43ad7a799626276869b6a\jetified-carouselview-0.1.5\res"><file path="C:\Users\miguo\.gradle\caches\transforms-2\files-2.1\7b571d391ff43ad7a799626276869b6a\jetified-carouselview-0.1.5\res\values\values.xml" qualifiers=""><attr format="boolean" name="animateOnBoundary"/><attr format="boolean" name="autoPlay"/><attr format="boolean" name="centered"/><attr format="boolean" name="disableAutoPlayOnUserInteraction"/><attr format="color" name="fillColor"/><attr name="indicatorGravity">
+        
+        <flag name="top" value="0x30"/>
+        
+        <flag name="bottom" value="0x50"/>
+        
+        <flag name="left" value="0x03"/>
+        
+        <flag name="right" value="0x05"/>
+        
+        <flag name="center_vertical" value="0x10"/>
+        
+        <flag name="center_horizontal" value="0x01"/>
+        
+        <flag name="center" value="0x11"/>
+        
+        <flag name="start" value="0x00800003"/>
+        
+        <flag name="end" value="0x00800005"/>
+    </attr><attr format="dimension" name="indicatorMarginHorizontal"/><attr format="dimension" name="indicatorMarginVertical"/><attr name="indicatorOrientation">
+        <enum name="horizontal" value="0"/>
+        <enum name="vertical" value="1"/>
+    </attr><attr name="indicatorVisibility">
+        
+        <enum name="visible" value="0"/>
+        
+        <enum name="invisible" value="4"/>
+        
+        <enum name="gone" value="8"/>
+    </attr><attr format="color" name="pageColor"/><attr format="integer" name="pageTransformInterval"/><attr name="pageTransformer">
+        <enum name="flow" value="0"/>
+        <enum name="depth" value="1"/>
+        <enum name="zoom" value="2"/>
+        <enum name="slide_over" value="3"/>
+    </attr><attr format="dimension" name="radius"/><attr format="integer" name="slideInterval"/><attr format="boolean" name="snap"/><attr format="color" name="strokeColor"/><attr format="dimension" name="strokeWidth"/><bool name="default_circle_indicator_centered">true</bool><bool name="default_circle_indicator_snap">false</bool><color name="default_circle_indicator_fill_color">#FFFFFFFF</color><color name="default_circle_indicator_page_color">#00000000</color><color name="default_circle_indicator_stroke_color">#FFDDDDDD</color><color name="vpi__background_holo_dark">#ff000000</color><color name="vpi__background_holo_light">#fff3f3f3</color><color name="vpi__bright_foreground_disabled_holo_dark">#ff4c4c4c</color><color name="vpi__bright_foreground_disabled_holo_light">#ffb2b2b2</color><color name="vpi__bright_foreground_holo_dark">@color/vpi__background_holo_light</color><color name="vpi__bright_foreground_holo_light">@color/vpi__background_holo_dark</color><color name="vpi__bright_foreground_inverse_holo_dark">
+        @color/vpi__bright_foreground_holo_light
+    </color><color name="vpi__bright_foreground_inverse_holo_light">
+        @color/vpi__bright_foreground_holo_dark
+    </color><declare-styleable name="CarouselView"><attr name="slideInterval"/><attr name="indicatorGravity"/><attr name="indicatorOrientation"/><attr name="fillColor"/><attr name="pageColor"/><attr name="radius"/><attr name="snap"/><attr name="strokeColor"/><attr name="strokeWidth"/><attr name="autoPlay"/><attr name="disableAutoPlayOnUserInteraction"/><attr name="indicatorMarginHorizontal"/><attr name="indicatorMarginVertical"/><attr name="pageTransformInterval"/><attr name="pageTransformer"/><attr name="animateOnBoundary"/><attr name="indicatorVisibility"/></declare-styleable><declare-styleable name="CirclePageIndicator"><attr name="centered"/><attr name="fillColor"/><attr name="pageColor"/><attr name="android:orientation"/><attr name="radius"/><attr name="snap"/><attr name="strokeColor"/><attr name="strokeWidth"/><attr name="android:background"/></declare-styleable><declare-styleable name="ViewPagerIndicator"><attr format="reference" name="vpiCirclePageIndicatorStyle"/></declare-styleable><dimen name="default_circle_indicator_radius">3dp</dimen><dimen name="default_circle_indicator_stroke_width">1dp</dimen><dimen name="default_indicator_margin_horizontal">10dp</dimen><dimen name="default_indicator_margin_vertical">25dp</dimen><integer name="default_circle_indicator_orientation">0</integer><string name="app_name">CarouselView</string></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.constraintlayout:constraintlayout:1.1.3$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\miguo\.gradle\caches\transforms-2\files-2.1\75fe1a0d0ea641341446dfd6b8974e96\constraintlayout-1.1.3\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.constraintlayout:constraintlayout:1.1.3" from-dependency="true" generated-set="androidx.constraintlayout:constraintlayout:1.1.3$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\miguo\.gradle\caches\transforms-2\files-2.1\75fe1a0d0ea641341446dfd6b8974e96\constraintlayout-1.1.3\res"><file path="C:\Users\miguo\.gradle\caches\transforms-2\files-2.1\75fe1a0d0ea641341446dfd6b8974e96\constraintlayout-1.1.3\res\values\values.xml" qualifiers=""><attr format="boolean" name="barrierAllowsGoneWidgets"/><attr format="enum" name="barrierDirection">
         <enum name="left" value="0"/>
         <enum name="right" value="1"/>
         <enum name="top" value="2"/>
@@ -2668,12 +2706,12 @@
     </style><style name="Base.ThemeOverlay.AppCompat.Dialog" parent="Base.V21.ThemeOverlay.AppCompat.Dialog">
         <item name="android:windowIsFloating">false</item>
         <item name="android:windowElevation">0dp</item>
-    </style></file><file path="C:\Users\miguo\.gradle\caches\transforms-2\files-2.1\7805427e3445d32c2ff10acb510a061d\appcompat-1.0.2\res\values-xlarge-v4\values-xlarge-v4.xml" qualifiers="xlarge-v4"><item name="abc_dialog_fixed_height_major" type="dimen">60%</item><item name="abc_dialog_fixed_height_minor" type="dimen">90%</item><item name="abc_dialog_fixed_width_major" type="dimen">50%</item><item name="abc_dialog_fixed_width_minor" type="dimen">70%</item><item name="abc_dialog_min_width_major" type="dimen">45%</item><item name="abc_dialog_min_width_minor" type="dimen">72%</item></file><file path="C:\Users\miguo\.gradle\caches\transforms-2\files-2.1\7805427e3445d32c2ff10acb510a061d\appcompat-1.0.2\res\values-zh-rCN\values-zh-rCN.xml" qualifiers="zh-rCN"><string msgid="4600421777120114993" name="abc_action_bar_home_description">"转到主屏幕"</string><string msgid="1594238315039666878" name="abc_action_bar_up_description">"转到上一层级"</string><string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"更多选项"</string><string msgid="4076576682505996667" name="abc_action_mode_done">"完成"</string><string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"查看全部"</string><string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"选择应用"</string><string msgid="121134116657445385" name="abc_capital_off">"关闭"</string><string msgid="3405795526292276155" name="abc_capital_on">"开启"</string><string msgid="1302280443949172191" name="abc_menu_alt_shortcut_label">"Alt+"</string><string msgid="1324831542140195728" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string><string msgid="8362206064229013510" name="abc_menu_delete_shortcut_label">"Delete 键"</string><string msgid="8341180395196749340" name="abc_menu_enter_shortcut_label">"Enter 键"</string><string msgid="4792426091847145555" name="abc_menu_function_shortcut_label">"Fn+"</string><string msgid="7643535737296831317" name="abc_menu_meta_shortcut_label">"Meta+"</string><string msgid="8126296154200614004" name="abc_menu_shift_shortcut_label">"Shift+"</string><string msgid="2378550843553983978" name="abc_menu_space_shortcut_label">"空格键"</string><string msgid="9002602288060866689" name="abc_menu_sym_shortcut_label">"Sym+"</string><string msgid="1351762916121158029" name="abc_prepend_shortcut_label">"Menu+"</string><string msgid="7723749260725869598" name="abc_search_hint">"搜索…"</string><string msgid="3691816814315814921" name="abc_searchview_description_clear">"清除查询"</string><string msgid="2550479030709304392" name="abc_searchview_description_query">"搜索查询"</string><string msgid="8264924765203268293" name="abc_searchview_description_search">"搜索"</string><string msgid="8928215447528550784" name="abc_searchview_description_submit">"提交查询"</string><string msgid="893419373245838918" name="abc_searchview_description_voice">"语音搜索"</string><string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"分享方式"</string><string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"使用<ns1:g id="APPLICATION_NAME">%s</ns1:g>分享"</string><string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"收起"</string><string msgid="146198913615257606" name="search_menu_title">"搜索"</string></file><file path="C:\Users\miguo\.gradle\caches\transforms-2\files-2.1\7805427e3445d32c2ff10acb510a061d\appcompat-1.0.2\res\values-zh-rHK\values-zh-rHK.xml" qualifiers="zh-rHK"><string msgid="4600421777120114993" name="abc_action_bar_home_description">"瀏覽主頁"</string><string msgid="1594238315039666878" name="abc_action_bar_up_description">"向上瀏覽"</string><string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"更多選項"</string><string msgid="4076576682505996667" name="abc_action_mode_done">"完成"</string><string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"顯示全部"</string><string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"選擇應用程式"</string><string msgid="121134116657445385" name="abc_capital_off">"關閉"</string><string msgid="3405795526292276155" name="abc_capital_on">"開啟"</string><string msgid="1302280443949172191" name="abc_menu_alt_shortcut_label">"Alt +"</string><string msgid="1324831542140195728" name="abc_menu_ctrl_shortcut_label">"Ctrl +"</string><string msgid="8362206064229013510" name="abc_menu_delete_shortcut_label">"刪除"</string><string msgid="8341180395196749340" name="abc_menu_enter_shortcut_label">"Enter 鍵"</string><string msgid="4792426091847145555" name="abc_menu_function_shortcut_label">"Fn +"</string><string msgid="7643535737296831317" name="abc_menu_meta_shortcut_label">"Meta +"</string><string msgid="8126296154200614004" name="abc_menu_shift_shortcut_label">"Shift +"</string><string msgid="2378550843553983978" name="abc_menu_space_shortcut_label">"空白鍵"</string><string msgid="9002602288060866689" name="abc_menu_sym_shortcut_label">"Sym +"</string><string msgid="1351762916121158029" name="abc_prepend_shortcut_label">"Menu +"</string><string msgid="7723749260725869598" name="abc_search_hint">"搜尋…"</string><string msgid="3691816814315814921" name="abc_searchview_description_clear">"清除查詢"</string><string msgid="2550479030709304392" name="abc_searchview_description_query">"搜尋查詢"</string><string msgid="8264924765203268293" name="abc_searchview_description_search">"搜尋"</string><string msgid="8928215447528550784" name="abc_searchview_description_submit">"提交查詢"</string><string msgid="893419373245838918" name="abc_searchview_description_voice">"語音搜尋"</string><string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"分享對象"</string><string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"使用「<ns1:g id="APPLICATION_NAME">%s</ns1:g>」分享"</string><string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"收合"</string><string msgid="146198913615257606" name="search_menu_title">"搜尋"</string></file><file path="C:\Users\miguo\.gradle\caches\transforms-2\files-2.1\7805427e3445d32c2ff10acb510a061d\appcompat-1.0.2\res\values-zh-rTW\values-zh-rTW.xml" qualifiers="zh-rTW"><string msgid="4600421777120114993" name="abc_action_bar_home_description">"瀏覽首頁"</string><string msgid="1594238315039666878" name="abc_action_bar_up_description">"向上瀏覽"</string><string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"更多選項"</string><string msgid="4076576682505996667" name="abc_action_mode_done">"完成"</string><string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"查看全部"</string><string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"選擇應用程式"</string><string msgid="121134116657445385" name="abc_capital_off">"關閉"</string><string msgid="3405795526292276155" name="abc_capital_on">"開啟"</string><string msgid="1302280443949172191" name="abc_menu_alt_shortcut_label">"Alt +"</string><string msgid="1324831542140195728" name="abc_menu_ctrl_shortcut_label">"Ctrl +"</string><string msgid="8362206064229013510" name="abc_menu_delete_shortcut_label">"Delete 鍵"</string><string msgid="8341180395196749340" name="abc_menu_enter_shortcut_label">"Enter 鍵"</string><string msgid="4792426091847145555" name="abc_menu_function_shortcut_label">"Fn +"</string><string msgid="7643535737296831317" name="abc_menu_meta_shortcut_label">"Meta +"</string><string msgid="8126296154200614004" name="abc_menu_shift_shortcut_label">"Shift +"</string><string msgid="2378550843553983978" name="abc_menu_space_shortcut_label">"空格鍵"</string><string msgid="9002602288060866689" name="abc_menu_sym_shortcut_label">"Sym +"</string><string msgid="1351762916121158029" name="abc_prepend_shortcut_label">"Menu +"</string><string msgid="7723749260725869598" name="abc_search_hint">"搜尋…"</string><string msgid="3691816814315814921" name="abc_searchview_description_clear">"清除查詢"</string><string msgid="2550479030709304392" name="abc_searchview_description_query">"搜尋查詢"</string><string msgid="8264924765203268293" name="abc_searchview_description_search">"搜尋"</string><string msgid="8928215447528550784" name="abc_searchview_description_submit">"提交查詢"</string><string msgid="893419373245838918" name="abc_searchview_description_voice">"語音搜尋"</string><string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"選擇分享對象"</string><string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"與「<ns1:g id="APPLICATION_NAME">%s</ns1:g>」分享"</string><string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"收合"</string><string msgid="146198913615257606" name="search_menu_title">"搜尋"</string></file><file path="C:\Users\miguo\.gradle\caches\transforms-2\files-2.1\7805427e3445d32c2ff10acb510a061d\appcompat-1.0.2\res\values-zu\values-zu.xml" qualifiers="zu"><string msgid="4600421777120114993" name="abc_action_bar_home_description">"Zulazulela ekhaya"</string><string msgid="1594238315039666878" name="abc_action_bar_up_description">"Zulazulela phezulu"</string><string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Izinketho eziningi"</string><string msgid="4076576682505996667" name="abc_action_mode_done">"Kwenziwe"</string><string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Buka konke"</string><string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Khetha uhlelo lokusebenza"</string><string msgid="121134116657445385" name="abc_capital_off">"VALIWE"</string><string msgid="3405795526292276155" name="abc_capital_on">"VULIWE"</string><string msgid="1302280443949172191" name="abc_menu_alt_shortcut_label">"Alt+"</string><string msgid="1324831542140195728" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string><string msgid="8362206064229013510" name="abc_menu_delete_shortcut_label">"susa"</string><string msgid="8341180395196749340" name="abc_menu_enter_shortcut_label">"enter"</string><string msgid="4792426091847145555" name="abc_menu_function_shortcut_label">"Function+"</string><string msgid="7643535737296831317" name="abc_menu_meta_shortcut_label">"Meta+"</string><string msgid="8126296154200614004" name="abc_menu_shift_shortcut_label">"Shift+"</string><string msgid="2378550843553983978" name="abc_menu_space_shortcut_label">"space"</string><string msgid="9002602288060866689" name="abc_menu_sym_shortcut_label">"Sym+"</string><string msgid="1351762916121158029" name="abc_prepend_shortcut_label">"Imenyu+"</string><string msgid="7723749260725869598" name="abc_search_hint">"Iyasesha..."</string><string msgid="3691816814315814921" name="abc_searchview_description_clear">"Sula inkinga"</string><string msgid="2550479030709304392" name="abc_searchview_description_query">"Umbuzo wosesho"</string><string msgid="8264924765203268293" name="abc_searchview_description_search">"Sesha"</string><string msgid="8928215447528550784" name="abc_searchview_description_submit">"Hambisa umbuzo"</string><string msgid="893419373245838918" name="abc_searchview_description_voice">"Ukusesha ngezwi"</string><string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Yabelana no-"</string><string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"Yabelana ne-<ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string><string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Goqa"</string><string msgid="146198913615257606" name="search_menu_title">"Sesha"</string></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res"/><source path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\build\generated\res\rs\debug"/><source path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res"><file name="admin" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\drawable\admin.png" qualifiers="" type="drawable"/><file name="background_15" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\drawable\background_15.jpg" qualifiers="" type="drawable"/><file name="background_2" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\drawable\background_2.jpg" qualifiers="" type="drawable"/><file name="background_3" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\drawable\background_3.jpg" qualifiers="" type="drawable"/><file name="background_app" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\drawable\background_app.jpg" qualifiers="" type="drawable"/><file name="button_model" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\drawable\button_model.xml" qualifiers="" type="drawable"/><file name="button_model_disconnect" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\drawable\button_model_disconnect.xml" qualifiers="" type="drawable"/><file name="car" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\drawable\car.png" qualifiers="" type="drawable"/><file name="devis" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\drawable\devis.png" qualifiers="" type="drawable"/><file name="edit_model" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\drawable\edit_model.xml" qualifiers="" type="drawable"/><file name="essai" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\drawable\essai.png" qualifiers="" type="drawable"/><file name="human" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\drawable\human.png" qualifiers="" type="drawable"/><file name="ic_launcher_background" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\drawable\ic_launcher_background.xml" qualifiers="" type="drawable"/><file name="layout_background" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\drawable\layout_background.xml" qualifiers="" type="drawable"/><file name="logo" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\drawable\logo.png" qualifiers="" type="drawable"/><file name="technicien" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\drawable\technicien.png" qualifiers="" type="drawable"/><file name="user" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\drawable\user.png" qualifiers="" type="drawable"/><file name="vehclient" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\drawable\vehclient.png" qualifiers="" type="drawable"/><file name="vehneuf" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\drawable\vehneuf.png" qualifiers="" type="drawable"/><file name="vehoccas" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\drawable\vehoccas.png" qualifiers="" type="drawable"/><file name="x5_1" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\drawable\x5_1.jpg" qualifiers="" type="drawable"/><file name="x6_1" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\drawable\x6_1.jpg" qualifiers="" type="drawable"/><file name="ic_launcher_foreground" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\drawable-v24\ic_launcher_foreground.xml" qualifiers="v24" type="drawable"/><file name="activity_add_vehicule_client" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\layout\activity_add_vehicule_client.xml" qualifiers="" type="layout"/><file name="activity_add_vehicule_neuf" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\layout\activity_add_vehicule_neuf.xml" qualifiers="" type="layout"/><file name="activity_add_vehicule_occas" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\layout\activity_add_vehicule_occas.xml" qualifiers="" type="layout"/><file name="activity_admin_menu" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\layout\activity_admin_menu.xml" qualifiers="" type="layout"/><file name="activity_gestion_users" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\layout\activity_gestion_users.xml" qualifiers="" type="layout"/><file name="activity_gestion_users_admins" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\layout\activity_gestion_users_admins.xml" qualifiers="" type="layout"/><file name="activity_gestion_users_ajouter" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\layout\activity_gestion_users_ajouter.xml" qualifiers="" type="layout"/><file name="activity_gestion_users_clients" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\layout\activity_gestion_users_clients.xml" qualifiers="" type="layout"/><file name="activity_gestion_users_techs" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\layout\activity_gestion_users_techs.xml" qualifiers="" type="layout"/><file name="activity_gestion_vehicules" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\layout\activity_gestion_vehicules.xml" qualifiers="" type="layout"/><file name="activity_gestion_vehicules_ajouter" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\layout\activity_gestion_vehicules_ajouter.xml" qualifiers="" type="layout"/><file name="activity_gestion_vehicules_clients" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\layout\activity_gestion_vehicules_clients.xml" qualifiers="" type="layout"/><file name="activity_gestion_vehicules_neufs" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\layout\activity_gestion_vehicules_neufs.xml" qualifiers="" type="layout"/><file name="activity_gestion_vehicules_occasions" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\layout\activity_gestion_vehicules_occasions.xml" qualifiers="" type="layout"/><file name="activity_main" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\layout\activity_main.xml" qualifiers="" type="layout"/><file name="list_users" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\layout\list_users.xml" qualifiers="" type="layout"/><file name="list_vehicules" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\layout\list_vehicules.xml" qualifiers="" type="layout"/><file name="ic_launcher" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\mipmap-anydpi-v26\ic_launcher.xml" qualifiers="anydpi-v26" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\mipmap-anydpi-v26\ic_launcher_round.xml" qualifiers="anydpi-v26" type="mipmap"/><file name="ic_launcher" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\mipmap-hdpi\ic_launcher.png" qualifiers="hdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\mipmap-hdpi\ic_launcher_round.png" qualifiers="hdpi-v4" type="mipmap"/><file name="ic_launcher" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\mipmap-mdpi\ic_launcher.png" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\mipmap-mdpi\ic_launcher_round.png" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_launcher" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\mipmap-xhdpi\ic_launcher.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\mipmap-xhdpi\ic_launcher_round.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_launcher" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\mipmap-xxhdpi\ic_launcher.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\mipmap-xxhdpi\ic_launcher_round.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_launcher" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\mipmap-xxxhdpi\ic_launcher.png" qualifiers="xxxhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\mipmap-xxxhdpi\ic_launcher_round.png" qualifiers="xxxhdpi-v4" type="mipmap"/><file path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\values\colors.xml" qualifiers=""><color name="colorPrimary">#008577</color><color name="colorPrimaryDark">#00574B</color><color name="colorAccent">#D81B60</color><color name="colorBlack">#000000</color><color name="colorWhite">#FFFFFF</color><color name="colorBlue">#0fbcf9</color><color name="colorGrey">#1e272e</color><color name="transparentClearGrey">#66000000</color><color name="transparentDarkGrey">#B3000000</color></file><file path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\values\strings.xml" qualifiers=""><string name="app_name">BMW Paris</string><string name="textview">TextView</string></file><file path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\values\styles.xml" qualifiers=""><style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    </style></file><file path="C:\Users\miguo\.gradle\caches\transforms-2\files-2.1\7805427e3445d32c2ff10acb510a061d\appcompat-1.0.2\res\values-xlarge-v4\values-xlarge-v4.xml" qualifiers="xlarge-v4"><item name="abc_dialog_fixed_height_major" type="dimen">60%</item><item name="abc_dialog_fixed_height_minor" type="dimen">90%</item><item name="abc_dialog_fixed_width_major" type="dimen">50%</item><item name="abc_dialog_fixed_width_minor" type="dimen">70%</item><item name="abc_dialog_min_width_major" type="dimen">45%</item><item name="abc_dialog_min_width_minor" type="dimen">72%</item></file><file path="C:\Users\miguo\.gradle\caches\transforms-2\files-2.1\7805427e3445d32c2ff10acb510a061d\appcompat-1.0.2\res\values-zh-rCN\values-zh-rCN.xml" qualifiers="zh-rCN"><string msgid="4600421777120114993" name="abc_action_bar_home_description">"转到主屏幕"</string><string msgid="1594238315039666878" name="abc_action_bar_up_description">"转到上一层级"</string><string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"更多选项"</string><string msgid="4076576682505996667" name="abc_action_mode_done">"完成"</string><string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"查看全部"</string><string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"选择应用"</string><string msgid="121134116657445385" name="abc_capital_off">"关闭"</string><string msgid="3405795526292276155" name="abc_capital_on">"开启"</string><string msgid="1302280443949172191" name="abc_menu_alt_shortcut_label">"Alt+"</string><string msgid="1324831542140195728" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string><string msgid="8362206064229013510" name="abc_menu_delete_shortcut_label">"Delete 键"</string><string msgid="8341180395196749340" name="abc_menu_enter_shortcut_label">"Enter 键"</string><string msgid="4792426091847145555" name="abc_menu_function_shortcut_label">"Fn+"</string><string msgid="7643535737296831317" name="abc_menu_meta_shortcut_label">"Meta+"</string><string msgid="8126296154200614004" name="abc_menu_shift_shortcut_label">"Shift+"</string><string msgid="2378550843553983978" name="abc_menu_space_shortcut_label">"空格键"</string><string msgid="9002602288060866689" name="abc_menu_sym_shortcut_label">"Sym+"</string><string msgid="1351762916121158029" name="abc_prepend_shortcut_label">"Menu+"</string><string msgid="7723749260725869598" name="abc_search_hint">"搜索…"</string><string msgid="3691816814315814921" name="abc_searchview_description_clear">"清除查询"</string><string msgid="2550479030709304392" name="abc_searchview_description_query">"搜索查询"</string><string msgid="8264924765203268293" name="abc_searchview_description_search">"搜索"</string><string msgid="8928215447528550784" name="abc_searchview_description_submit">"提交查询"</string><string msgid="893419373245838918" name="abc_searchview_description_voice">"语音搜索"</string><string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"分享方式"</string><string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"使用<ns1:g id="APPLICATION_NAME">%s</ns1:g>分享"</string><string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"收起"</string><string msgid="146198913615257606" name="search_menu_title">"搜索"</string></file><file path="C:\Users\miguo\.gradle\caches\transforms-2\files-2.1\7805427e3445d32c2ff10acb510a061d\appcompat-1.0.2\res\values-zh-rHK\values-zh-rHK.xml" qualifiers="zh-rHK"><string msgid="4600421777120114993" name="abc_action_bar_home_description">"瀏覽主頁"</string><string msgid="1594238315039666878" name="abc_action_bar_up_description">"向上瀏覽"</string><string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"更多選項"</string><string msgid="4076576682505996667" name="abc_action_mode_done">"完成"</string><string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"顯示全部"</string><string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"選擇應用程式"</string><string msgid="121134116657445385" name="abc_capital_off">"關閉"</string><string msgid="3405795526292276155" name="abc_capital_on">"開啟"</string><string msgid="1302280443949172191" name="abc_menu_alt_shortcut_label">"Alt +"</string><string msgid="1324831542140195728" name="abc_menu_ctrl_shortcut_label">"Ctrl +"</string><string msgid="8362206064229013510" name="abc_menu_delete_shortcut_label">"刪除"</string><string msgid="8341180395196749340" name="abc_menu_enter_shortcut_label">"Enter 鍵"</string><string msgid="4792426091847145555" name="abc_menu_function_shortcut_label">"Fn +"</string><string msgid="7643535737296831317" name="abc_menu_meta_shortcut_label">"Meta +"</string><string msgid="8126296154200614004" name="abc_menu_shift_shortcut_label">"Shift +"</string><string msgid="2378550843553983978" name="abc_menu_space_shortcut_label">"空白鍵"</string><string msgid="9002602288060866689" name="abc_menu_sym_shortcut_label">"Sym +"</string><string msgid="1351762916121158029" name="abc_prepend_shortcut_label">"Menu +"</string><string msgid="7723749260725869598" name="abc_search_hint">"搜尋…"</string><string msgid="3691816814315814921" name="abc_searchview_description_clear">"清除查詢"</string><string msgid="2550479030709304392" name="abc_searchview_description_query">"搜尋查詢"</string><string msgid="8264924765203268293" name="abc_searchview_description_search">"搜尋"</string><string msgid="8928215447528550784" name="abc_searchview_description_submit">"提交查詢"</string><string msgid="893419373245838918" name="abc_searchview_description_voice">"語音搜尋"</string><string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"分享對象"</string><string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"使用「<ns1:g id="APPLICATION_NAME">%s</ns1:g>」分享"</string><string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"收合"</string><string msgid="146198913615257606" name="search_menu_title">"搜尋"</string></file><file path="C:\Users\miguo\.gradle\caches\transforms-2\files-2.1\7805427e3445d32c2ff10acb510a061d\appcompat-1.0.2\res\values-zh-rTW\values-zh-rTW.xml" qualifiers="zh-rTW"><string msgid="4600421777120114993" name="abc_action_bar_home_description">"瀏覽首頁"</string><string msgid="1594238315039666878" name="abc_action_bar_up_description">"向上瀏覽"</string><string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"更多選項"</string><string msgid="4076576682505996667" name="abc_action_mode_done">"完成"</string><string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"查看全部"</string><string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"選擇應用程式"</string><string msgid="121134116657445385" name="abc_capital_off">"關閉"</string><string msgid="3405795526292276155" name="abc_capital_on">"開啟"</string><string msgid="1302280443949172191" name="abc_menu_alt_shortcut_label">"Alt +"</string><string msgid="1324831542140195728" name="abc_menu_ctrl_shortcut_label">"Ctrl +"</string><string msgid="8362206064229013510" name="abc_menu_delete_shortcut_label">"Delete 鍵"</string><string msgid="8341180395196749340" name="abc_menu_enter_shortcut_label">"Enter 鍵"</string><string msgid="4792426091847145555" name="abc_menu_function_shortcut_label">"Fn +"</string><string msgid="7643535737296831317" name="abc_menu_meta_shortcut_label">"Meta +"</string><string msgid="8126296154200614004" name="abc_menu_shift_shortcut_label">"Shift +"</string><string msgid="2378550843553983978" name="abc_menu_space_shortcut_label">"空格鍵"</string><string msgid="9002602288060866689" name="abc_menu_sym_shortcut_label">"Sym +"</string><string msgid="1351762916121158029" name="abc_prepend_shortcut_label">"Menu +"</string><string msgid="7723749260725869598" name="abc_search_hint">"搜尋…"</string><string msgid="3691816814315814921" name="abc_searchview_description_clear">"清除查詢"</string><string msgid="2550479030709304392" name="abc_searchview_description_query">"搜尋查詢"</string><string msgid="8264924765203268293" name="abc_searchview_description_search">"搜尋"</string><string msgid="8928215447528550784" name="abc_searchview_description_submit">"提交查詢"</string><string msgid="893419373245838918" name="abc_searchview_description_voice">"語音搜尋"</string><string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"選擇分享對象"</string><string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"與「<ns1:g id="APPLICATION_NAME">%s</ns1:g>」分享"</string><string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"收合"</string><string msgid="146198913615257606" name="search_menu_title">"搜尋"</string></file><file path="C:\Users\miguo\.gradle\caches\transforms-2\files-2.1\7805427e3445d32c2ff10acb510a061d\appcompat-1.0.2\res\values-zu\values-zu.xml" qualifiers="zu"><string msgid="4600421777120114993" name="abc_action_bar_home_description">"Zulazulela ekhaya"</string><string msgid="1594238315039666878" name="abc_action_bar_up_description">"Zulazulela phezulu"</string><string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Izinketho eziningi"</string><string msgid="4076576682505996667" name="abc_action_mode_done">"Kwenziwe"</string><string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Buka konke"</string><string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Khetha uhlelo lokusebenza"</string><string msgid="121134116657445385" name="abc_capital_off">"VALIWE"</string><string msgid="3405795526292276155" name="abc_capital_on">"VULIWE"</string><string msgid="1302280443949172191" name="abc_menu_alt_shortcut_label">"Alt+"</string><string msgid="1324831542140195728" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string><string msgid="8362206064229013510" name="abc_menu_delete_shortcut_label">"susa"</string><string msgid="8341180395196749340" name="abc_menu_enter_shortcut_label">"enter"</string><string msgid="4792426091847145555" name="abc_menu_function_shortcut_label">"Function+"</string><string msgid="7643535737296831317" name="abc_menu_meta_shortcut_label">"Meta+"</string><string msgid="8126296154200614004" name="abc_menu_shift_shortcut_label">"Shift+"</string><string msgid="2378550843553983978" name="abc_menu_space_shortcut_label">"space"</string><string msgid="9002602288060866689" name="abc_menu_sym_shortcut_label">"Sym+"</string><string msgid="1351762916121158029" name="abc_prepend_shortcut_label">"Imenyu+"</string><string msgid="7723749260725869598" name="abc_search_hint">"Iyasesha..."</string><string msgid="3691816814315814921" name="abc_searchview_description_clear">"Sula inkinga"</string><string msgid="2550479030709304392" name="abc_searchview_description_query">"Umbuzo wosesho"</string><string msgid="8264924765203268293" name="abc_searchview_description_search">"Sesha"</string><string msgid="8928215447528550784" name="abc_searchview_description_submit">"Hambisa umbuzo"</string><string msgid="893419373245838918" name="abc_searchview_description_voice">"Ukusesha ngezwi"</string><string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Yabelana no-"</string><string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"Yabelana ne-<ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string><string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Goqa"</string><string msgid="146198913615257606" name="search_menu_title">"Sesha"</string></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res"/><source path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\build\generated\res\rs\debug"/><source path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res"><file name="admin" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\drawable\admin.png" qualifiers="" type="drawable"/><file name="background_15" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\drawable\background_15.jpg" qualifiers="" type="drawable"/><file name="background_2" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\drawable\background_2.jpg" qualifiers="" type="drawable"/><file name="background_3" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\drawable\background_3.jpg" qualifiers="" type="drawable"/><file name="background_4" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\drawable\background_4.jpg" qualifiers="" type="drawable"/><file name="background_app" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\drawable\background_app.jpg" qualifiers="" type="drawable"/><file name="button_model" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\drawable\button_model.xml" qualifiers="" type="drawable"/><file name="button_model_add" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\drawable\button_model_add.xml" qualifiers="" type="drawable"/><file name="button_model_disconnect" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\drawable\button_model_disconnect.xml" qualifiers="" type="drawable"/><file name="car" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\drawable\car.png" qualifiers="" type="drawable"/><file name="devis" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\drawable\devis.png" qualifiers="" type="drawable"/><file name="edit_model" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\drawable\edit_model.xml" qualifiers="" type="drawable"/><file name="essai" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\drawable\essai.png" qualifiers="" type="drawable"/><file name="human" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\drawable\human.png" qualifiers="" type="drawable"/><file name="ic_launcher_background" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\drawable\ic_launcher_background.xml" qualifiers="" type="drawable"/><file name="layout_background" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\drawable\layout_background.xml" qualifiers="" type="drawable"/><file name="logo" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\drawable\logo.png" qualifiers="" type="drawable"/><file name="technicien" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\drawable\technicien.png" qualifiers="" type="drawable"/><file name="user" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\drawable\user.png" qualifiers="" type="drawable"/><file name="vehclient" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\drawable\vehclient.png" qualifiers="" type="drawable"/><file name="vehneuf" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\drawable\vehneuf.png" qualifiers="" type="drawable"/><file name="vehoccas" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\drawable\vehoccas.png" qualifiers="" type="drawable"/><file name="x5_1" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\drawable\x5_1.jpg" qualifiers="" type="drawable"/><file name="x6_1" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\drawable\x6_1.jpg" qualifiers="" type="drawable"/><file name="ic_launcher_foreground" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\drawable-v24\ic_launcher_foreground.xml" qualifiers="v24" type="drawable"/><file name="activity_add_vehicule_client" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\layout\activity_add_vehicule_client.xml" qualifiers="" type="layout"/><file name="activity_add_vehicule_neuf" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\layout\activity_add_vehicule_neuf.xml" qualifiers="" type="layout"/><file name="activity_add_vehicule_occas" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\layout\activity_add_vehicule_occas.xml" qualifiers="" type="layout"/><file name="activity_admin_menu" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\layout\activity_admin_menu.xml" qualifiers="" type="layout"/><file name="activity_fiche_vehicules_neufs" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\layout\activity_fiche_vehicules_neufs.xml" qualifiers="" type="layout"/><file name="activity_gestion_users" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\layout\activity_gestion_users.xml" qualifiers="" type="layout"/><file name="activity_gestion_users_admins" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\layout\activity_gestion_users_admins.xml" qualifiers="" type="layout"/><file name="activity_gestion_users_ajouter" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\layout\activity_gestion_users_ajouter.xml" qualifiers="" type="layout"/><file name="activity_gestion_users_clients" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\layout\activity_gestion_users_clients.xml" qualifiers="" type="layout"/><file name="activity_gestion_users_techs" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\layout\activity_gestion_users_techs.xml" qualifiers="" type="layout"/><file name="activity_gestion_vehicules" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\layout\activity_gestion_vehicules.xml" qualifiers="" type="layout"/><file name="activity_gestion_vehicules_ajouter" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\layout\activity_gestion_vehicules_ajouter.xml" qualifiers="" type="layout"/><file name="activity_gestion_vehicules_clients" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\layout\activity_gestion_vehicules_clients.xml" qualifiers="" type="layout"/><file name="activity_gestion_vehicules_neufs" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\layout\activity_gestion_vehicules_neufs.xml" qualifiers="" type="layout"/><file name="activity_gestion_vehicules_occasions" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\layout\activity_gestion_vehicules_occasions.xml" qualifiers="" type="layout"/><file name="activity_main" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\layout\activity_main.xml" qualifiers="" type="layout"/><file name="list_users" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\layout\list_users.xml" qualifiers="" type="layout"/><file name="list_vehicules" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\layout\list_vehicules.xml" qualifiers="" type="layout"/><file name="ic_launcher" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\mipmap-anydpi-v26\ic_launcher.xml" qualifiers="anydpi-v26" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\mipmap-anydpi-v26\ic_launcher_round.xml" qualifiers="anydpi-v26" type="mipmap"/><file name="ic_launcher" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\mipmap-hdpi\ic_launcher.png" qualifiers="hdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\mipmap-hdpi\ic_launcher_round.png" qualifiers="hdpi-v4" type="mipmap"/><file name="ic_launcher" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\mipmap-mdpi\ic_launcher.png" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\mipmap-mdpi\ic_launcher_round.png" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_launcher" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\mipmap-xhdpi\ic_launcher.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\mipmap-xhdpi\ic_launcher_round.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_launcher" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\mipmap-xxhdpi\ic_launcher.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\mipmap-xxhdpi\ic_launcher_round.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_launcher" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\mipmap-xxxhdpi\ic_launcher.png" qualifiers="xxxhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\mipmap-xxxhdpi\ic_launcher_round.png" qualifiers="xxxhdpi-v4" type="mipmap"/><file path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\values\colors.xml" qualifiers=""><color name="colorPrimary">#008577</color><color name="colorPrimaryDark">#00574B</color><color name="colorAccent">#D81B60</color><color name="colorBlack">#000000</color><color name="colorWhite">#FFFFFF</color><color name="colorBlue">#0fbcf9</color><color name="colorGrey">#1e272e</color><color name="colorGreen">#0be881</color><color name="transparentClearGrey">#66000000</color><color name="transparentDarkGrey">#B3000000</color><color name="colorRed">#ff3f34</color></file><file path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\values\strings.xml" qualifiers=""><string name="app_name">BMW Paris</string><string name="textview">TextView</string></file><file path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\values\styles.xml" qualifiers=""><style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-    </style></file><file name="network_security_config" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\xml\network_security_config.xml" qualifiers="" type="xml"/></source><source path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\build\generated\res\rs\debug"/><source path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="AlertDialog">
+    </style></file><file name="network_security_config" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\xml\network_security_config.xml" qualifiers="" type="xml"/><file name="button_model_delete" path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\res\drawable\button_model_delete.xml" qualifiers="" type="drawable"/></source><source path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\build\generated\res\rs\debug"/><source path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="AlertDialog">
         <attr name="android:layout"/>
         <attr format="reference" name="buttonPanelSideLayout"/>
         <attr format="reference" name="listLayout"/>
@@ -2812,87 +2850,11 @@
 
         
         <attr name="android:tileMode"/>
-    </declare-styleable><declare-styleable name="AnimatedStateListDrawableCompat">
-        
-        <attr name="android:visible"/>
-        
-        <attr name="android:variablePadding"/>
-        
-        <attr name="android:constantSize"/>
-        
-        <attr name="android:dither"/>
-        
-        <attr name="android:enterFadeDuration"/>
-        
-        <attr name="android:exitFadeDuration"/>
-        
-        
-    </declare-styleable><declare-styleable name="ColorStateListItem">
-        
-        <attr name="android:color"/>
-        
-        <attr format="float" name="alpha"/>
-        <attr name="android:alpha"/>
-    </declare-styleable><declare-styleable name="Spinner">
-        
-        <attr name="android:prompt"/>
-        
-        <attr name="popupTheme"/>
-        
-        <attr name="android:popupBackground"/>
-        
-        <attr name="android:dropDownWidth"/>
-        
-        <attr name="android:entries"/>
-    </declare-styleable><declare-styleable name="ConstraintLayout_placeholder"><attr name="emptyVisibility"/><attr name="content"/></declare-styleable><declare-styleable name="PopupWindow">
-        
-        <attr format="boolean" name="overlapAnchor"/>
-        <attr name="android:popupBackground"/>
-        <attr name="android:popupAnimationStyle"/>
     </declare-styleable><declare-styleable name="AnimatedStateListDrawableItem">
         
         <attr name="android:drawable"/>
         
         <attr name="android:id"/>
-    </declare-styleable><declare-styleable name="DrawerArrowToggle">
-        
-        <attr format="color" name="color"/>
-        
-        <attr format="boolean" name="spinBars"/>
-        
-        <attr format="dimension" name="drawableSize"/>
-        
-        <attr format="dimension" name="gapBetweenBars"/>
-        
-        <attr format="dimension" name="arrowHeadLength"/>
-        
-        <attr format="dimension" name="arrowShaftLength"/>
-        
-        <attr format="dimension" name="barLength"/>
-        
-        <attr format="dimension" name="thickness"/>
-    </declare-styleable><declare-styleable name="ActionBarLayout">
-        <attr name="android:layout_gravity"/>
-    </declare-styleable><declare-styleable name="StateListDrawable">
-        
-        <attr name="android:visible"/>
-        
-        <attr name="android:variablePadding"/>
-        
-        <attr name="android:constantSize"/>
-        
-        <attr name="android:dither"/>
-        
-        <attr name="android:enterFadeDuration"/>
-        
-        <attr name="android:exitFadeDuration"/>
-        
-        
-    </declare-styleable><declare-styleable name="ActivityChooserView">
-        
-        <attr format="string" name="initialActivityCount"/>
-        
-        <attr format="reference" name="expandActivityOverflowButtonDrawable"/>
     </declare-styleable><declare-styleable name="GradientColorItem">
         
         <attr name="android:offset"/>
@@ -3240,32 +3202,7 @@
         <attr format="reference|color" name="colorError"/>
 
         <attr format="string" name="viewInflaterClass"/>
-    </declare-styleable><declare-styleable name="ViewStubCompat">
-        
-        <attr name="android:layout"/>
-        
-        <attr name="android:inflatedId"/>
-        <attr name="android:id"/>
-    </declare-styleable><declare-styleable name="ListPopupWindow">
-        
-        <attr name="android:dropDownVerticalOffset"/>
-        
-        <attr name="android:dropDownHorizontalOffset"/>
-    </declare-styleable><declare-styleable name="TextAppearance">
-        <attr name="android:textSize"/>
-        <attr name="android:textColor"/>
-        <attr name="android:textColorHint"/>
-        <attr name="android:textColorLink"/>
-        <attr name="android:textStyle"/>
-        <attr name="android:typeface"/>
-        <attr name="android:fontFamily"/>
-        <attr name="fontFamily"/>
-        <attr name="textAllCaps"/>
-        <attr name="android:shadowColor"/>
-        <attr name="android:shadowDy"/>
-        <attr name="android:shadowDx"/>
-        <attr name="android:shadowRadius"/>
-    </declare-styleable><declare-styleable name="MenuView">
+    </declare-styleable><declare-styleable name="CarouselView"><attr name="slideInterval"/><attr name="indicatorGravity"/><attr name="indicatorOrientation"/><attr name="fillColor"/><attr name="pageColor"/><attr name="radius"/><attr name="snap"/><attr name="strokeColor"/><attr name="strokeWidth"/><attr name="autoPlay"/><attr name="disableAutoPlayOnUserInteraction"/><attr name="indicatorMarginHorizontal"/><attr name="indicatorMarginVertical"/><attr name="pageTransformInterval"/><attr name="pageTransformer"/><attr name="animateOnBoundary"/><attr name="indicatorVisibility"/></declare-styleable><declare-styleable name="MenuView">
         
         <attr name="android:itemTextAppearance"/>
         
@@ -3363,26 +3300,6 @@
         <attr format="dimension" name="elevation"/>
         
         <attr format="reference" name="popupTheme"/>
-    </declare-styleable><declare-styleable name="MenuGroup">
-
-        
-        <attr name="android:id"/>
-
-        
-        <attr name="android:menuCategory"/>
-
-        
-        <attr name="android:orderInCategory"/>
-
-        
-        <attr name="android:checkableBehavior"/>
-
-        
-        <attr name="android:visible"/>
-
-        
-        <attr name="android:enabled"/>
-
     </declare-styleable><declare-styleable name="ActionMenuItemView">
         <attr name="android:minWidth"/>
     </declare-styleable><declare-styleable name="Toolbar">
@@ -3440,31 +3357,10 @@
         <attr name="android:layout_height"/>
         <attr name="android:layout_weight"/>
         <attr name="android:layout_gravity"/>
-    </declare-styleable><declare-styleable name="FontFamily">
-        
-        <attr format="string" name="fontProviderAuthority"/>
-        
-        <attr format="string" name="fontProviderPackage"/>
-        
-        <attr format="string" name="fontProviderQuery"/>
-        
-        <attr format="reference" name="fontProviderCerts"/>
-        
-        <attr name="fontProviderFetchStrategy">
-            
-            <enum name="blocking" value="0"/>
-            
-            <enum name="async" value="1"/>
-        </attr>
-        
-        <attr format="integer" name="fontProviderFetchTimeout">
-            
-            <enum name="forever" value="-1"/>
-        </attr>
     </declare-styleable><declare-styleable name="StateListDrawableItem">
         
         <attr name="android:drawable"/>
-    </declare-styleable><declare-styleable name="AppCompatTextView">
+    </declare-styleable><declare-styleable name="ViewPagerIndicator"><attr format="reference" name="vpiCirclePageIndicatorStyle"/></declare-styleable><declare-styleable name="AppCompatTextView">
         
         <attr format="reference|boolean" name="textAllCaps"/>
         <attr name="android:textAppearance"/>
@@ -3491,6 +3387,265 @@
         <attr format="dimension" name="firstBaselineToTopHeight"/>
         
         <attr format="dimension" name="lastBaselineToBottomHeight"/>
+    </declare-styleable><declare-styleable name="ButtonBarLayout">
+        
+        <attr format="boolean" name="allowStacking"/>
+    </declare-styleable><declare-styleable name="ViewBackgroundHelper">
+        <attr name="android:background"/>
+        
+        <attr format="color" name="backgroundTint"/>
+
+        
+        <attr name="backgroundTintMode">
+            
+            <enum name="src_over" value="3"/>
+            
+            <enum name="src_in" value="5"/>
+            
+            <enum name="src_atop" value="9"/>
+            
+            <enum name="multiply" value="14"/>
+            
+            <enum name="screen" value="15"/>
+            
+            <enum name="add" value="16"/>
+        </attr>
+    </declare-styleable><declare-styleable name="ConstraintSet"><attr name="android:orientation"/><attr name="android:id"/><attr name="android:visibility"/><attr name="android:alpha"/><attr name="android:elevation"/><attr name="android:rotation"/><attr name="android:rotationX"/><attr name="android:rotationY"/><attr name="android:scaleX"/><attr name="android:scaleY"/><attr name="android:transformPivotX"/><attr name="android:transformPivotY"/><attr name="android:translationX"/><attr name="android:translationY"/><attr name="android:translationZ"/><attr name="android:layout_width"/><attr name="android:layout_height"/><attr name="android:layout_marginStart"/><attr name="android:layout_marginBottom"/><attr name="android:layout_marginTop"/><attr name="android:layout_marginEnd"/><attr name="android:layout_marginLeft"/><attr name="android:layout_marginRight"/><attr name="layout_constraintCircle"/><attr name="layout_constraintCircleRadius"/><attr name="layout_constraintCircleAngle"/><attr name="layout_constraintGuide_begin"/><attr name="layout_constraintGuide_end"/><attr name="layout_constraintGuide_percent"/><attr name="layout_constraintLeft_toLeftOf"/><attr name="layout_constraintLeft_toRightOf"/><attr name="layout_constraintRight_toLeftOf"/><attr name="layout_constraintRight_toRightOf"/><attr name="layout_constraintTop_toTopOf"/><attr name="layout_constraintTop_toBottomOf"/><attr name="layout_constraintBottom_toTopOf"/><attr name="layout_constraintBottom_toBottomOf"/><attr name="layout_constraintBaseline_toBaselineOf"/><attr name="layout_constraintStart_toEndOf"/><attr name="layout_constraintStart_toStartOf"/><attr name="layout_constraintEnd_toStartOf"/><attr name="layout_constraintEnd_toEndOf"/><attr name="layout_goneMarginLeft"/><attr name="layout_goneMarginTop"/><attr name="layout_goneMarginRight"/><attr name="layout_goneMarginBottom"/><attr name="layout_goneMarginStart"/><attr name="layout_goneMarginEnd"/><attr name="layout_constrainedWidth"/><attr name="layout_constrainedHeight"/><attr name="layout_constraintHorizontal_bias"/><attr name="layout_constraintVertical_bias"/><attr name="layout_constraintWidth_default"/><attr name="layout_constraintHeight_default"/><attr name="layout_constraintWidth_min"/><attr name="layout_constraintWidth_max"/><attr name="layout_constraintWidth_percent"/><attr name="layout_constraintHeight_min"/><attr name="layout_constraintHeight_max"/><attr name="layout_constraintHeight_percent"/><attr name="layout_constraintLeft_creator"/><attr name="layout_constraintTop_creator"/><attr name="layout_constraintRight_creator"/><attr name="layout_constraintBottom_creator"/><attr name="layout_constraintBaseline_creator"/><attr name="layout_constraintDimensionRatio"/><attr name="layout_constraintHorizontal_weight"/><attr name="layout_constraintVertical_weight"/><attr name="layout_constraintHorizontal_chainStyle"/><attr name="layout_constraintVertical_chainStyle"/><attr name="layout_editor_absoluteX"/><attr name="layout_editor_absoluteY"/><attr name="barrierDirection"/><attr name="constraint_referenced_ids"/><attr name="android:maxHeight"/><attr name="android:maxWidth"/><attr name="android:minHeight"/><attr name="android:minWidth"/><attr name="barrierAllowsGoneWidgets"/><attr name="chainUseRtl"/></declare-styleable><declare-styleable name="AppCompatImageView">
+        <attr name="android:src"/>
+        
+        <attr format="reference" name="srcCompat"/>
+
+        
+        <attr format="color" name="tint"/>
+
+        
+        <attr name="tintMode">
+            
+            <enum name="src_over" value="3"/>
+            
+            <enum name="src_in" value="5"/>
+            
+            <enum name="src_atop" value="9"/>
+            
+            <enum name="multiply" value="14"/>
+            
+            <enum name="screen" value="15"/>
+            
+            <enum name="add" value="16"/>
+        </attr>
+    </declare-styleable><declare-styleable name="ConstraintLayout_Layout"><attr name="android:orientation"/><attr name="android:minWidth"/><attr name="android:minHeight"/><attr name="android:maxWidth"/><attr name="android:maxHeight"/><attr name="layout_optimizationLevel"/><attr name="constraintSet"/><attr name="barrierDirection"/><attr name="barrierAllowsGoneWidgets"/><attr name="constraint_referenced_ids"/><attr name="chainUseRtl"/><attr name="layout_constraintCircle"/><attr name="layout_constraintCircleRadius"/><attr name="layout_constraintCircleAngle"/><attr name="layout_constraintGuide_begin"/><attr name="layout_constraintGuide_end"/><attr name="layout_constraintGuide_percent"/><attr name="layout_constraintLeft_toLeftOf"/><attr name="layout_constraintLeft_toRightOf"/><attr name="layout_constraintRight_toLeftOf"/><attr name="layout_constraintRight_toRightOf"/><attr name="layout_constraintTop_toTopOf"/><attr name="layout_constraintTop_toBottomOf"/><attr name="layout_constraintBottom_toTopOf"/><attr name="layout_constraintBottom_toBottomOf"/><attr name="layout_constraintBaseline_toBaselineOf"/><attr name="layout_constraintStart_toEndOf"/><attr name="layout_constraintStart_toStartOf"/><attr name="layout_constraintEnd_toStartOf"/><attr name="layout_constraintEnd_toEndOf"/><attr name="layout_goneMarginLeft"/><attr name="layout_goneMarginTop"/><attr name="layout_goneMarginRight"/><attr name="layout_goneMarginBottom"/><attr name="layout_goneMarginStart"/><attr name="layout_goneMarginEnd"/><attr name="layout_constrainedWidth"/><attr name="layout_constrainedHeight"/><attr name="layout_constraintHorizontal_bias"/><attr name="layout_constraintVertical_bias"/><attr name="layout_constraintWidth_default"/><attr name="layout_constraintHeight_default"/><attr name="layout_constraintWidth_min"/><attr name="layout_constraintWidth_max"/><attr name="layout_constraintWidth_percent"/><attr name="layout_constraintHeight_min"/><attr name="layout_constraintHeight_max"/><attr name="layout_constraintHeight_percent"/><attr name="layout_constraintLeft_creator"/><attr name="layout_constraintTop_creator"/><attr name="layout_constraintRight_creator"/><attr name="layout_constraintBottom_creator"/><attr name="layout_constraintBaseline_creator"/><attr name="layout_constraintDimensionRatio"/><attr name="layout_constraintHorizontal_weight"/><attr name="layout_constraintVertical_weight"/><attr name="layout_constraintHorizontal_chainStyle"/><attr name="layout_constraintVertical_chainStyle"/><attr name="layout_editor_absoluteX"/><attr name="layout_editor_absoluteY"/></declare-styleable><declare-styleable name="PopupWindowBackgroundState">
+        
+        <attr format="boolean" name="state_above_anchor"/>
+    </declare-styleable><declare-styleable name="ActionMode">
+        
+        <attr name="titleTextStyle"/>
+        
+        <attr name="subtitleTextStyle"/>
+        
+        <attr name="background"/>
+        
+        <attr name="backgroundSplit"/>
+        
+        <attr name="height"/>
+        
+        <attr format="reference" name="closeItemLayout"/>
+    </declare-styleable><declare-styleable name="SwitchCompat">
+        
+        <attr name="android:thumb"/>
+        
+        <attr format="color" name="thumbTint"/>
+        
+        <attr name="thumbTintMode">
+            
+            <enum name="src_over" value="3"/>
+            
+            <enum name="src_in" value="5"/>
+            
+            <enum name="src_atop" value="9"/>
+            
+            <enum name="multiply" value="14"/>
+            
+            <enum name="screen" value="15"/>
+            
+            <enum name="add" value="16"/>
+        </attr>
+        
+        <attr format="reference" name="track"/>
+        
+        <attr format="color" name="trackTint"/>
+        
+        <attr name="trackTintMode">
+            
+            <enum name="src_over" value="3"/>
+            
+            <enum name="src_in" value="5"/>
+            
+            <enum name="src_atop" value="9"/>
+            
+            <enum name="multiply" value="14"/>
+            
+            <enum name="screen" value="15"/>
+            
+            <enum name="add" value="16"/>
+        </attr>
+        
+        <attr name="android:textOn"/>
+        
+        <attr name="android:textOff"/>
+        
+        <attr format="dimension" name="thumbTextPadding"/>
+        
+        <attr format="reference" name="switchTextAppearance"/>
+        
+        <attr format="dimension" name="switchMinWidth"/>
+        
+        <attr format="dimension" name="switchPadding"/>
+        
+        <attr format="boolean" name="splitTrack"/>
+        
+        <attr format="boolean" name="showText"/>
+    </declare-styleable><declare-styleable name="AnimatedStateListDrawableCompat">
+        
+        <attr name="android:visible"/>
+        
+        <attr name="android:variablePadding"/>
+        
+        <attr name="android:constantSize"/>
+        
+        <attr name="android:dither"/>
+        
+        <attr name="android:enterFadeDuration"/>
+        
+        <attr name="android:exitFadeDuration"/>
+        
+        
+    </declare-styleable><declare-styleable name="ColorStateListItem">
+        
+        <attr name="android:color"/>
+        
+        <attr format="float" name="alpha"/>
+        <attr name="android:alpha"/>
+    </declare-styleable><declare-styleable name="Spinner">
+        
+        <attr name="android:prompt"/>
+        
+        <attr name="popupTheme"/>
+        
+        <attr name="android:popupBackground"/>
+        
+        <attr name="android:dropDownWidth"/>
+        
+        <attr name="android:entries"/>
+    </declare-styleable><declare-styleable name="ConstraintLayout_placeholder"><attr name="emptyVisibility"/><attr name="content"/></declare-styleable><declare-styleable name="PopupWindow">
+        
+        <attr format="boolean" name="overlapAnchor"/>
+        <attr name="android:popupBackground"/>
+        <attr name="android:popupAnimationStyle"/>
+    </declare-styleable><declare-styleable name="DrawerArrowToggle">
+        
+        <attr format="color" name="color"/>
+        
+        <attr format="boolean" name="spinBars"/>
+        
+        <attr format="dimension" name="drawableSize"/>
+        
+        <attr format="dimension" name="gapBetweenBars"/>
+        
+        <attr format="dimension" name="arrowHeadLength"/>
+        
+        <attr format="dimension" name="arrowShaftLength"/>
+        
+        <attr format="dimension" name="barLength"/>
+        
+        <attr format="dimension" name="thickness"/>
+    </declare-styleable><declare-styleable name="ActionBarLayout">
+        <attr name="android:layout_gravity"/>
+    </declare-styleable><declare-styleable name="StateListDrawable">
+        
+        <attr name="android:visible"/>
+        
+        <attr name="android:variablePadding"/>
+        
+        <attr name="android:constantSize"/>
+        
+        <attr name="android:dither"/>
+        
+        <attr name="android:enterFadeDuration"/>
+        
+        <attr name="android:exitFadeDuration"/>
+        
+        
+    </declare-styleable><declare-styleable name="ActivityChooserView">
+        
+        <attr format="string" name="initialActivityCount"/>
+        
+        <attr format="reference" name="expandActivityOverflowButtonDrawable"/>
+    </declare-styleable><declare-styleable name="ViewStubCompat">
+        
+        <attr name="android:layout"/>
+        
+        <attr name="android:inflatedId"/>
+        <attr name="android:id"/>
+    </declare-styleable><declare-styleable name="ListPopupWindow">
+        
+        <attr name="android:dropDownVerticalOffset"/>
+        
+        <attr name="android:dropDownHorizontalOffset"/>
+    </declare-styleable><declare-styleable name="TextAppearance">
+        <attr name="android:textSize"/>
+        <attr name="android:textColor"/>
+        <attr name="android:textColorHint"/>
+        <attr name="android:textColorLink"/>
+        <attr name="android:textStyle"/>
+        <attr name="android:typeface"/>
+        <attr name="android:fontFamily"/>
+        <attr name="fontFamily"/>
+        <attr name="textAllCaps"/>
+        <attr name="android:shadowColor"/>
+        <attr name="android:shadowDy"/>
+        <attr name="android:shadowDx"/>
+        <attr name="android:shadowRadius"/>
+    </declare-styleable><declare-styleable name="MenuGroup">
+
+        
+        <attr name="android:id"/>
+
+        
+        <attr name="android:menuCategory"/>
+
+        
+        <attr name="android:orderInCategory"/>
+
+        
+        <attr name="android:checkableBehavior"/>
+
+        
+        <attr name="android:visible"/>
+
+        
+        <attr name="android:enabled"/>
+
+    </declare-styleable><declare-styleable name="FontFamily">
+        
+        <attr format="string" name="fontProviderAuthority"/>
+        
+        <attr format="string" name="fontProviderPackage"/>
+        
+        <attr format="string" name="fontProviderQuery"/>
+        
+        <attr format="reference" name="fontProviderCerts"/>
+        
+        <attr name="fontProviderFetchStrategy">
+            
+            <enum name="blocking" value="0"/>
+            
+            <enum name="async" value="1"/>
+        </attr>
+        
+        <attr format="integer" name="fontProviderFetchTimeout">
+            
+            <enum name="forever" value="-1"/>
+        </attr>
     </declare-styleable><declare-styleable name="MenuItem">
 
         
@@ -3600,30 +3755,7 @@
             <enum name="add" value="16"/>
         </attr>
 
-    </declare-styleable><declare-styleable name="ButtonBarLayout">
-        
-        <attr format="boolean" name="allowStacking"/>
-    </declare-styleable><declare-styleable name="LinearConstraintLayout"><attr name="android:orientation"/></declare-styleable><declare-styleable name="ViewBackgroundHelper">
-        <attr name="android:background"/>
-        
-        <attr format="color" name="backgroundTint"/>
-
-        
-        <attr name="backgroundTintMode">
-            
-            <enum name="src_over" value="3"/>
-            
-            <enum name="src_in" value="5"/>
-            
-            <enum name="src_atop" value="9"/>
-            
-            <enum name="multiply" value="14"/>
-            
-            <enum name="screen" value="15"/>
-            
-            <enum name="add" value="16"/>
-        </attr>
-    </declare-styleable><declare-styleable name="AnimatedStateListDrawableTransition">
+    </declare-styleable><declare-styleable name="LinearConstraintLayout"><attr name="android:orientation"/></declare-styleable><declare-styleable name="AnimatedStateListDrawableTransition">
         
         <attr name="android:fromId"/>
         
@@ -3632,29 +3764,6 @@
         <attr name="android:drawable"/>
         
         <attr name="android:reversible"/>
-    </declare-styleable><declare-styleable name="ConstraintSet"><attr name="android:orientation"/><attr name="android:id"/><attr name="android:visibility"/><attr name="android:alpha"/><attr name="android:elevation"/><attr name="android:rotation"/><attr name="android:rotationX"/><attr name="android:rotationY"/><attr name="android:scaleX"/><attr name="android:scaleY"/><attr name="android:transformPivotX"/><attr name="android:transformPivotY"/><attr name="android:translationX"/><attr name="android:translationY"/><attr name="android:translationZ"/><attr name="android:layout_width"/><attr name="android:layout_height"/><attr name="android:layout_marginStart"/><attr name="android:layout_marginBottom"/><attr name="android:layout_marginTop"/><attr name="android:layout_marginEnd"/><attr name="android:layout_marginLeft"/><attr name="android:layout_marginRight"/><attr name="layout_constraintCircle"/><attr name="layout_constraintCircleRadius"/><attr name="layout_constraintCircleAngle"/><attr name="layout_constraintGuide_begin"/><attr name="layout_constraintGuide_end"/><attr name="layout_constraintGuide_percent"/><attr name="layout_constraintLeft_toLeftOf"/><attr name="layout_constraintLeft_toRightOf"/><attr name="layout_constraintRight_toLeftOf"/><attr name="layout_constraintRight_toRightOf"/><attr name="layout_constraintTop_toTopOf"/><attr name="layout_constraintTop_toBottomOf"/><attr name="layout_constraintBottom_toTopOf"/><attr name="layout_constraintBottom_toBottomOf"/><attr name="layout_constraintBaseline_toBaselineOf"/><attr name="layout_constraintStart_toEndOf"/><attr name="layout_constraintStart_toStartOf"/><attr name="layout_constraintEnd_toStartOf"/><attr name="layout_constraintEnd_toEndOf"/><attr name="layout_goneMarginLeft"/><attr name="layout_goneMarginTop"/><attr name="layout_goneMarginRight"/><attr name="layout_goneMarginBottom"/><attr name="layout_goneMarginStart"/><attr name="layout_goneMarginEnd"/><attr name="layout_constrainedWidth"/><attr name="layout_constrainedHeight"/><attr name="layout_constraintHorizontal_bias"/><attr name="layout_constraintVertical_bias"/><attr name="layout_constraintWidth_default"/><attr name="layout_constraintHeight_default"/><attr name="layout_constraintWidth_min"/><attr name="layout_constraintWidth_max"/><attr name="layout_constraintWidth_percent"/><attr name="layout_constraintHeight_min"/><attr name="layout_constraintHeight_max"/><attr name="layout_constraintHeight_percent"/><attr name="layout_constraintLeft_creator"/><attr name="layout_constraintTop_creator"/><attr name="layout_constraintRight_creator"/><attr name="layout_constraintBottom_creator"/><attr name="layout_constraintBaseline_creator"/><attr name="layout_constraintDimensionRatio"/><attr name="layout_constraintHorizontal_weight"/><attr name="layout_constraintVertical_weight"/><attr name="layout_constraintHorizontal_chainStyle"/><attr name="layout_constraintVertical_chainStyle"/><attr name="layout_editor_absoluteX"/><attr name="layout_editor_absoluteY"/><attr name="barrierDirection"/><attr name="constraint_referenced_ids"/><attr name="android:maxHeight"/><attr name="android:maxWidth"/><attr name="android:minHeight"/><attr name="android:minWidth"/><attr name="barrierAllowsGoneWidgets"/><attr name="chainUseRtl"/></declare-styleable><declare-styleable name="AppCompatImageView">
-        <attr name="android:src"/>
-        
-        <attr format="reference" name="srcCompat"/>
-
-        
-        <attr format="color" name="tint"/>
-
-        
-        <attr name="tintMode">
-            
-            <enum name="src_over" value="3"/>
-            
-            <enum name="src_in" value="5"/>
-            
-            <enum name="src_atop" value="9"/>
-            
-            <enum name="multiply" value="14"/>
-            
-            <enum name="screen" value="15"/>
-            
-            <enum name="add" value="16"/>
-        </attr>
     </declare-styleable><declare-styleable name="View">
         
         <attr format="dimension" name="paddingStart"/>
@@ -3666,9 +3775,6 @@
         <attr format="reference" name="theme"/>
         
         <attr name="android:theme"/>
-    </declare-styleable><declare-styleable name="ConstraintLayout_Layout"><attr name="android:orientation"/><attr name="android:minWidth"/><attr name="android:minHeight"/><attr name="android:maxWidth"/><attr name="android:maxHeight"/><attr name="layout_optimizationLevel"/><attr name="constraintSet"/><attr name="barrierDirection"/><attr name="barrierAllowsGoneWidgets"/><attr name="constraint_referenced_ids"/><attr name="chainUseRtl"/><attr name="layout_constraintCircle"/><attr name="layout_constraintCircleRadius"/><attr name="layout_constraintCircleAngle"/><attr name="layout_constraintGuide_begin"/><attr name="layout_constraintGuide_end"/><attr name="layout_constraintGuide_percent"/><attr name="layout_constraintLeft_toLeftOf"/><attr name="layout_constraintLeft_toRightOf"/><attr name="layout_constraintRight_toLeftOf"/><attr name="layout_constraintRight_toRightOf"/><attr name="layout_constraintTop_toTopOf"/><attr name="layout_constraintTop_toBottomOf"/><attr name="layout_constraintBottom_toTopOf"/><attr name="layout_constraintBottom_toBottomOf"/><attr name="layout_constraintBaseline_toBaselineOf"/><attr name="layout_constraintStart_toEndOf"/><attr name="layout_constraintStart_toStartOf"/><attr name="layout_constraintEnd_toStartOf"/><attr name="layout_constraintEnd_toEndOf"/><attr name="layout_goneMarginLeft"/><attr name="layout_goneMarginTop"/><attr name="layout_goneMarginRight"/><attr name="layout_goneMarginBottom"/><attr name="layout_goneMarginStart"/><attr name="layout_goneMarginEnd"/><attr name="layout_constrainedWidth"/><attr name="layout_constrainedHeight"/><attr name="layout_constraintHorizontal_bias"/><attr name="layout_constraintVertical_bias"/><attr name="layout_constraintWidth_default"/><attr name="layout_constraintHeight_default"/><attr name="layout_constraintWidth_min"/><attr name="layout_constraintWidth_max"/><attr name="layout_constraintWidth_percent"/><attr name="layout_constraintHeight_min"/><attr name="layout_constraintHeight_max"/><attr name="layout_constraintHeight_percent"/><attr name="layout_constraintLeft_creator"/><attr name="layout_constraintTop_creator"/><attr name="layout_constraintRight_creator"/><attr name="layout_constraintBottom_creator"/><attr name="layout_constraintBaseline_creator"/><attr name="layout_constraintDimensionRatio"/><attr name="layout_constraintHorizontal_weight"/><attr name="layout_constraintVertical_weight"/><attr name="layout_constraintHorizontal_chainStyle"/><attr name="layout_constraintVertical_chainStyle"/><attr name="layout_editor_absoluteX"/><attr name="layout_editor_absoluteY"/></declare-styleable><declare-styleable name="PopupWindowBackgroundState">
-        
-        <attr format="boolean" name="state_above_anchor"/>
     </declare-styleable><declare-styleable name="CoordinatorLayout">
         
         <attr format="reference" name="keylines"/>
@@ -3751,22 +3857,9 @@
         
         <attr format="reference" name="submitBackground"/>
         <attr name="android:focusable"/>
-    </declare-styleable><declare-styleable name="ActionMode">
-        
-        <attr name="titleTextStyle"/>
-        
-        <attr name="subtitleTextStyle"/>
-        
-        <attr name="background"/>
-        
-        <attr name="backgroundSplit"/>
-        
-        <attr name="height"/>
-        
-        <attr format="reference" name="closeItemLayout"/>
     </declare-styleable><declare-styleable name="ActionMenuView">
         
-    </declare-styleable><declare-styleable name="CompoundButton">
+    </declare-styleable><declare-styleable name="CirclePageIndicator"><attr name="centered"/><attr name="fillColor"/><attr name="pageColor"/><attr name="android:orientation"/><attr name="radius"/><attr name="snap"/><attr name="strokeColor"/><attr name="strokeWidth"/><attr name="android:background"/></declare-styleable><declare-styleable name="CompoundButton">
         <attr name="android:button"/>
         
         <attr format="color" name="buttonTint"/>
@@ -3786,61 +3879,6 @@
             
             <enum name="add" value="16"/>
         </attr>
-    </declare-styleable><declare-styleable name="SwitchCompat">
-        
-        <attr name="android:thumb"/>
-        
-        <attr format="color" name="thumbTint"/>
-        
-        <attr name="thumbTintMode">
-            
-            <enum name="src_over" value="3"/>
-            
-            <enum name="src_in" value="5"/>
-            
-            <enum name="src_atop" value="9"/>
-            
-            <enum name="multiply" value="14"/>
-            
-            <enum name="screen" value="15"/>
-            
-            <enum name="add" value="16"/>
-        </attr>
-        
-        <attr format="reference" name="track"/>
-        
-        <attr format="color" name="trackTint"/>
-        
-        <attr name="trackTintMode">
-            
-            <enum name="src_over" value="3"/>
-            
-            <enum name="src_in" value="5"/>
-            
-            <enum name="src_atop" value="9"/>
-            
-            <enum name="multiply" value="14"/>
-            
-            <enum name="screen" value="15"/>
-            
-            <enum name="add" value="16"/>
-        </attr>
-        
-        <attr name="android:textOn"/>
-        
-        <attr name="android:textOff"/>
-        
-        <attr format="dimension" name="thumbTextPadding"/>
-        
-        <attr format="reference" name="switchTextAppearance"/>
-        
-        <attr format="dimension" name="switchMinWidth"/>
-        
-        <attr format="dimension" name="switchPadding"/>
-        
-        <attr format="boolean" name="splitTrack"/>
-        
-        <attr format="boolean" name="showText"/>
     </declare-styleable><declare-styleable name="AppCompatTextHelper">
         <attr name="android:drawableLeft"/>
         <attr name="android:drawableTop"/>

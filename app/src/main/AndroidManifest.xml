@@ -13,35 +13,54 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar"
         android:usesCleartextTraffic="true">
+        <activity android:name=".activity.fiches.FicheVehiculesNeufs"></activity>
         <activity
             android:name=".activity.gestionVehicules.ajoutVehicules.AddVehiculeClient"
-            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
-        <activity android:name=".activity.gestionVehicules.ajoutVehicules.AddVehiculeOccas" android:theme="@style/Theme.AppCompat.NoActionBar"/>
-        <activity android:name=".activity.gestionVehicules.ajoutVehicules.AddVehiculeNeuf" android:theme="@style/Theme.AppCompat.NoActionBar"/>
-        <activity android:name=".activity.gestionUsers.GestionUsersTechs"></activity>
-        <activity android:name=".activity.gestionUsers.GestionUsersAjouter" android:theme="@style/Theme.AppCompat.NoActionBar"/>
-        <activity android:name=".activity.gestionUsers.GestionUsersAdmins" android:theme="@style/Theme.AppCompat.NoActionBar"/>
-        <activity android:name=".activity.gestionUsers.GestionUsersClients" android:theme="@style/Theme.AppCompat.NoActionBar"/>
-        <activity android:name=".activity.gestionUsers.GestionUsers" android:theme="@style/Theme.AppCompat.NoActionBar"/>
-        <activity android:name=".activity.gestionVehicules.GestionVehiculesAjouter" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".activity.gestionVehicules.ajoutVehicules.AddVehiculeOccas"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".activity.gestionVehicules.ajoutVehicules.AddVehiculeNeuf"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".activity.gestionUsers.GestionUsersTechs" />
+        <activity
+            android:name=".activity.gestionUsers.GestionUsersAjouter"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".activity.gestionUsers.GestionUsersAdmins"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".activity.gestionUsers.GestionUsersClients"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".activity.gestionUsers.GestionUsers"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".activity.gestionVehicules.GestionVehiculesAjouter"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
             android:name=".activity.gestionVehicules.GestionVehiculesClients"
-            android:theme="@style/Theme.AppCompat.NoActionBar"
-            android:parentActivityName=".activity.gestionVehicules.GestionVehicules" />
+            android:parentActivityName=".activity.gestionVehicules.GestionVehicules"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
             android:name=".activity.gestionVehicules.GestionVehiculesOccasions"
-            android:theme="@style/Theme.AppCompat.NoActionBar"
-            android:parentActivityName=".activity.gestionVehicules.GestionVehicules" />
+            android:parentActivityName=".activity.gestionVehicules.GestionVehicules"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
             android:name=".activity.gestionVehicules.GestionVehiculesNeufs"
-            android:theme="@style/Theme.AppCompat.NoActionBar"
-            android:parentActivityName=".activity.gestionVehicules.GestionVehicules" />
+            android:parentActivityName=".activity.gestionVehicules.GestionVehicules"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
             android:name=".activity.gestionVehicules.GestionVehicules"
-            android:theme="@style/Theme.AppCompat.NoActionBar"
-            android:parentActivityName=".activity.AdminMenu" />
-        <activity android:name=".activity.AdminMenu" android:theme="@style/Theme.AppCompat.NoActionBar"/>
-        <activity android:name=".activity.connexion.MainActivity" android:theme="@style/Theme.AppCompat.NoActionBar">
+            android:parentActivityName=".activity.AdminMenu"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".activity.AdminMenu"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".activity.connexion.MainActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
