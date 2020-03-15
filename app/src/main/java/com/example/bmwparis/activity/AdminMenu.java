@@ -66,16 +66,16 @@ public class AdminMenu extends AppCompatActivity {
             public void onResponse(String response) {
                 try {
                     JSONArray data = new JSONArray(response);
-                    button_dashboard_vehicules.setText("vehi : " + data.getJSONObject(0).getString("vehicules"));
+                    button_dashboard_vehicules.setText("Veh : " + data.getJSONObject(0).getString("vehicules"));
                     button_dashboard_users.setText("Users : " +data.getJSONObject(0).getString("users"));
-                    button_dashboard_techs.setText("tech " +data.getJSONObject(0).getString("technicien"));
-                    button_dashboard_admins.setText("admin " +data.getJSONObject(0).getString("admin"));
-                    button_dashboard_clients.setText("client " +data.getJSONObject(0).getString("client"));
-                    button_dashboard_essais.setText("essai " +data.getJSONObject(0).getString("essai"));
-                    button_dashboard_devis.setText("devis " +data.getJSONObject(0).getString("devis"));
-                    button_dashboard_vehclients.setText("veh client " +data.getJSONObject(0).getString("vehiculeClient"));
-                    button_dashboard_vehneufs.setText("veh neuf " +data.getJSONObject(0).getString("vehiculeNeuf"));
-                    button_dashboard_vehoccasions.setText("veh occas " +data.getJSONObject(0).getString("vehiculeOccasion"));
+                    button_dashboard_techs.setText("Techs : " +data.getJSONObject(0).getString("technicien"));
+                    button_dashboard_admins.setText("Admins : " +data.getJSONObject(0).getString("admin"));
+                    button_dashboard_clients.setText("Clients : " +data.getJSONObject(0).getString("client"));
+                    button_dashboard_essais.setText("Essais : " +data.getJSONObject(0).getString("essai"));
+                    button_dashboard_devis.setText("Devis : " +data.getJSONObject(0).getString("devis"));
+                    button_dashboard_vehclients.setText("V_Clients : " +data.getJSONObject(0).getString("vehiculeClient"));
+                    button_dashboard_vehneufs.setText("V_Neufs : " +data.getJSONObject(0).getString("vehiculeNeuf"));
+                    button_dashboard_vehoccasions.setText("V_Occas : " +data.getJSONObject(0).getString("vehiculeOccasion"));
                 } catch (JSONException e) {
                     Toast.makeText(getApplicationContext(), e + "", Toast.LENGTH_LONG).show();
                     e.printStackTrace();

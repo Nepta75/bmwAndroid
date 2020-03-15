@@ -28,6 +28,7 @@
             <LinearLayout
                 android:gravity="bottom"
                 android:orientation="vertical"
+                android:padding="1dp"
                 android:layout_row="0"
                 android:layout_height="80dp"
                 android:layout_rowWeight="1"
@@ -53,10 +54,11 @@
                     android:layout_height="30dp"
                     android:layout_gravity="bottom"
                     android:layout_marginBottom="5dp"
-                    android:background="@color/colorBlack"
+                    android:background="@color/colorGrey"
                     android:gravity="center"
-                    android:text="Devis: 10"
-                    android:textStyle="bold" />
+                    android:text="Devis : 0"
+                    android:textStyle="bold"
+                    android:textSize="11dp"/>
             </LinearLayout>
 
             <LinearLayout
@@ -67,6 +69,7 @@
                 android:layout_rowWeight="1"
                 android:layout_column="1"
                 android:layout_columnWeight="1"
+                android:padding="1dp"
                 android:layout_margin="5dp"
                 android:background="@drawable/layout_background"
                 >
@@ -87,10 +90,11 @@
                     android:layout_height="30dp"
                     android:layout_gravity="bottom"
                     android:layout_marginBottom="5dp"
-                    android:background="@color/colorBlack"
+                    android:background="@color/colorGrey"
                     android:gravity="center"
-                    android:text="v_neuf: 10"
-                    android:textStyle="bold" />
+                    android:text="V_Neufs : 0"
+                    android:textStyle="bold"
+                    android:textSize="11dp"/>
             </LinearLayout>
 
             <LinearLayout
@@ -102,6 +106,7 @@
                 android:layout_column="2"
                 android:layout_columnWeight="1"
                 android:layout_margin="5dp"
+                android:padding="1dp"
                 android:background="@drawable/layout_background"
                 >
                 <RelativeLayout
@@ -121,10 +126,11 @@
                     android:layout_height="30dp"
                     android:layout_gravity="bottom"
                     android:layout_marginBottom="5dp"
-                    android:background="@color/colorBlack"
+                    android:background="@color/colorGrey"
                     android:gravity="center"
-                    android:text="v_occasion: 10"
-                    android:textStyle="bold" />
+                    android:text="V_Occas : 0"
+                    android:textStyle="bold"
+                    android:textSize="11dp"/>
             </LinearLayout>
 
 
@@ -137,6 +143,7 @@
                 android:layout_column="3"
                 android:layout_columnWeight="1"
                 android:layout_margin="5dp"
+                android:padding="1dp"
                 android:background="@drawable/layout_background"
                 >
                 <RelativeLayout
@@ -156,10 +163,11 @@
                     android:layout_height="30dp"
                     android:layout_gravity="bottom"
                     android:layout_marginBottom="5dp"
-                    android:background="@color/colorBlack"
+                    android:background="@color/colorGrey"
                     android:gravity="center"
-                    android:text="v_client: 10"
-                    android:textStyle="bold" />
+                    android:text="V_Clients : 0"
+                    android:textStyle="bold"
+                    android:textSize="11dp"/>
             </LinearLayout>
 
             <LinearLayout
@@ -170,6 +178,7 @@
                 android:layout_column="0"
                 android:layout_columnWeight="1"
                 android:layout_margin="5dp"
+                android:padding="1dp"
                 android:background="@drawable/layout_background"
                 >
                 <RelativeLayout
@@ -189,10 +198,11 @@
                     android:layout_height="30dp"
                     android:layout_gravity="bottom"
                     android:layout_marginBottom="5dp"
-                    android:background="@color/colorBlack"
+                    android:background="@color/colorGrey"
                     android:gravity="center"
                     android:text="Essais : 10"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:textSize="11dp"/>
             </LinearLayout>
 
             <LinearLayout
@@ -203,6 +213,7 @@
                 android:layout_column="1"
                 android:layout_columnWeight="1"
                 android:layout_margin="5dp"
+                android:padding="1dp"
                 android:background="@drawable/layout_background"
                 >
                 <RelativeLayout
@@ -222,10 +233,11 @@
                     android:layout_height="30dp"
                     android:layout_gravity="bottom"
                     android:layout_marginBottom="5dp"
-                    android:background="@color/colorBlack"
+                    android:background="@color/colorGrey"
                     android:gravity="center"
                     android:text="Clients : 10"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:textSize="11dp" />
             </LinearLayout>
 
             <LinearLayout
@@ -236,6 +248,7 @@
                 android:layout_column="2"
                 android:layout_columnWeight="1"
                 android:layout_margin="5dp"
+                android:padding="1dp"
                 android:background="@drawable/layout_background"
                 >
                 <RelativeLayout
@@ -255,10 +268,11 @@
                     android:layout_height="30dp"
                     android:layout_gravity="bottom"
                     android:layout_marginBottom="5dp"
-                    android:background="@color/colorBlack"
+                    android:background="@color/colorGrey"
                     android:gravity="center"
                     android:text="Techs : 10"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:textSize="11dp"/>
             </LinearLayout>
 
             <LinearLayout
@@ -269,6 +283,7 @@
                 android:layout_column="3"
                 android:layout_columnWeight="1"
                 android:layout_margin="5dp"
+                android:padding="1dp"
                 android:background="@drawable/layout_background"
                 >
                 <RelativeLayout
@@ -288,10 +303,11 @@
                     android:layout_height="30dp"
                     android:layout_gravity="bottom"
                     android:layout_marginBottom="5dp"
-                    android:background="@color/colorBlack"
+                    android:background="@color/colorGrey"
                     android:gravity="center"
                     android:text="Admin : 10"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:textSize="11dp"/>
             </LinearLayout>
 
 
@@ -301,12 +317,15 @@
                 android:layout_height="70dp"
                 android:layout_columnWeight="2"
                 android:layout_margin="5dp"
+                android:padding="1dp"
                 android:background="@drawable/layout_background"
                 android:layout_columnSpan="2">
                 <LinearLayout
                     android:orientation="horizontal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingHorizontal="5dp">
                     <ImageView
                         android:src="@drawable/car"
                         android:layout_width="30dp"
@@ -314,13 +333,15 @@
                     <TextView
                         android:layout_marginLeft="20dp"
                         android:id="@+id/button_dashboard_vehicules"
-                        android:layout_width="74dp"
-                        android:layout_height="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
                         android:layout_gravity="center"
-                        android:background="@color/colorBlack"
+                        android:paddingHorizontal="15dp"
+                        android:background="@drawable/button_model_disconnect"
                         android:gravity="center"
-                        android:text="Users"
-                        android:textStyle="bold"/>
+                        android:text="Veh"
+                        android:textStyle="bold"
+                        android:textSize="14dp"/>
                 </LinearLayout>
             </LinearLayout>
 
@@ -330,12 +351,15 @@
                 android:layout_height="70dp"
                 android:layout_columnWeight="2"
                 android:layout_margin="5dp"
+                android:padding="1dp"
                 android:background="@drawable/layout_background"
                 android:layout_columnSpan="2">
                 <LinearLayout
                     android:orientation="horizontal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingHorizontal="6dp">
                     <ImageView
                         android:src="@drawable/user"
                         android:layout_width="30dp"
@@ -343,13 +367,15 @@
                     <TextView
                         android:layout_marginLeft="20dp"
                         android:id="@+id/button_dashboard_users"
-                        android:layout_width="74dp"
-                        android:layout_height="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
                         android:layout_gravity="center"
-                        android:background="@color/colorBlack"
+                        android:background="@drawable/button_model_disconnect"
+                        android:paddingHorizontal="15dp"
                         android:gravity="center"
                         android:text="Users"
-                        android:textStyle="bold"/>
+                        android:textStyle="bold"
+                        android:textSize="14dp"/>
                 </LinearLayout>
             </LinearLayout>
 

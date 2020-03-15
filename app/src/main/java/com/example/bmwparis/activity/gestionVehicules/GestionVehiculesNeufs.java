@@ -2,7 +2,10 @@ package com.example.bmwparis.activity.gestionVehicules;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
 
@@ -13,6 +16,7 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.example.bmwparis.R;
+import com.example.bmwparis.activity.fiches.FicheVehiculesNeufs;
 import com.example.bmwparis.adapters.VehiculesNeufItemsAdapter;
 import com.example.bmwparis.vehicules.VehiculeNeuf;
 
@@ -21,6 +25,8 @@ import org.json.JSONException;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import static java.lang.String.valueOf;
 
 public class GestionVehiculesNeufs extends AppCompatActivity {
     private RequestQueue mQueue;
@@ -60,6 +66,25 @@ public class GestionVehiculesNeufs extends AppCompatActivity {
                                         , img_1, img_2, prix));
                             }
                             listview_vehicule.setAdapter(new VehiculesNeufItemsAdapter(getApplicationContext(), vehiculesNeuf));
+                            listview_vehicule.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                                @Override
+                                public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                                    Intent ficheVehiculesNeufs = new Intent(getApplicationContext(), FicheVehiculesNeufs.class);
+                                    ficheVehiculesNeufs.putExtra("id_vehicule", valueOf(vehiculesNeuf.get(position).getId_vehicule()));
+                                    ficheVehiculesNeufs.putExtra("cylindree", valueOf(vehiculesNeuf.get(position).getCylindree()));
+                                    ficheVehiculesNeufs.putExtra("marque", vehiculesNeuf.get(position).getMarque());
+                                    ficheVehiculesNeufs.putExtra("modele", vehiculesNeuf.get(position).getModele());
+                                    ficheVehiculesNeufs.putExtra("immatriculation", vehiculesNeuf.get(position).getImmatriculation());
+                                    ficheVehiculesNeufs.putExtra("type_vehicule", vehiculesNeuf.get(position).getType_vehicule());
+                                    ficheVehiculesNeufs.putExtra("energie", vehiculesNeuf.get(position).getEnergie());
+                                    ficheVehiculesNeufs.putExtra("type_boite", vehiculesNeuf.get(position).getType_boite());
+                                    ficheVehiculesNeufs.putExtra("img_1", vehiculesNeuf.get(position).getImg_1());
+                                    ficheVehiculesNeufs.putExtra("img_2", vehiculesNeuf.get(position).getImg_2());
+                                    ficheVehiculesNeufs.putExtra("prix", valueOf(vehiculesNeuf.get(position).getPrix()));
+
+                                    startActivity(ficheVehiculesNeufs);
+                                }
+                            });
                         } catch (JSONException e) {
                             e.printStackTrace();
                             Toast.makeText(getApplicationContext(), "Erreur lors de la récupération de données !", Toast.LENGTH_LONG).show();

@@ -1,6 +1,7 @@
 package com.example.bmwparis.adapters;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -9,6 +10,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.bmwparis.R;
+import com.example.bmwparis.activity.fiches.FicheVehiculesNeufs;
+import com.example.bmwparis.activity.gestionUsers.GestionUsers;
 import com.example.bmwparis.vehicules.VehiculeNeuf;
 
 import java.util.List;
@@ -43,7 +46,7 @@ public class VehiculesNeufItemsAdapter extends BaseAdapter {
     @Override
     public View getView(int position, View view, ViewGroup parent) {
         view = inflater.inflate(R.layout.list_vehicules, null);
-        VehiculeNeuf currentItem = getItem(position);
+        final VehiculeNeuf currentItem = getItem(position);
         String modele = currentItem.getModele();
         Float prix = currentItem.getPrix();
         float km = 0;
@@ -55,9 +58,8 @@ public class VehiculesNeufItemsAdapter extends BaseAdapter {
         TextView kmView = view.findViewById(R.id.list_vehicules_km);
 
         imgView.setImageResource(context.getResources().getIdentifier(img.substring(0, img.lastIndexOf('.')), "drawable", context.getPackageName()));
-        modeleView.setText("modele : " + modele);
-        priceView.setText("prix : " + prix + " €");
-        kmView.setText("km : " + km + " km");
+        modeleView.setText(modele);
+        priceView.setText(prix + " €");
 
         return view;
     }

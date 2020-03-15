@@ -6,10 +6,54 @@
     android:layout_height="match_parent"
     tools:context=".activity.gestionVehicules.GestionVehiculesOccasions">
 
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_app">
 
-    <ListView
-    android:id="@+id/listview_vehicule_occasion"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/header_adapter_voccas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginBottom="1px"
+                android:paddingBottom="15dp"
+                android:background="@color/transparentDarkGrey"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/logo_adapter_voccas"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:paddingTop="10dp"
+                    android:src="@drawable/vehoccas"
+                    android:layout_marginBottom="1px"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Véhicules d'occasion"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="@color/colorWhite"/>
+
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/listview_vehicule_occasion"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="@color/transparentClearGrey"
+                android:dividerHeight="1dp"
+                android:layout_below="@id/header_adapter_voccas"/>
+
+        </RelativeLayout>
+
+    </FrameLayout>
 
 </RelativeLayout>

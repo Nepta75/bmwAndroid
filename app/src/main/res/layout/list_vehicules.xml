@@ -4,7 +4,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/transparentDarkGrey">
 
     <ImageView
         android:id="@+id/list_vehicules_img"
@@ -20,6 +21,7 @@
         android:layout_marginTop="4dp"
         android:layout_weight="1"
         android:text="TextView"
+        android:textColor="@color/colorWhite"
         app:layout_constraintStart_toEndOf="@+id/list_vehicules_img"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -31,6 +33,7 @@
         android:layout_marginTop="8dp"
         android:layout_weight="1"
         android:text="TextView"
+        android:textColor="@color/colorWhite"
         app:layout_constraintStart_toEndOf="@+id/list_vehicules_img"
         app:layout_constraintTop_toBottomOf="@+id/list_vehicules_modele" />
 
@@ -41,7 +44,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="28dp"
         android:layout_weight="1"
-        android:text="TextView"
+        android:textColor="@color/colorWhite"
         app:layout_constraintStart_toEndOf="@+id/list_vehicules_img"
         app:layout_constraintTop_toBottomOf="@+id/list_vehicules_prix" />
 

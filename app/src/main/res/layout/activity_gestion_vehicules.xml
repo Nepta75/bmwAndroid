@@ -6,110 +6,89 @@
     android:layout_height="match_parent"
     tools:context=".activity.gestionVehicules.GestionVehicules">
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="171dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="172dp"
-        android:text="Paris"
-        android:textColor="@color/colorBlack"
-        android:textSize="30dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/app_name" />
-
-    <TextView
-        android:id="@+id/app_name"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="84dp"
-        android:layout_marginTop="68dp"
-        android:layout_marginEnd="84dp"
-        android:text="@string/app_name"
-        android:textColor="@color/colorBlack"
-        android:textSize="60dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-
-    <Button
-        android:id="@+id/button_vehicules_ajouter"
+    <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_margin="40dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="42dp"
-        android:layout_marginEnd="40dp"
-        android:layout_weight="1"
-        android:background="@color/colorAccent"
-        android:text="Ajouter un véhicule"
-        android:textColor="@color/colorWhite"
-        android:textSize="22sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        android:layout_height="match_parent"
+        android:background="@drawable/background_app">
 
-    <Button
-        android:id="@+id/button_vehicules_neufs"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_margin="40dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="45dp"
-        android:layout_marginEnd="40dp"
-        android:layout_weight="1"
-        android:background="@color/colorPrimary"
-        android:text="Véhicules neufs"
-        android:textColor="@color/colorWhite"
-        android:textSize="22sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_vehicules_ajouter" />
+        <ImageView
+            android:layout_marginTop="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:src="@drawable/car"/>
 
-    <Button
-        android:id="@+id/button_vehicules_occasions"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_margin="40dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="84dp"
-        android:layout_marginEnd="40dp"
-        android:layout_weight="1"
-        android:background="@color/colorPrimary"
-        android:text="Véhicules d'occasion"
-        android:textColor="@color/colorWhite"
-        android:textSize="22sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_vehicules_neufs" />
+        <RelativeLayout
+            android:id="@+id/menu_buttons"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
 
-    <Button
-        android:id="@+id/button_vehicules_clients"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_margin="40dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="230dp"
-        android:layout_marginEnd="40dp"
-        android:layout_marginBottom="230dp"
-        android:layout_weight="1"
-        android:background="@color/colorPrimary"
-        android:text="Véhicules clients"
-        android:textColor="@color/colorWhite"
-        android:textSize="22sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_vehicules_occasions"
-        app:layout_constraintVertical_bias="0.0" />
+            <LinearLayout
+                android:id="@+id/layout_buttons_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal">
 
+                <Button
+                    android:id="@+id/button_vehicules_ajouter"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_model_disconnect"
+                    android:text="Ajouter un véhicule"
+                    android:textColor="@color/colorWhite"
+                    android:layout_marginHorizontal="5dp"
+                    android:textSize="15dp"/>
+
+                <Button
+                    android:id="@+id/button_vehicules_neufs"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_model"
+                    android:text="Véhicules neufs"
+                    android:textColor="@color/colorWhite"
+                    android:layout_marginHorizontal="5dp"
+                    android:textSize="15dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_buttons_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout_buttons_1"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button_vehicules_occasions"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_model"
+                    android:text="Véhicules d'occasion"
+                    android:textColor="@color/colorWhite"
+                    android:layout_marginHorizontal="5dp"
+                    android:textSize="15dp"/>
+
+                <Button
+                    android:id="@+id/button_vehicules_clients"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_model"
+                    android:text="Véhicules clients"
+                    android:textColor="@color/colorWhite"
+                    android:layout_marginHorizontal="5dp"
+                    android:textSize="15dp"/>
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </FrameLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
