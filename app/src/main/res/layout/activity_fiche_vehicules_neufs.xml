@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity.fiches.FicheVehiculesNeufs">
+    tools:context=".activity.fiches.FicheVehiculesNeufs"
+    android:background="@color/colorWhite">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -23,57 +23,169 @@
             app:strokeWidth="1dp"
             android:background="@drawable/background_4"/>
 
+        <LinearLayout
+            android:id="@+id/header_fiche_vneuf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_below="@id/carousel_vehicules_neuf"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/textview_type_vehicule"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/carousel_vehicules_neuf"
+                android:layout_marginRight="20dp"
+                android:text="Type Véhicule"
+                android:textColor="@color/colorGrey"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/textview_immatriculation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="00-000-00"
+                android:textColor="@color/colorGrey"
+                android:textSize="22dp"
+                android:layout_below="@id/carousel_vehicules_neuf"
+                android:layout_toRightOf="@id/textview_type_vehicule"/>
+
+        </LinearLayout>
+
         <TextView
             android:id="@+id/textview_marque"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_below="@id/header_fiche_vneuf"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp"
             android:layout_marginTop="24dp"
             android:text="Marque"
-            android:textColor="@color/colorWhite"
-            android:layout_below="@id/carousel_vehicules_neuf"/>
+            android:textColor="@color/colorGrey"
+            android:textSize="22dp"
+            android:textStyle="bold"/>
 
         <TextView
             android:id="@+id/textview_modele"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="24dp"
+            android:layout_below="@id/textview_marque"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="50dp"
             android:text="Modele"
-            android:textColor="@color/colorWhite"
-            android:layout_below="@id/textview_marque"/>
+            android:textColor="@color/colorGrey"
+            android:textSize="22dp"
+            android:textStyle="italic"/>
 
         <TextView
             android:id="@+id/textview_prix"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginVertical="10dp"
-            android:text="Prix"
-            android:textColor="@color/colorWhite"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="175dp"
+            android:text="0€"
+            android:textColor="@color/colorBlue"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_below="@id/carousel_vehicules_neuf"
+            android:layout_toRightOf="@id/textview_modele"/>
+
+
+        <View
+            android:id="@+id/divider_section_1"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorGrey"
             android:layout_below="@id/textview_modele"/>
 
-        <LinearLayout
+        <RelativeLayout
+            android:id="@+id/layout_section_2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center"
-            android:layout_below="@id/textview_prix">
+            android:layout_below="@id/divider_section_1">
 
-            <Button
-                android:id="@+id/button_vneuf_delete"
-                android:layout_width="175dp"
+            <TextView
+                android:id="@+id/textview_energie"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="10dp"
-                android:text="Supprimer"
-                android:background="@drawable/button_model_delete"/>
+                android:layout_marginVertical="15dp"
+                android:layout_marginLeft="20dp"
+                android:text="Energie"
+                android:textColor="@color/colorGrey"
+                android:textSize="16dp"
+                android:textStyle="italic"/>
+
+            <TextView
+                android:id="@+id/textview_type_boite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginHorizontal="70dp"
+                android:text="Type Boîte"
+                android:textColor="@color/colorGrey"
+                android:textSize="16dp"
+                android:textStyle="italic"
+                android:layout_toRightOf="@id/textview_energie"/>
+
+            <TextView
+                android:id="@+id/textview_cylindree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="0 cm3"
+                android:textColor="@color/colorGrey"
+                android:textStyle="italic"
+                android:layout_toRightOf="@id/textview_type_boite"
+                android:textSize="16dp"/>
+
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/divider_section_2"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_below="@id/layout_section_2"
+            android:layout_marginTop="5dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:background="@color/colorGrey"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="221dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="147dp"
+            android:gravity="center">
 
             <Button
                 android:id="@+id/button_vneuf_edit"
                 android:layout_width="175dp"
                 android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/button_model_add"
+                android:text="Modifier" />
+
+            <Button
+                android:id="@+id/button_vneuf_delete"
+                android:layout_width="175dp"
+                android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
-                android:text="Modifier"
-                android:background="@drawable/button_model_add"/>
+                android:layout_toRightOf="@id/button_vneuf_edit"
+                android:background="@drawable/button_model_delete"
+                android:text="Supprimer" />
 
-        </LinearLayout>
-
+        </RelativeLayout>
 
     </RelativeLayout>
 

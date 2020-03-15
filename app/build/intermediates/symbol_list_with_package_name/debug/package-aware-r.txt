@@ -799,6 +799,8 @@ id depth
 id dimensions
 id direct
 id disableHome
+id divider_section_1
+id divider_section_2
 id edit_cylindree_client
 id edit_date_client
 id edit_etat_client
@@ -833,6 +835,7 @@ id header_adapter_tech
 id header_adapter_vclient
 id header_adapter_vneuf
 id header_adapter_voccas
+id header_fiche_vneuf
 id header_vclient_add
 id home
 id homeAsUp
@@ -848,6 +851,7 @@ id invisible
 id italic
 id layout_buttons_1
 id layout_buttons_2
+id layout_section_2
 id left
 id line1
 id line3
@@ -947,12 +951,17 @@ id text
 id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
+id textview_cylindree
+id textview_energie
+id textview_immatriculation
 id textview_login
 id textview_marque
 id textview_modele
 id textview_password
 id textview_prix
 id textview_signin
+id textview_type_boite
+id textview_type_vehicule
 id time
 id title
 id titleDividerNoCustom

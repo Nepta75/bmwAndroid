@@ -29,7 +29,8 @@ import org.json.JSONObject;
 public class FicheVehiculesNeufs extends AppCompatActivity {
 
     Button button_vneuf_delete;
-    TextView textview_marque, textview_modele, textview_prix;
+    TextView textview_marque, textview_modele, textview_prix, textview_cylindree, textview_immatriculation, textview_type_vehicule,
+             textview_energie, textview_type_boite;
     String idVehicule, cylindree, marque, modele, immatriculation, type_vehicule, energie, type_boite, img_1, img_2, prix;
     private String[] imagesVehicule;
     private int[] imgsVehicule = new int[] {
@@ -48,6 +49,11 @@ public class FicheVehiculesNeufs extends AppCompatActivity {
         textview_marque = (TextView) findViewById(R.id.textview_marque);
         textview_modele = (TextView) findViewById(R.id.textview_modele);
         textview_prix = (TextView) findViewById(R.id.textview_prix);
+        textview_cylindree = (TextView) findViewById(R.id.textview_cylindree);
+        textview_immatriculation = (TextView) findViewById(R.id.textview_immatriculation);
+        textview_type_vehicule =(TextView) findViewById(R.id.textview_type_vehicule);
+        textview_energie = (TextView) findViewById(R.id.textview_energie);
+        textview_type_boite = (TextView) findViewById(R.id.textview_type_boite);
 
         Intent ficheVehiculesNeufs = getIntent();
         idVehicule = ficheVehiculesNeufs.getStringExtra("id_vehicule");
@@ -82,9 +88,14 @@ public class FicheVehiculesNeufs extends AppCompatActivity {
             }
         });
 
-        textview_marque.setText(marque);
+        textview_marque.setText(marque.toUpperCase());
         textview_modele.setText(modele);
-        textview_prix.setText(prix);
+        textview_prix.setText(prix + "€");
+        textview_cylindree.setText(cylindree + " cm³");
+        textview_immatriculation.setText(immatriculation.toUpperCase());
+        textview_type_vehicule.setText(type_vehicule);
+        textview_energie.setText(energie);
+        textview_type_boite.setText(type_boite);
 
         button_vneuf_delete.setOnClickListener(new View.OnClickListener() {
             @Override
