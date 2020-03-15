@@ -95,7 +95,7 @@ public class FicheVehiculesNeufs extends AppCompatActivity {
         textview_immatriculation.setText(immatriculation.toUpperCase());
         textview_type_vehicule.setText(type_vehicule);
         textview_energie.setText(energie);
-        textview_type_boite.setText(type_boite);
+        textview_type_boite.setText("Boîte " + type_boite);
 
         button_vneuf_delete.setOnClickListener(new View.OnClickListener() {
             @Override
