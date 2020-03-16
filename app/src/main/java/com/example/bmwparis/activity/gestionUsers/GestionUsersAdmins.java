@@ -61,7 +61,7 @@ public class GestionUsersAdmins extends AppCompatActivity {
                             listview_admins.setAdapter(new UsersAdminItemsAdapter(getApplicationContext(), userAdmins));
                         } catch (JSONException e) {
                             e.printStackTrace();
-                            Toast.makeText(getApplicationContext(), "Erreur lors de la récupération de données !", Toast.LENGTH_LONG).show();
+                            Toast.makeText(getApplicationContext(), "Erreur lors de la récupération de données !", Toast.LENGTH_SHORT).show();
                         }
                     }
                 }, new Response.ErrorListener() {

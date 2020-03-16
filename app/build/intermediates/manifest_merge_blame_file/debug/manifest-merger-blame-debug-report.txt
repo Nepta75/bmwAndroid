@@ -15,7 +15,7 @@
 11-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:5:22-64
 12
 13    <application
-13-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:7:5-70:19
+13-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:7:5-73:19
 14        android:allowBackup="true"
 14-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:8:9-35
 15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -37,115 +37,121 @@
 24-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:14:9-59
 25        android:usesCleartextTraffic="true" >
 25-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:15:9-44
-26        <activity android:name="com.example.bmwparis.activity.fiches.FicheVehiculesNeufs" />
-26-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:16:9-82
-26-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:16:19-70
+26        <activity android:name="com.example.bmwparis.activity.fiches.FicheVehiculesClients" />
+26-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:16:9-84
+26-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:16:19-72
 27        <activity
-27-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:17:9-19:66
-28            android:name="com.example.bmwparis.activity.gestionVehicules.ajoutVehicules.AddVehiculeClient"
-28-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:18:13-87
-29            android:theme="@style/Theme.AppCompat.NoActionBar" />
-29-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:19:13-63
+27-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:17:9-19:93
+28            android:name="com.example.bmwparis.activity.fiches.FicheVehiculesNeufs"
+28-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:18:13-64
+29            android:parentActivityName="com.example.bmwparis.activity.gestionVehicules.GestionVehiculesNeufs" />
+29-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:19:13-90
 30        <activity
 30-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:20:9-22:66
-31            android:name="com.example.bmwparis.activity.gestionVehicules.ajoutVehicules.AddVehiculeOccas"
-31-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:21:13-86
+31            android:name="com.example.bmwparis.activity.gestionVehicules.ajoutVehicules.AddVehiculeClient"
+31-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:21:13-87
 32            android:theme="@style/Theme.AppCompat.NoActionBar" />
 32-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:22:13-63
 33        <activity
 33-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:23:9-25:66
-34            android:name="com.example.bmwparis.activity.gestionVehicules.ajoutVehicules.AddVehiculeNeuf"
-34-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:24:13-85
+34            android:name="com.example.bmwparis.activity.gestionVehicules.ajoutVehicules.AddVehiculeOccas"
+34-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:24:13-86
 35            android:theme="@style/Theme.AppCompat.NoActionBar" />
 35-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:25:13-63
-36        <activity android:name="com.example.bmwparis.activity.gestionUsers.GestionUsersTechs" />
-36-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:26:9-77
-36-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:26:19-74
-37        <activity
-37-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:27:9-29:66
-38            android:name="com.example.bmwparis.activity.gestionUsers.GestionUsersAjouter"
-38-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:28:13-70
-39            android:theme="@style/Theme.AppCompat.NoActionBar" />
-39-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:29:13-63
+36        <activity
+36-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:26:9-28:66
+37            android:name="com.example.bmwparis.activity.gestionVehicules.ajoutVehicules.AddVehiculeNeuf"
+37-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:27:13-85
+38            android:theme="@style/Theme.AppCompat.NoActionBar" />
+38-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:28:13-63
+39        <activity android:name="com.example.bmwparis.activity.gestionUsers.GestionUsersTechs" />
+39-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:29:9-77
+39-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:29:19-74
 40        <activity
 40-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:30:9-32:66
-41            android:name="com.example.bmwparis.activity.gestionUsers.GestionUsersAdmins"
-41-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:31:13-69
+41            android:name="com.example.bmwparis.activity.gestionUsers.GestionUsersAjouter"
+41-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:31:13-70
 42            android:theme="@style/Theme.AppCompat.NoActionBar" />
 42-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:32:13-63
 43        <activity
 43-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:33:9-35:66
-44            android:name="com.example.bmwparis.activity.gestionUsers.GestionUsersClients"
-44-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:34:13-70
+44            android:name="com.example.bmwparis.activity.gestionUsers.GestionUsersAdmins"
+44-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:34:13-69
 45            android:theme="@style/Theme.AppCompat.NoActionBar" />
 45-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:35:13-63
 46        <activity
 46-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:36:9-38:66
-47            android:name="com.example.bmwparis.activity.gestionUsers.GestionUsers"
-47-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:37:13-63
+47            android:name="com.example.bmwparis.activity.gestionUsers.GestionUsersClients"
+47-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:37:13-70
 48            android:theme="@style/Theme.AppCompat.NoActionBar" />
 48-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:38:13-63
 49        <activity
 49-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:39:9-41:66
-50            android:name="com.example.bmwparis.activity.gestionVehicules.GestionVehiculesAjouter"
-50-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:40:13-78
+50            android:name="com.example.bmwparis.activity.gestionUsers.GestionUsers"
+50-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:40:13-63
 51            android:theme="@style/Theme.AppCompat.NoActionBar" />
 51-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:41:13-63
 52        <activity
-52-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:42:9-45:66
-53            android:name="com.example.bmwparis.activity.gestionVehicules.GestionVehiculesClients"
+52-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:42:9-44:66
+53            android:name="com.example.bmwparis.activity.gestionVehicules.GestionVehiculesAjouter"
 53-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:43:13-78
-54            android:parentActivityName="com.example.bmwparis.activity.gestionVehicules.GestionVehicules"
-54-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:44:13-85
-55            android:theme="@style/Theme.AppCompat.NoActionBar" />
-55-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:45:13-63
-56        <activity
-56-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:46:9-49:66
-57            android:name="com.example.bmwparis.activity.gestionVehicules.GestionVehiculesOccasions"
-57-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:47:13-80
-58            android:parentActivityName="com.example.bmwparis.activity.gestionVehicules.GestionVehicules"
-58-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:48:13-85
-59            android:theme="@style/Theme.AppCompat.NoActionBar" />
-59-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:49:13-63
-60        <activity
-60-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:50:9-53:66
-61            android:name="com.example.bmwparis.activity.gestionVehicules.GestionVehiculesNeufs"
-61-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:51:13-76
-62            android:parentActivityName="com.example.bmwparis.activity.gestionVehicules.GestionVehicules"
-62-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:52:13-85
-63            android:theme="@style/Theme.AppCompat.NoActionBar" />
-63-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:53:13-63
-64        <activity
-64-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:54:9-57:66
-65            android:name="com.example.bmwparis.activity.gestionVehicules.GestionVehicules"
-65-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:55:13-71
-66            android:parentActivityName="com.example.bmwparis.activity.AdminMenu"
-66-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:56:13-61
-67            android:theme="@style/Theme.AppCompat.NoActionBar" />
-67-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:57:13-63
-68        <activity
-68-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:58:9-60:66
-69            android:name="com.example.bmwparis.activity.AdminMenu"
-69-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:59:13-47
+54            android:theme="@style/Theme.AppCompat.NoActionBar" />
+54-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:44:13-63
+55        <activity
+55-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:45:9-48:66
+56            android:name="com.example.bmwparis.activity.gestionVehicules.GestionVehiculesClients"
+56-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:46:13-78
+57            android:parentActivityName="com.example.bmwparis.activity.gestionVehicules.GestionVehicules"
+57-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:47:13-85
+58            android:theme="@style/Theme.AppCompat.NoActionBar" />
+58-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:48:13-63
+59        <activity
+59-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:49:9-52:66
+60            android:name="com.example.bmwparis.activity.gestionVehicules.GestionVehiculesOccasions"
+60-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:50:13-80
+61            android:parentActivityName="com.example.bmwparis.activity.gestionVehicules.GestionVehicules"
+61-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:51:13-85
+62            android:theme="@style/Theme.AppCompat.NoActionBar" />
+62-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:52:13-63
+63        <activity
+63-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:53:9-56:66
+64            android:name="com.example.bmwparis.activity.gestionVehicules.GestionVehiculesNeufs"
+64-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:54:13-76
+65            android:parentActivityName="com.example.bmwparis.activity.gestionVehicules.GestionVehicules"
+65-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:55:13-85
+66            android:theme="@style/Theme.AppCompat.NoActionBar" />
+66-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:56:13-63
+67        <activity
+67-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:57:9-60:66
+68            android:name="com.example.bmwparis.activity.gestionVehicules.GestionVehicules"
+68-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:58:13-71
+69            android:parentActivityName="com.example.bmwparis.activity.AdminMenu"
+69-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:59:13-61
 70            android:theme="@style/Theme.AppCompat.NoActionBar" />
 70-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:60:13-63
 71        <activity
-71-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:61:9-69:20
-72            android:name="com.example.bmwparis.activity.connexion.MainActivity"
-72-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:62:13-60
-73            android:theme="@style/Theme.AppCompat.NoActionBar" >
+71-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:61:9-63:66
+72            android:name="com.example.bmwparis.activity.AdminMenu"
+72-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:62:13-47
+73            android:theme="@style/Theme.AppCompat.NoActionBar" />
 73-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:63:13-63
-74            <intent-filter>
-74-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:64:13-68:29
-75                <action android:name="android.intent.action.MAIN" />
-75-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:65:17-69
-75-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:65:25-66
-76
-77                <category android:name="android.intent.category.LAUNCHER" />
-77-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:67:17-77
-77-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:67:27-74
-78            </intent-filter>
-79        </activity>
-80    </application>
-81
-82</manifest>
+74        <activity
+74-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:64:9-72:20
+75            android:name="com.example.bmwparis.activity.connexion.MainActivity"
+75-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:65:13-60
+76            android:theme="@style/Theme.AppCompat.NoActionBar" >
+76-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:66:13-63
+77            <intent-filter>
+77-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:67:13-71:29
+78                <action android:name="android.intent.action.MAIN" />
+78-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:68:17-69
+78-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:68:25-66
+79
+80                <category android:name="android.intent.category.LAUNCHER" />
+80-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:70:17-77
+80-->C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:70:27-74
+81            </intent-filter>
+82        </activity>
+83    </application>
+84
+85</manifest>

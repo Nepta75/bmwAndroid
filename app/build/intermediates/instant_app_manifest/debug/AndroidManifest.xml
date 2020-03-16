@@ -24,7 +24,10 @@
         android:testOnly="true"
         android:theme="@style/Theme.AppCompat.NoActionBar"
         android:usesCleartextTraffic="true" >
-        <activity android:name="com.example.bmwparis.activity.fiches.FicheVehiculesNeufs" />
+        <activity android:name="com.example.bmwparis.activity.fiches.FicheVehiculesClients" />
+        <activity
+            android:name="com.example.bmwparis.activity.fiches.FicheVehiculesNeufs"
+            android:parentActivityName="com.example.bmwparis.activity.gestionVehicules.GestionVehiculesNeufs" />
         <activity
             android:name="com.example.bmwparis.activity.gestionVehicules.ajoutVehicules.AddVehiculeClient"
             android:theme="@style/Theme.AppCompat.NoActionBar" />

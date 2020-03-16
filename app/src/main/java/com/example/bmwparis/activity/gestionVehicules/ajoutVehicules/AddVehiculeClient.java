@@ -114,17 +114,17 @@ public class AddVehiculeClient extends AppCompatActivity {
             JsonArrayRequest addVehicule = new JsonArrayRequest(Request.Method.PUT, url, arrayParams, new Response.Listener<JSONArray>() {
                 @Override
                 public void onResponse(JSONArray response) {
-                    Toast.makeText(getApplicationContext(), "Succes, ajout du véhicule", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(), "Succes, ajout du véhicule", Toast.LENGTH_SHORT).show();
                 }
             }, new Response.ErrorListener() {
                 @Override
                 public void onErrorResponse(VolleyError error) {
-                    Toast.makeText(getApplicationContext(), typeVehBtn.getText(), Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(), typeVehBtn.getText(), Toast.LENGTH_SHORT).show();
                 }
             });
             mQueue.add(addVehicule);
         } else {
-            Toast.makeText(getApplicationContext(), "Veuillez remplir tout les champs obligatoire", Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(), "Veuillez remplir tout les champs obligatoire", Toast.LENGTH_SHORT).show();
         }
     }
 }

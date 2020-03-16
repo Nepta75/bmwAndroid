@@ -60,35 +60,6 @@ public class AdminMenu extends AppCompatActivity {
         this.button_dashboard_vehneufs = (TextView) findViewById(R.id.button_dashboard_vehneufs);
         this.button_dashboard_vehoccasions = (TextView) findViewById(R.id.button_dashboard_vehoccasions);
 
-        String url = "http://51.38.34.13:3000/api/bmw/getdashboard";
-        StringRequest dashboardRequest = new StringRequest(Request.Method.GET, url, new Response.Listener<String>() {
-            @Override
-            public void onResponse(String response) {
-                try {
-                    JSONArray data = new JSONArray(response);
-                    button_dashboard_vehicules.setText("Veh : " + data.getJSONObject(0).getString("vehicules"));
-                    button_dashboard_users.setText("Users : " +data.getJSONObject(0).getString("users"));
-                    button_dashboard_techs.setText("Techs : " +data.getJSONObject(0).getString("technicien"));
-                    button_dashboard_admins.setText("Admins : " +data.getJSONObject(0).getString("admin"));
-                    button_dashboard_clients.setText("Clients : " +data.getJSONObject(0).getString("client"));
-                    button_dashboard_essais.setText("Essais : " +data.getJSONObject(0).getString("essai"));
-                    button_dashboard_devis.setText("Devis : " +data.getJSONObject(0).getString("devis"));
-                    button_dashboard_vehclients.setText("V_Clients : " +data.getJSONObject(0).getString("vehiculeClient"));
-                    button_dashboard_vehneufs.setText("V_Neufs : " +data.getJSONObject(0).getString("vehiculeNeuf"));
-                    button_dashboard_vehoccasions.setText("V_Occas : " +data.getJSONObject(0).getString("vehiculeOccasion"));
-                } catch (JSONException e) {
-                    Toast.makeText(getApplicationContext(), e + "", Toast.LENGTH_LONG).show();
-                    e.printStackTrace();
-                }
-            }
-        }, new Response.ErrorListener() {
-            @Override
-            public void onErrorResponse(VolleyError error) {
-                Toast.makeText(getApplicationContext(), error + "", Toast.LENGTH_LONG).show();
-            }
-        });
-        mQueue.add(dashboardRequest);
-
         button_vehicules.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -113,5 +84,38 @@ public class AdminMenu extends AppCompatActivity {
                 finish();
             }
         });
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        String url = "http://51.38.34.13:3000/api/bmw/getdashboard";
+        StringRequest dashboardRequest = new StringRequest(Request.Method.GET, url, new Response.Listener<String>() {
+            @Override
+            public void onResponse(String response) {
+                try {
+                    JSONArray data = new JSONArray(response);
+                    button_dashboard_vehicules.setText("Veh : " + data.getJSONObject(0).getString("vehicules"));
+                    button_dashboard_users.setText("Users : " + data.getJSONObject(0).getString("users"));
+                    button_dashboard_techs.setText("Techs : " + data.getJSONObject(0).getString("technicien"));
+                    button_dashboard_admins.setText("Admins : " + data.getJSONObject(0).getString("admin"));
+                    button_dashboard_clients.setText("Clients : " + data.getJSONObject(0).getString("client"));
+                    button_dashboard_essais.setText("Essais : " + data.getJSONObject(0).getString("essai"));
+                    button_dashboard_devis.setText("Devis : " + data.getJSONObject(0).getString("devis"));
+                    button_dashboard_vehclients.setText("V_Clients : " + data.getJSONObject(0).getString("vehiculeClient"));
+                    button_dashboard_vehneufs.setText("V_Neufs : " + data.getJSONObject(0).getString("vehiculeNeuf"));
+                    button_dashboard_vehoccasions.setText("V_Occas : " + data.getJSONObject(0).getString("vehiculeOccasion"));
+                } catch (JSONException e) {
+                    Toast.makeText(getApplicationContext(), e + "", Toast.LENGTH_LONG).show();
+                    e.printStackTrace();
+                }
+            }
+        }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                Toast.makeText(getApplicationContext(), error + "", Toast.LENGTH_LONG).show();
+            }
+        });
+        mQueue.add(dashboardRequest);
     }
 }

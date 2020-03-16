@@ -96,6 +96,10 @@
         "source": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable_x6_2.jpg.flat",
+        "source": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\drawable\\x6_2.jpg"
+    },
+    {
         "merged": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_gestion_vehicules_ajouter.xml.flat",
         "source": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\layout\\activity_gestion_vehicules_ajouter.xml"
     },
@@ -114,6 +118,10 @@
     {
         "merged": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_gestion_vehicules_occasions.xml.flat",
         "source": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\layout\\activity_gestion_vehicules_occasions.xml"
+    },
+    {
+        "merged": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_fiche_vehicules_clients.xml.flat",
+        "source": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\layout\\activity_fiche_vehicules_clients.xml"
     },
     {
         "merged": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
@@ -174,10 +182,6 @@
     {
         "merged": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
-    },
-    {
-        "merged": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable_x5_1.jpg.flat",
-        "source": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\src\\main\\res\\drawable\\x5_1.jpg"
     },
     {
         "merged": "C:\\Users\\miguo\\AndroidStudioProjects\\bmwAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",

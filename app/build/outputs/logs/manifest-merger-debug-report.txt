@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:2:1-72:12
-INJECTED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:2:1-72:12
-INJECTED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:2:1-72:12
-INJECTED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:2:1-72:12
+ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:2:1-75:12
+INJECTED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:2:1-75:12
+INJECTED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:2:1-75:12
+INJECTED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:2:1-75:12
 MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\miguo\.gradle\caches\transforms-2\files-2.1\7805427e3445d32c2ff10acb510a061d\appcompat-1.0.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\miguo\.gradle\caches\transforms-2\files-2.1\75fe1a0d0ea641341446dfd6b8974e96\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
 MERGED from [com.synnapps:carouselview:0.1.5] C:\Users\miguo\.gradle\caches\transforms-2\files-2.1\7b571d391ff43ad7a799626276869b6a\jetified-carouselview-0.1.5\AndroidManifest.xml:2:1-16:12
@@ -33,20 +33,20 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\miguo\.gradle
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\miguo\.gradle\caches\transforms-2\files-2.1\0571339fd4cb74441b19561f6766bb98\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\miguo\.gradle\caches\transforms-2\files-2.1\0f91f258f9d0abaa0e56c019df47bd85\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\miguo\.gradle\caches\transforms-2\files-2.1\c4e2469658fdd8801a5306110b0915fc\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:2:1-72:12
-INJECTED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:2:1-72:12
-INJECTED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:2:1-72:12
+INJECTED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:2:1-75:12
+INJECTED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:2:1-75:12
+INJECTED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:2:1-75:12
 	package
 		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:3:5-35
 		INJECTED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:2:1-72:12
+		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:2:1-75:12
 		INJECTED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:2:1-72:12
+		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:2:1-75:12
 		INJECTED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:2:11-69
@@ -55,7 +55,7 @@ ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidM
 	android:name
 		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:7:5-70:19
+ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:7:5-73:19
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\miguo\.gradle\caches\transforms-2\files-2.1\75fe1a0d0ea641341446dfd6b8974e96\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\miguo\.gradle\caches\transforms-2\files-2.1\75fe1a0d0ea641341446dfd6b8974e96\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [com.synnapps:carouselview:0.1.5] C:\Users\miguo\.gradle\caches\transforms-2\files-2.1\7b571d391ff43ad7a799626276869b6a\jetified-carouselview-0.1.5\AndroidManifest.xml:11:5-14:19
@@ -84,116 +84,122 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\mi
 		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:11:9-69
 	android:usesCleartextTraffic
 		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:15:9-44
+activity#com.example.bmwparis.activity.fiches.FicheVehiculesClients
+ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:16:9-84
+	android:name
+		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:16:19-72
 activity#com.example.bmwparis.activity.fiches.FicheVehiculesNeufs
-ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:16:9-82
+ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:17:9-19:93
+	android:parentActivityName
+		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:19:13-90
 	android:name
-		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:16:19-70
+		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:18:13-64
 activity#com.example.bmwparis.activity.gestionVehicules.ajoutVehicules.AddVehiculeClient
-ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:17:9-19:66
-	android:theme
-		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:19:13-63
-	android:name
-		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:18:13-87
-activity#com.example.bmwparis.activity.gestionVehicules.ajoutVehicules.AddVehiculeOccas
 ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:20:9-22:66
 	android:theme
 		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:22:13-63
 	android:name
-		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:21:13-86
-activity#com.example.bmwparis.activity.gestionVehicules.ajoutVehicules.AddVehiculeNeuf
+		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:21:13-87
+activity#com.example.bmwparis.activity.gestionVehicules.ajoutVehicules.AddVehiculeOccas
 ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:23:9-25:66
 	android:theme
 		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:25:13-63
 	android:name
-		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:24:13-85
-activity#com.example.bmwparis.activity.gestionUsers.GestionUsersTechs
-ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:26:9-77
-	android:name
-		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:26:19-74
-activity#com.example.bmwparis.activity.gestionUsers.GestionUsersAjouter
-ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:27:9-29:66
+		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:24:13-86
+activity#com.example.bmwparis.activity.gestionVehicules.ajoutVehicules.AddVehiculeNeuf
+ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:26:9-28:66
 	android:theme
-		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:29:13-63
+		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:28:13-63
 	android:name
-		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:28:13-70
-activity#com.example.bmwparis.activity.gestionUsers.GestionUsersAdmins
+		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:27:13-85
+activity#com.example.bmwparis.activity.gestionUsers.GestionUsersTechs
+ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:29:9-77
+	android:name
+		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:29:19-74
+activity#com.example.bmwparis.activity.gestionUsers.GestionUsersAjouter
 ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:30:9-32:66
 	android:theme
 		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:32:13-63
 	android:name
-		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:31:13-69
-activity#com.example.bmwparis.activity.gestionUsers.GestionUsersClients
+		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:31:13-70
+activity#com.example.bmwparis.activity.gestionUsers.GestionUsersAdmins
 ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:33:9-35:66
 	android:theme
 		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:35:13-63
 	android:name
-		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:34:13-70
-activity#com.example.bmwparis.activity.gestionUsers.GestionUsers
+		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:34:13-69
+activity#com.example.bmwparis.activity.gestionUsers.GestionUsersClients
 ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:36:9-38:66
 	android:theme
 		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:38:13-63
 	android:name
-		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:37:13-63
-activity#com.example.bmwparis.activity.gestionVehicules.GestionVehiculesAjouter
+		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:37:13-70
+activity#com.example.bmwparis.activity.gestionUsers.GestionUsers
 ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:39:9-41:66
 	android:theme
 		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:41:13-63
 	android:name
-		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:40:13-78
-activity#com.example.bmwparis.activity.gestionVehicules.GestionVehiculesClients
-ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:42:9-45:66
-	android:parentActivityName
-		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:44:13-85
+		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:40:13-63
+activity#com.example.bmwparis.activity.gestionVehicules.GestionVehiculesAjouter
+ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:42:9-44:66
 	android:theme
-		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:45:13-63
+		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:44:13-63
 	android:name
 		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:43:13-78
+activity#com.example.bmwparis.activity.gestionVehicules.GestionVehiculesClients
+ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:45:9-48:66
+	android:parentActivityName
+		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:47:13-85
+	android:theme
+		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:48:13-63
+	android:name
+		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:46:13-78
 activity#com.example.bmwparis.activity.gestionVehicules.GestionVehiculesOccasions
-ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:46:9-49:66
+ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:49:9-52:66
 	android:parentActivityName
-		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:48:13-85
+		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:51:13-85
 	android:theme
-		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:49:13-63
+		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:52:13-63
 	android:name
-		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:47:13-80
+		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:50:13-80
 activity#com.example.bmwparis.activity.gestionVehicules.GestionVehiculesNeufs
-ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:50:9-53:66
+ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:53:9-56:66
 	android:parentActivityName
-		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:52:13-85
+		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:55:13-85
 	android:theme
-		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:53:13-63
+		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:56:13-63
 	android:name
-		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:51:13-76
+		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:54:13-76
 activity#com.example.bmwparis.activity.gestionVehicules.GestionVehicules
-ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:54:9-57:66
+ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:57:9-60:66
 	android:parentActivityName
-		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:56:13-61
-	android:theme
-		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:57:13-63
-	android:name
-		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:55:13-71
-activity#com.example.bmwparis.activity.AdminMenu
-ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:58:9-60:66
+		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:59:13-61
 	android:theme
 		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:60:13-63
 	android:name
-		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:59:13-47
-activity#com.example.bmwparis.activity.connexion.MainActivity
-ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:61:9-69:20
+		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:58:13-71
+activity#com.example.bmwparis.activity.AdminMenu
+ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:61:9-63:66
 	android:theme
 		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:63:13-63
 	android:name
-		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:62:13-60
+		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:62:13-47
+activity#com.example.bmwparis.activity.connexion.MainActivity
+ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:64:9-72:20
+	android:theme
+		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:66:13-63
+	android:name
+		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:65:13-60
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:64:13-68:29
+ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:67:13-71:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:65:17-69
+ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:68:17-69
 	android:name
-		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:65:25-66
+		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:68:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:67:17-77
+ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:70:17-77
 	android:name
-		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:67:27-74
+		ADDED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml:70:27-74
 uses-sdk
 INJECTED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\miguo\AndroidStudioProjects\bmwAndroid\app\src\main\AndroidManifest.xml

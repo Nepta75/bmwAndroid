@@ -65,7 +65,7 @@ public class GestionVehiculesOccasions extends AppCompatActivity {
                             listview_vehicule.setAdapter(new VehiculesOccasItemsAdapter(getApplicationContext(), vehiculesOccasion));
                         } catch (JSONException e) {
                             e.printStackTrace();
-                            Toast.makeText(getApplicationContext(), "Erreur lors de la récupération de données !", Toast.LENGTH_LONG).show();
+                            Toast.makeText(getApplicationContext(), "Erreur lors de la récupération de données !", Toast.LENGTH_SHORT).show();
                         }
                     }
                 }, new Response.ErrorListener() {

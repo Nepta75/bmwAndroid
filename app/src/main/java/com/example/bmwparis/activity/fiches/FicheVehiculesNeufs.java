@@ -33,9 +33,6 @@ public class FicheVehiculesNeufs extends AppCompatActivity {
              textview_energie, textview_type_boite;
     String idVehicule, cylindree, marque, modele, immatriculation, type_vehicule, energie, type_boite, img_1, img_2, prix;
     private String[] imagesVehicule;
-    private int[] imgsVehicule = new int[] {
-            R.drawable.x5_1, R.drawable.x6_1
-    };
     RequestQueue mQueue;
 
     @Override
@@ -77,7 +74,7 @@ public class FicheVehiculesNeufs extends AppCompatActivity {
         carouselVehiculesNeufs.setImageListener(new ImageListener() {
             @Override
             public void setImageForPosition(int position, ImageView imageView) {
-                imageView.setImageResource(imgsVehicule[position]);
+                imageView.setImageResource(getApplicationContext().getResources().getIdentifier(imagesVehicule[position], "drawable", getApplicationContext().getPackageName()));
             }
         });
 
@@ -100,7 +97,7 @@ public class FicheVehiculesNeufs extends AppCompatActivity {
         button_vneuf_delete.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String url = "http://51.38.34.13:3000/api/bmw/deletevehicule/" + idVehicule;
+                String url = "http://51.38.34.13:3000/api/bmw/deletevehicule/neuf/" + idVehicule;
                 StringRequest deleteVehiculeNeuf = new StringRequest(Request.Method.DELETE, url,
                 new Response.Listener<String>() {
                     @Override
@@ -109,9 +106,7 @@ public class FicheVehiculesNeufs extends AppCompatActivity {
                             JSONObject data = new JSONObject(response);
                             int affectedRows = data.getInt("affectedRows");
                             if (affectedRows == 1) {
-                                Toast.makeText(getApplicationContext(), "Le véhicule a été supprimé avec succès.", Toast.LENGTH_LONG).show();
-                                Intent gestionVehiculesNeufs = new Intent(getApplicationContext(), GestionVehiculesNeufs.class);
-                                startActivity(gestionVehiculesNeufs);
+                                Toast.makeText(getApplicationContext(), "Le véhicule a été supprimé avec succès.", Toast.LENGTH_SHORT).show();
                                 finish();
                             } else {
                                 Toast.makeText(getApplicationContext(), "Erreur lors de la suppresion du véhicule", Toast.LENGTH_SHORT).show();

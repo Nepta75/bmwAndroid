@@ -61,7 +61,7 @@ public class GestionUsersTechs extends AppCompatActivity {
                     listview_tech.setAdapter(new UsersTechItemsAdapter(getApplicationContext(), userTechs));
                 } catch (JSONException e) {
                     e.printStackTrace();
-                    Toast.makeText(getApplicationContext(), "Erreur lors de la récupération de données !", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(), "Erreur lors de la récupération de données !", Toast.LENGTH_SHORT).show();
                 }
             }
         }, new Response.ErrorListener() {

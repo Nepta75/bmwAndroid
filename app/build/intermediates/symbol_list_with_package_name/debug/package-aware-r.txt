@@ -710,8 +710,8 @@ drawable user
 drawable vehclient
 drawable vehneuf
 drawable vehoccas
-drawable x5_1
 drawable x6_1
+drawable x6_2
 id ALT
 id CTRL
 id FUNCTION
@@ -801,6 +801,8 @@ id direct
 id disableHome
 id divider_section_1
 id divider_section_2
+id divider_section_3
+id divider_section_4
 id edit_cylindree_client
 id edit_date_client
 id edit_etat_client
@@ -852,6 +854,7 @@ id italic
 id layout_buttons_1
 id layout_buttons_2
 id layout_section_2
+id layout_section_3
 id left
 id line1
 id line3
@@ -952,12 +955,19 @@ id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textview_cylindree
+id textview_date_immat
 id textview_energie
+id textview_etat
 id textview_immatriculation
+id textview_information
+id textview_km
 id textview_login
+id textview_mail
 id textview_marque
 id textview_modele
+id textview_nom
 id textview_password
+id textview_prenom
 id textview_prix
 id textview_signin
 id textview_type_boite
@@ -966,6 +976,7 @@ id time
 id title
 id titleDividerNoCustom
 id title_add_vclient
+id title_section3
 id title_template
 id top
 id topPanel
@@ -1016,6 +1027,7 @@ layout activity_add_vehicule_client
 layout activity_add_vehicule_neuf
 layout activity_add_vehicule_occas
 layout activity_admin_menu
+layout activity_fiche_vehicules_clients
 layout activity_fiche_vehicules_neufs
 layout activity_gestion_users
 layout activity_gestion_users_admins

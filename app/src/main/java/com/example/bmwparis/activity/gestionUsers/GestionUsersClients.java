@@ -60,7 +60,7 @@ public class GestionUsersClients extends AppCompatActivity {
                     listview_clients.setAdapter(new UsersClientItemsAdapter(getApplicationContext(), userClients));
                 } catch (JSONException e) {
                     e.printStackTrace();
-                    Toast.makeText(getApplicationContext(), "Erreur lors de la récupération de données !", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(), "Erreur lors de la récupération de données !", Toast.LENGTH_SHORT).show();
                 }
             }
         }, new Response.ErrorListener() {

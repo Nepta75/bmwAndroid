@@ -38,12 +38,19 @@ public class GestionVehiculesNeufs extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_gestion_vehicules_neufs);
 
+        setContentView(R.layout.activity_gestion_vehicules_neufs);
         this.url = "http://51.38.34.13:3000/api/bmw/viewvehicules/neuf";
-        vehiculesNeuf = new ArrayList<>();
         mQueue = Volley.newRequestQueue(this);
         listview_vehicule = (ListView) findViewById(R.id.listview_vehicule_neuf);
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+
+        vehiculesNeuf = new ArrayList<>();
+
         StringRequest vehiculesRequest = new StringRequest(Request.Method.GET, this.url,
                 new Response.Listener<String>() {
                     @Override
@@ -87,7 +94,7 @@ public class GestionVehiculesNeufs extends AppCompatActivity {
                             });
                         } catch (JSONException e) {
                             e.printStackTrace();
-                            Toast.makeText(getApplicationContext(), "Erreur lors de la récupération de données !", Toast.LENGTH_LONG).show();
+                            Toast.makeText(getApplicationContext(), "Erreur lors de la récupération de données !", Toast.LENGTH_SHORT).show();
                         }
                     }
                 }, new Response.ErrorListener() {
